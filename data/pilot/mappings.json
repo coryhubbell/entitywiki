@@ -1,5 +1,5 @@
 {
-  "version": "maxplaces-evidence-mappings/1.0.0",
+  "version": "maxplaces-evidence-mappings/1.1.0",
   "google": [
     {
       "branchLocality": "Farmingdale",
@@ -19,7 +19,9 @@
           "categoryId": null,
           "rationale": "Company-issued service pages describe SEO, paid search, and digital marketing; official category identifier and selected listing categories require authorized Business Profile API lookup."
         }
-      ]
+      ],
+      "branchId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "branchAddressKey": "address:farmingdale:399conklinstreetsuite305:ny:us"
     },
     {
       "branchLocality": "New York",
@@ -39,7 +41,9 @@
           "categoryId": null,
           "rationale": "Company-issued service pages describe SEO, paid search, and digital marketing; official category identifier and selected listing categories require authorized Business Profile API lookup."
         }
-      ]
+      ],
+      "branchId": "ew_24eba72d5ca5022be40625d4",
+      "branchAddressKey": "address:new york:127west30thstreet9thfloor989:ny:us"
     }
   ],
   "ontology": [
@@ -56,7 +60,8 @@
       "authorityUrl": "http://www.productontology.org/doc/Search_engine_optimization.ttl",
       "authoritySha256": "9a71a927b9f15481b163ff4153e92617e1a179722a907c12c4f3b9b71016b9ed",
       "firstPartySha256": "43429501ca976c48f8e8e7445f0f8739310cbdab9da4ea5de3b1423cf175ce19",
-      "authorityClassDeclared": true
+      "authorityClassDeclared": true,
+      "subjectId": "ew_9cfe75adba31c0b56335c9d7"
     },
     {
       "offeringName": "AI Visibility Accelerator",
@@ -71,7 +76,8 @@
       "authorityUrl": "http://www.productontology.org/doc/Digital_marketing.ttl",
       "authoritySha256": "7d484343a150ab8ba397f199e8b086a8920901a7991f63bfdef37796e2c6c733",
       "firstPartySha256": "fd91a54e843e868b932a4dc028117fdbd00b2f59ceff8eeb8f48c4bc1f4c0cfc",
-      "authorityClassDeclared": true
+      "authorityClassDeclared": true,
+      "subjectId": "ew_1f783f269365fb640ca7ff17"
     },
     {
       "offeringName": "Paid Search & PPC",
@@ -86,7 +92,8 @@
       "authorityUrl": "http://www.productontology.org/doc/Search_engine_marketing.ttl",
       "authoritySha256": "f16cd7f24947c81faa8908c4aeb1accf4fe59c2029826137b20c0c954bff6f16",
       "firstPartySha256": "bff0aeb86332d553458d4344aa328691c33ec40d6274cd0f1031487a21ec46cf",
-      "authorityClassDeclared": true
+      "authorityClassDeclared": true,
+      "subjectId": "ew_4c81d5c84b3bfb7743de0312"
     },
     {
       "offeringName": "Social & Brand Signals",
@@ -101,7 +108,8 @@
       "authorityUrl": "http://www.productontology.org/doc/Social_media_marketing.ttl",
       "authoritySha256": "002e7ed07b77feb13f75a16c1c34ad40ec53993ce8faad8957129e404d68f7a2",
       "firstPartySha256": "06dd82e95871f027d2975252c3a15014cada7485d0edbce4337a5c54303393ce",
-      "authorityClassDeclared": true
+      "authorityClassDeclared": true,
+      "subjectId": "ew_d2c7759fa798b79db0f2332f"
     },
     {
       "offeringName": "Reputation & Trust Signals",
@@ -116,7 +124,8 @@
       "authorityUrl": "http://www.productontology.org/doc/Reputation_management.ttl",
       "authoritySha256": "46a36d70f3e294b33f3ff22fed552bcc966968e87e24fa9102bfb1ffccf9d6a9",
       "firstPartySha256": "caf6ff3835e98a1ab946bcb52b463d38c4bc62b19d71cbcda207ea310f687dce",
-      "authorityClassDeclared": true
+      "authorityClassDeclared": true,
+      "subjectId": "ew_4754098b43771f8de0c914a7"
     },
     {
       "offeringName": "Local & Geo-Targeted SEO",
@@ -131,7 +140,8 @@
       "authorityUrl": "http://www.productontology.org/doc/Local_search_engine_optimisation.ttl",
       "authoritySha256": "8aada27cae888a307f78674d6763a312f1bf92fa2aee61b6045dd56906b951c5",
       "firstPartySha256": "d23aef02b220dbed5f2614f9ab712cccbccea520ee69357f9ba7e5eb01fe671d",
-      "authorityClassDeclared": true
+      "authorityClassDeclared": true,
+      "subjectId": "ew_121597c8da51c521c363a84c"
     }
   ],
   "sourceManifestSha256": "29c9e89160f10d7324e6f439259218a4501fadf45b76bcad16c01284151fb545"

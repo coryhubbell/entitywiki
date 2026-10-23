@@ -15,6 +15,13 @@
       "when": 1792779073089,
       "tag": "0001_tiny_gateway",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792794305868,
+      "tag": "0002_flowery_hemingway",
+      "breakpoints": true
     }
   ]
 }

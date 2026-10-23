@@ -1,10 +1,10 @@
 import { SECTION_TITLES } from "./types.ts";
 import type { Branch, Claim, CollectedPage, CompanyRecord, Conflict, Entity, Evidence, JsonValue, Offering, OntologyMapping, PilotMappingSupplement, SavedGeneration, Section, SectionKey } from "./types.ts";
 import { array, assertOfficialUrl, canonical, object, safeUrl, sha256, text } from "./safety.ts";
-import { branchSourceKey, legacyBranchId, legacyChildId, PILOT_ENTITY_ID, publisherKey } from "./identity.ts";
+import { branchSourceKey, legacyBranchId, legacyChildId, legacyOfferingIdentity, PILOT_ENTITY_ID, publisherKey } from "./identity.ts";
 import type { IdentityResolver } from "./identity.ts";
 
-export const MAPPING_VERSION = "maxplaces-registry/2.0.0";
+export const MAPPING_VERSION = "maxplaces-registry/2.1.0";
 export const PILOT_SLUG = "maxplaces-marketing";
 const LEGACY_URL = "https://entitywiki.org/index.php?title=MAXPlaces_Marketing&oldid=1099";
 export function jsonldNodes(value: unknown): { node: Record<string, unknown>; path: string }[] {
@@ -114,7 +114,9 @@ export async function normalizePilot(input: NormalizeInput): Promise<CompanyReco
       if(!isCatalog&&!explicit)continue;
       const ownUrl=safeUrl(node.url);if(ownUrl&&!['maxplaces.com','www.maxplaces.com'].includes(new URL(ownUrl).hostname))continue;
       const publisher=publisherKey(node["@id"]);const urlKey=publisherKey(ownUrl);const labelKey=`offering-label:${offeringName.toLowerCase()}`;
-      const id=input.identities?await input.identities.resolve({kind:kind==="Service"?"service":"product",parentId:entityId,sourceKeys:[...publisher?[publisher]:[],...urlKey?[`offering-url:${urlKey}`]:[],...!publisher&&!urlKey?[labelKey]:[]],labels:[offeringName],preferredId:await legacyChildId(kind,offeringName),reason:"Publisher offering keys retain identity across display-name and domain changes; the pilot ID is preserved at bootstrap."}):await idFor(kind,offeringName);let offering=services.find(o=>o.id===id);
+      const sourceKeys=[...publisher?[publisher]:[],...urlKey?[`offering-url:${urlKey}`]:[],...!publisher&&!urlKey?[labelKey]:[]];
+      const preferredId=legacyOfferingIdentity(kind,offeringName,ownUrl,publisher);
+      const id=input.identities?await input.identities.resolve({kind:kind==="Service"?"service":"product",parentId:entityId,sourceKeys,labels:[offeringName],preferredId,reason:"Publisher offering keys retain identity across display-name and domain changes; only proven pilot source identities bootstrap legacy IDs."}):preferredId??await idFor(kind,canonical(sourceKeys));let offering=services.find(o=>o.id===id);
       if(!offering&&s.source.kind==="schemabrains")continue;
       if(!offering){offering={id,name:offeringName,kind,url:ownUrl,description:text(node.description)||undefined,sourceIds:[],additionalType:[]};services.push(offering);entities.push({id,kind:kind==="Service"?"service":"product",name:offeringName,parentId:entityId,sourceIds:offering.sourceIds});}
       if(!offering.sourceIds.includes(s.source.id))offering.sourceIds.push(s.source.id);
@@ -126,7 +128,8 @@ export async function normalizePilot(input: NormalizeInput): Promise<CompanyReco
     // Extract a named methodology only from typed source entities, never page instructions.
     for(const {node,path} of s.nodes){const n=text(node.name);if(/S\.?T\.?A\.?R\.?/i.test(n)&&/framework|methodology|S\.T\.A\.R\./i.test(n)){await add(entityId,"framework",n,"framework",s.source,`${path}/name`);if(text(node.description))await add(entityId,"frameworkDescription",text(node.description),"framework",s.source,`${path}/description`);}}
   }
-  const nyc=locations.find(b=>/^new york$/i.test(b.address.addressLocality??""));
+  const legacyNycId=await legacyBranchId("New York","127 West 30th Street, 9th Floor #989");
+  const nyc=locations.find(b=>b.id===legacyNycId);
   if(nyc){
     await add(nyc.id,"postalCode","10001","locations",legacy,"Legacy New York office postalCode","conflicted","Legacy postal assertion retained for comparison.");
     const candidates=claims.filter(c=>c.subjectId===nyc.id&&c.predicate==="postalCode");const values=[...new Set(candidates.map(c=>String(c.value)))];
@@ -134,9 +137,9 @@ export async function normalizePilot(input: NormalizeInput): Promise<CompanyReco
   }
   const supplement=input.supplement;
   if(supplement){
-    if(supplement.version!=="maxplaces-evidence-mappings/1.0.0"||!/^[a-f0-9]{64}$/.test(supplement.sourceManifestSha256))throw new Error("Unsupported pilot mapping evidence manifest.");
+    if(supplement.version!=="maxplaces-evidence-mappings/1.1.0"||!/^[a-f0-9]{64}$/.test(supplement.sourceManifestSha256))throw new Error("Unsupported pilot mapping evidence manifest.");
     for(const m of supplement.ontology){
-      const offering=services.find(s=>s.name===m.offeringName);if(!offering)continue;
+      const offering=services.find(s=>s.id===m.subjectId);if(!offering)continue;
       assertOfficialUrl(m.sourceUrl);
       if(!m.authorityClassDeclared||m.uri!==`http://www.productontology.org/id/${m.wikipediaTitle}`||!/^https?:\/\/www\.productontology\.org\/doc\/[A-Za-z0-9_%().,-]+\.ttl$/.test(m.authorityUrl)||!/^[a-f0-9]{64}$/.test(m.authoritySha256)||!/^[a-f0-9]{64}$/.test(m.firstPartySha256))throw new Error("An ontology mapping lacks canonical class and evidence checks.");
       const source:Evidence={id:await idFor("authority",m.uri),url:m.authorityUrl,finalUrl:m.authorityUrl,title:`Product Ontology — ${m.wikipediaTitle}`,kind:"authority",retrievedAt:m.checkedAt,sha256:m.authoritySha256,excerpt:m.excerpt,destinations:{public:true,wiki:true,jsonld:true},attribution:"Exact class availability and contextual mapping were assessed separately."};
@@ -171,7 +174,7 @@ export async function normalizePilot(input: NormalizeInput): Promise<CompanyReco
   sections.external_links.content=`${concepts.filter(m=>m.authority==="publisher").length} publisher-nominated external profiles await independent destination matching.`;
   sections.sources={...sections.sources,status:"sourced",reason:"Immutable import provenance and collection limitations are recorded.",content:`${sources.length} source artifacts. ${generation?`SchemaBrains saved generation: ${generation.generationId}.`:"A SchemaBrains saved generation has not been imported."} Original wiki revision: 1099.`};
   const google:CompanyRecord['google']=locations.map(b=>({branchId:b.id,state:"unresolved",name:b.name,placeId:null,gbpLocationResource:null,mapsCid:null,knowledgeGraphMid:null,primaryCategoryId:null,additionalCategoryIds:[],placesTypes:[],proposedCategories:[{label:"Marketing agency",state:"proposed",reason:"Service-catalogue-based suggestion only; not the selected GBP category."}],sourceIds:b.sourceIds,reason:"Branch identity exists; Google listing and category identifiers need authorized independent reconciliation."}));
-  for(const m of supplement?.google??[]){const branch=locations.find(b=>b.address.addressLocality===m.branchLocality);const target=google.find(g=>g.branchId===branch?.id);if(!branch||!target)continue;assertOfficialUrl(m.sourceUrl);if(!/^ChI[A-Za-z0-9_-]{15,100}$/.test(m.placeId))throw new Error("Invalid Google Place ID evidence.");const map=safeUrl(m.mapsUrl);if(!map||new URL(map).hostname!=="www.google.com"||new URL(map).searchParams.get("query_place_id")!==m.placeId)throw new Error("Google map link does not bind the independently matched Place ID.");const source:Evidence={id:await idFor("google-decision",m.placeId),url:m.sourceUrl,finalUrl:m.sourceUrl,title:`Branch identity comparison — ${m.branchLocality}`,kind:"google_observation",retrievedAt:m.checkedAt,sha256:await sha256(canonical({placeId:m.placeId,reason:m.reason})),excerpt:m.excerpt,destinations:{public:true,wiki:true,jsonld:true},attribution:"Only the durable Place ID and comparison decision were retained. Address and contacts originate from company sources."};sources.push(source);Object.assign(target,{state:"verified",placeId:m.placeId,mapsUrl:map,reason:m.reason,sourceIds:[...branch.sourceIds,source.id],proposedCategories:(m.proposedCategories??[]).map(c=>({label:c.label,state:"proposed",reason:c.rationale}))});const claim=await add(branch.id,"googlePlaceId",m.placeId,"google_business_profile",source,"Independently matched branch Place ID");sections.google_business_profile.claimIds.push(claim.id);}
+  for(const m of supplement?.google??[]){const branch=locations.find(b=>b.id===m.branchId&&branchSourceKey(b.address.addressLocality??"",b.address.streetAddress??"",b.address.addressRegion??"",b.address.addressCountry??"")===m.branchAddressKey);const target=google.find(g=>g.branchId===branch?.id);if(!branch||!target)continue;assertOfficialUrl(m.sourceUrl);if(!/^ChI[A-Za-z0-9_-]{15,100}$/.test(m.placeId))throw new Error("Invalid Google Place ID evidence.");const map=safeUrl(m.mapsUrl);if(!map||new URL(map).hostname!=="www.google.com"||new URL(map).searchParams.get("query_place_id")!==m.placeId)throw new Error("Google map link does not bind the independently matched Place ID.");const source:Evidence={id:await idFor("google-decision",m.placeId),url:m.sourceUrl,finalUrl:m.sourceUrl,title:`Branch identity comparison — ${m.branchLocality}`,kind:"google_observation",retrievedAt:m.checkedAt,sha256:await sha256(canonical({placeId:m.placeId,reason:m.reason})),excerpt:m.excerpt,destinations:{public:true,wiki:true,jsonld:true},attribution:"Only the durable Place ID and comparison decision were retained. Address and contacts originate from company sources."};sources.push(source);Object.assign(target,{state:"verified",placeId:m.placeId,mapsUrl:map,reason:m.reason,sourceIds:[...branch.sourceIds,source.id],proposedCategories:(m.proposedCategories??[]).map(c=>({label:c.label,state:"proposed",reason:c.rationale}))});const claim=await add(branch.id,"googlePlaceId",m.placeId,"google_business_profile",source,"Independently matched branch Place ID");sections.google_business_profile.claimIds.push(claim.id);}
   if(google.some(g=>g.state==="verified")){sections.google_business_profile.status="sourced";sections.google_business_profile.reason="Branch Place IDs are independently matched. Selected GBP categories remain unobserved and proposals remain separate.";sections.google_business_profile.content=google.map(g=>`${g.name}: ${g.placeId??"unresolved"}; selected category ID: not observed.`).join("\n");}
   const limitations=["14/14 assessed is section coverage, not 100% factual verification.","Only four targeted first-party pages are collected; this is not a whole-site crawl.","No GBP API content, reviews, ratings or merchant writes are imported.","Coordinates and conflicted New York postal code are withheld.","Company source assertions and SchemaBrains output are distinct from independent verification.",...input.failures??[],...generation?.limitations??[]];
   if(!generation)limitations.push("SchemaBrains saved-generation import is pending; current record is a first-party evidence bootstrap.");

@@ -2,6 +2,7 @@ import type { Claim, CompanyRecord, Evidence, Graph, PublicationPlan, SectionKey
 import { SECTION_TITLES } from "./types.ts";
 import { canonical, safeUrl, sha256, wikiLink, wikiText } from "./safety.ts";
 import { entityUri, PILOT_DOCUMENT_PATH } from "./identity.ts";
+import { buildGoogleMapsUrl } from "../mappings/google.ts";
 export type Destination = "public" | "wiki" | "jsonld";
 export function allowedClaim(record:CompanyRecord,claim:Claim,destination:Destination):boolean {
   return claim.selected&&claim.state==="supported"&&claim.sourceIds.some(id=>record.sources.some(s=>s.id===id&&s.destinations[destination]));
@@ -25,7 +26,19 @@ export function publicRecord(record:CompanyRecord,destination:Destination="publi
   copy.entities=copy.entities.filter(e=>e.id===copy.entityId||copy.services.some(s=>s.id===e.id)||copy.locations.some(b=>b.id===e.id)||e.kind==="person"&&supported(e.id,"name").length>0).map(e=>({...e,name:copy.locations.find(b=>b.id===e.id)?.name??selectedString(e.id,"name")??"Unresolved entity",sourceIds:e.sourceIds.filter(id=>allowedIds.has(id))}));
   copy.concepts=copy.concepts.filter(m=>m.sourceIds.length>0&&m.sourceIds.every(id=>allowedIds.has(id))).map(m=>({...m,sourceIds:m.sourceIds.filter(id=>allowedIds.has(id))}));
   for(const service of copy.services)service.additionalType=copy.concepts.filter(m=>m.subjectId===service.id&&m.state==="accepted"&&m.authority==="product_ontology"&&m.relation==="offering_type"&&/^http:\/\/www\.productontology\.org\/id\/[A-Za-z0-9_%().,-]+$/.test(m.uri)).map(m=>m.uri);
-  copy.google=copy.google.filter(g=>copy.locations.some(b=>b.id===g.branchId)).map(g=>supported(g.branchId,"googlePlaceId").some(c=>c.value===g.placeId)?g:{...g,state:"unresolved",placeId:null,gbpLocationResource:null,mapsCid:null,knowledgeGraphMid:null,primaryCategoryId:null,additionalCategoryIds:[],placesTypes:[],mapsUrl:undefined,sourceIds:[],reason:"Google listing identifiers are unresolved or unavailable for this destination."});
+  copy.google=copy.google.filter(g=>copy.locations.some(b=>b.id===g.branchId)).map(g=>{
+    const permitted=supported(g.branchId,"googlePlaceId").filter(c=>c.value===g.placeId);
+    const placeId=g.state==="verified"&&permitted.length&&/^ChI[A-Za-z0-9_-]{15,100}$/.test(g.placeId??"")?g.placeId:null;
+    const allSourcesPermitted=g.sourceIds.length>0&&g.sourceIds.every(id=>allowedIds.has(id));
+    // A Place ID claim grants no permission for merchant resources, categories,
+    // private match notes or aggregate fields with separate evidence.
+    return {branchId:g.branchId,name:copy.locations.find(b=>b.id===g.branchId)!.name,state:placeId?"verified" as const:"unresolved" as const,placeId,
+      gbpLocationResource:null,mapsCid:null,knowledgeGraphMid:null,primaryCategoryId:null,additionalCategoryIds:[],placesTypes:[],
+      mapsUrl:placeId?buildGoogleMapsUrl(placeId,copy.org.name):undefined,
+      sourceIds:placeId?[...new Set(permitted.flatMap(c=>c.sourceIds).filter(id=>allowedIds.has(id)))]:[],
+      proposedCategories:allSourcesPermitted?g.proposedCategories.map(c=>({label:c.label,state:"proposed" as const,reason:"Editorial proposal; selected merchant categories have not been published."})):[],
+      reason:placeId?"An independently matched Place ID is permitted for this destination. Selected merchant categories have not been published.":"Google listing identifiers are unresolved or unavailable for this destination."};
+  });
   const claimIds=new Set(copy.claims.map(c=>c.id));
   copy.conflicts=copy.conflicts.map(c=>{const ids=c.claimIds.filter(id=>claimIds.has(id));return {...c,claimIds:ids,values:copy.claims.filter(claim=>ids.includes(claim.id)).map(claim=>claim.value)};}).filter(c=>c.claimIds.length>0);
   for(const [key,section]of Object.entries(copy.sections) as [SectionKey,CompanyRecord['sections'][SectionKey]][]){

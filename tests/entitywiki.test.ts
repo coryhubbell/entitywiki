@@ -189,3 +189,49 @@ test("public reads fail closed on projection digest drift and an explicit same-r
   assert.equal(((await f.service.getAdminProfile())!.webRelease as unknown as {projectionCurrent:boolean}).projectionCurrent,false);
   const reviewed=await f.service.releaseRecord(original.id,{actor:"test-owner",expectedPreviousReleaseId:oldCompiler.release.id,reason:"Reviewed the current projection compiler output"});assert.equal(reviewed.replayed,false);assert.equal(reviewed.release.sequence,3);assert.equal(reviewed.release.recordId,original.id);assert.equal((await f.service.getReleasedProfile())!.record.id,original.id);
 });
+test("different publisher offerings with the same label keep distinct identities and replay their own source keys",async()=>{
+  const collected=await pages();const payload=collected[0].jsonld[0] as {"@graph":typeof company[]};
+  payload["@graph"][0].hasOfferCatalog.itemListElement=[
+    {"@type":"Service",name:"Same name service",url:"https://www.maxplaces.com/services/first-offering/"},
+    {"@type":"Service",name:"Same name service",url:"https://www.maxplaces.com/services/second-offering/"},
+  ];
+  const offline=await normalizePilot({pages:collected});assert.equal(offline.services.length,2);assert.notEqual(offline.services[0].id,offline.services[1].id);
+  const {db}=testDatabase();const repo=new EntityWikiRepository(db);const identities={resolve:repo.assignIdentity.bind(repo)};
+  const first=await normalizePilot({pages:collected,identities});assert.equal(first.services.length,2);assert.notEqual(first.services[0].id,first.services[1].id);
+  payload["@graph"][0].hasOfferCatalog.itemListElement.reverse();const repeated=await normalizePilot({pages:collected,identities});
+  for(const service of first.services)assert.equal(repeated.services.find(s=>s.url===service.url)!.id,service.id);
+});
+test("an existing preferred name ID cannot merge unrelated publisher sources",async()=>{
+  const {db}=testDatabase();const repo=new EntityWikiRepository(db);const preferredId=await legacyChildId("Service","Same name");
+  const first=await repo.assignIdentity({kind:"service",sourceKeys:["publisher:/one"],labels:["Same name"],preferredId,reason:"First publisher source"});
+  const second=await repo.assignIdentity({kind:"service",sourceKeys:["publisher:/two"],labels:["Same name"],preferredId,reason:"Independent publisher source"});
+  assert.equal(first,preferredId);assert.notEqual(second,first);assert.equal((await repo.aliases(first)).some(a=>a.value==="publisher:/two"),false);
+});
+test("pilot Google matches and historical postal conflicts bind to exact branch identities, never locality order",async()=>{
+  const collected=await pages();const payload=collected[0].jsonld[0] as {"@graph":typeof company[]};
+  payload["@graph"][0].location.unshift(
+    {"@type":"Place",name:"Another Farmingdale office",address:{streetAddress:"400 Main Street",addressLocality:"Farmingdale",addressRegion:"NY",postalCode:"11735",addressCountry:"US"}},
+    {"@type":"Place",name:"Another New York office",address:{streetAddress:"2 Broadway",addressLocality:"New York",addressRegion:"NY",postalCode:"10004",addressCountry:"US"}},
+  );
+  const supplement=JSON.parse(readFileSync(new URL("../data/pilot/mappings.json",import.meta.url),"utf8"));
+  const record=await normalizePilot({pages:collected,supplement});
+  const otherFarmingdale=record.locations.find(b=>b.address.streetAddress==="400 Main Street")!;
+  const otherNyc=record.locations.find(b=>b.address.streetAddress==="2 Broadway")!;
+  assert.equal(record.google.find(g=>g.branchId===otherFarmingdale.id)!.placeId,null);
+  assert.equal(record.google.find(g=>g.branchId===otherNyc.id)!.placeId,null);
+  assert.equal(otherNyc.address.postalCode,"10004");assert.equal(otherNyc.unresolvedFields.length,0);
+  assert.equal(record.google.filter(g=>g.state==="verified").length,2);
+  assert.equal(record.conflicts.length,1);assert.equal(record.conflicts[0].subjectId,await legacyChildId("branch","New York"));
+  for(const mapping of supplement.google)assert.equal(record.google.find(g=>g.branchId===mapping.branchId)!.placeId,mapping.placeId);
+});
+test("a permitted Place ID cannot expose private Google notes, merchant identifiers or categories",()=>{
+  const record=JSON.parse(readFileSync(new URL("../data/pilot/accepted-record.json",import.meta.url),"utf8")) as CompanyRecord;
+  record.sources.push({...record.sources[0],id:"restricted-google-proof",excerpt:"PRIVATE_PROOF",destinations:{public:false,wiki:false,jsonld:false}});
+  Object.assign(record.google[0],{name:"PRIVATE_BRANCH_LABEL",gbpLocationResource:"accounts/PRIVATE_ACCOUNT/locations/PRIVATE_LOCATION",primaryCategoryId:"PRIVATE_CATEGORY",mapsCid:"PRIVATE_CID",knowledgeGraphMid:"PRIVATE_KG",mapsUrl:"https://private.example/PRIVATE_MAP",reason:"PRIVATE_MAPPING_NOTE",sourceIds:[...record.google[0].sourceIds,"restricted-google-proof"],proposedCategories:[{label:"PRIVATE_PROPOSAL",state:"proposed",reason:"PRIVATE_NOTE"}]});
+  for(const destination of ["public","wiki","jsonld"] as const){
+    const exported=publicRecord(record,destination);const mapping=exported.google[0];assert.equal(mapping.placeId,record.google[0].placeId);assert.equal(mapping.primaryCategoryId,null);assert.equal(mapping.gbpLocationResource,null);assert.equal(mapping.sourceIds.includes("restricted-google-proof"),false);assert.equal(mapping.proposedCategories.length,0);
+    assert.equal(JSON.stringify(exported).includes("PRIVATE_"),false);assert.equal(JSON.stringify(exported).includes("private.example"),false);
+  }
+  assert.equal(JSON.stringify(projectJsonLd(record)).includes("PRIVATE_"),false);
+  assert.equal(projectWiki(record).includes("PRIVATE_"),false);
+});

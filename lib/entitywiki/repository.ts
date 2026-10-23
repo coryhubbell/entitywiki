@@ -1,9 +1,10 @@
 import { and, desc, eq, inArray, lt } from "drizzle-orm";
 import type { DrizzleD1Database } from "drizzle-orm/d1";
 import * as tables from "../../db/schema.ts";
-import type { CompanyRecord, PublicationPlan, PublicationState, WebRelease } from "./types.ts";
+import type { CompanyRecord, PublicationPlan, PublicationState, WebRelease, WebReleaseArtifact, WebReleaseArtifactInput } from "./types.ts";
 import type { IdentityRequest } from "./identity.ts";
 import { canonical, sha256 } from "./safety.ts";
+import { validateReleaseArtifact } from "./release-artifacts.ts";
 type Database=DrizzleD1Database<typeof tables>;
 export interface Run {id:string;kind:string;state:string;operationId:string|null;generationId:string|null;recordId:string|null;body:Record<string,unknown>;createdAt:string;updatedAt:string}
 /** All record/evidence/claim rows are append-only. Only run and target receipts change state. */
@@ -21,14 +22,17 @@ export class EntityWikiRepository {
     for(let attempt=0;attempt<3;attempt++){
       const found=await this.db.select().from(tables.identityAliases).where(inArray(tables.identityAliases.key,scoped.map(k=>k.key)));
       const ids=[...new Set(found.map(a=>a.entityId))];if(ids.length>1)throw new Error("Source keys resolve to different entities; an explicit identity reconciliation is required.");
-      const id=ids[0]??request.preferredId??`ew_${crypto.randomUUID().replaceAll("-","").slice(0,24)}`;
+      let id=ids[0]??request.preferredId??`ew_${crypto.randomUUID().replaceAll("-","").slice(0,24)}`;
       const existing=await this.entity(id);if(existing&&existing.kind!==request.kind)throw new Error("The preferred identity has a different entity kind.");
+      // A deterministic name hint must never merge unrelated publisher offerings.
+      // Only explicit restoration may adopt an existing identity with no aliases.
+      if(!ids.length&&existing){const aliases=await this.aliases(id);if(!(request.adoptUnaliasedPreferred&&aliases.length===0))id=`ew_${crypto.randomUUID().replaceAll("-","").slice(0,24)}`;}
       const createdAt=new Date().toISOString();
       const missing=scoped.filter(k=>!found.some(a=>a.key===k.key));
       const labelRows=await Promise.all([...new Set(request.labels.filter(Boolean))].slice(0,10).map(async label=>({key:`label:${id}:${await sha256(label)}`,entityId:id,aliasType:"label",value:label,reason:request.reason,createdAt})));
       try{
         await this.db.batch([
-          this.db.insert(tables.entityRegistry).values({id,kind:request.kind,canonicalKey:id,createdAt}).onConflictDoNothing(),
+          existing?.id===id?this.db.insert(tables.entityRegistry).values({id,kind:request.kind,canonicalKey:id,createdAt}).onConflictDoNothing():this.db.insert(tables.entityRegistry).values({id,kind:request.kind,canonicalKey:id,createdAt}),
           ...chunks(missing,12).map(group=>this.db.insert(tables.identityAliases).values(group.map(k=>({...k,entityId:id,aliasType:"source",reason:request.reason,createdAt})))),
           ...chunks(labelRows,12).map(group=>this.db.insert(tables.identityAliases).values(group).onConflictDoNothing()),
         ]);
@@ -49,13 +53,34 @@ export class EntityWikiRepository {
   }
   async currentWebRelease(entityId:string):Promise<WebRelease|null>{return await this.db.select().from(tables.webReleases).where(eq(tables.webReleases.entityId,entityId)).orderBy(desc(tables.webReleases.sequence)).get()??null;}
   async releaseForRecord(recordId:string):Promise<WebRelease|null>{return await this.db.select().from(tables.webReleases).where(eq(tables.webReleases.recordId,recordId)).orderBy(desc(tables.webReleases.sequence)).get()??null;}
-  async releaseRecord(record:CompanyRecord,digest:string,input:{actor:string;reason?:string;expectedPreviousReleaseId?:string|null}):Promise<{release:WebRelease;replayed:boolean}>{
+  async webRelease(id:string):Promise<WebRelease|null>{return await this.db.select().from(tables.webReleases).where(eq(tables.webReleases.id,id)).get()??null;}
+  async releaseArtifact(releaseId:string):Promise<WebReleaseArtifact|null>{const row=await this.db.select().from(tables.webReleaseArtifacts).where(eq(tables.webReleaseArtifacts.releaseId,releaseId)).get();return row?{...row,format:row.format as WebReleaseArtifact['format']}:null;}
+  async releaseRecord(record:CompanyRecord,digest:string,input:{actor:string;reason?:string;expectedPreviousReleaseId?:string|null;artifact?:WebReleaseArtifactInput}):Promise<{release:WebRelease;replayed:boolean}>{
     if(!input.actor.trim())throw new Error("A web release requires an authenticated actor.");
+    const accepted=await this.record(record.id);if(!accepted||canonical(accepted)!==canonical(record))throw new Error("A web release requires the exact stored accepted revision.");
+    if(input.artifact)await validateReleaseArtifact(input.artifact,accepted,{recordId:record.id,entityId:record.entityId,digest});
     const previous=await this.currentWebRelease(record.entityId);
-    if(previous?.recordId===record.id&&previous.digest===digest)return {release:previous,replayed:true};
+    if(previous?.recordId===record.id&&previous.digest===digest){
+      if(!input.artifact)return {release:previous,replayed:true};
+      const archived=await this.releaseArtifact(previous.id);
+      if(archived){await validateReleaseArtifact(archived,accepted,previous);if(archived.body!==input.artifact.body)throw new Error("The archived release differs from the requested projection bytes.");return {release:previous,replayed:true};}
+      // A legacy digest-only release has no historical bytes. Capture a newly
+      // approved sequence; never backfill it as if captured at the old release.
+    }
     if(input.expectedPreviousReleaseId!==undefined&&input.expectedPreviousReleaseId!==(previous?.id??null))throw new Error("The public release changed; review the current release before publishing.");
     const release:WebRelease={id:`web_${(await sha256(canonical({recordId:record.id,previous:previous?.id??null,digest}))).slice(0,32)}`,entityId:record.entityId,recordId:record.id,sequence:(previous?.sequence??0)+1,previousReleaseId:previous?.id??null,actor:input.actor,reason:input.reason?.trim()||"Explicit release of the reviewed accepted company revision.",digest,releasedAt:new Date().toISOString()};
-    try{await this.db.insert(tables.webReleases).values(release);}catch(error){const raced=await this.currentWebRelease(record.entityId);if(raced?.recordId===record.id&&raced.digest===digest)return {release:raced,replayed:true};throw new Error("A concurrent web release changed the public pointer; review and retry explicitly.",{cause:error});}
+    try{
+      if(input.artifact)await this.db.batch([this.db.insert(tables.webReleases).values(release),this.db.insert(tables.webReleaseArtifacts).values({...input.artifact,releaseId:release.id,capturedAt:release.releasedAt})]);
+      else await this.db.insert(tables.webReleases).values(release);
+    }catch(error){
+      const raced=await this.currentWebRelease(record.entityId);
+      if(raced?.recordId===record.id&&raced.digest===digest){
+        if(!input.artifact)return {release:raced,replayed:true};
+        const archived=await this.releaseArtifact(raced.id);
+        if(archived){await validateReleaseArtifact(archived,accepted,raced);if(archived.body===input.artifact.body)return {release:raced,replayed:true};}
+      }
+      throw new Error("The web release and its required artifact were not committed; review the current public pointer and retry explicitly.",{cause:error});
+    }
     return {release,replayed:false};
   }
   async saveRecord(record:CompanyRecord,options:{preserveRevision?:boolean}={}):Promise<{record:CompanyRecord;replayed:boolean}>{

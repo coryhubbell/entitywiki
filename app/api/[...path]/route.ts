@@ -16,6 +16,11 @@ export async function GET(request: Request, context: Context) {
     const publicRoute = route.startsWith("public/");
     if (!publicRoute) await assertOperator(request);
     const service = pilotService();
+    if (path.length === 3 && path[0] === "releases" && path[2] === "artifact") {
+      if (!/^web_[a-f0-9]{32}$/.test(path[1])) return jsonResponse({ error: { code: "not_found", message: "Release not found." } }, 404);
+      const result = await service.exportReleaseArtifact(path[1]);
+      return result ? jsonResponse(result) : jsonResponse({ error: { code: "not_found", message: "Release not found." } }, 404);
+    }
     if (route === "connections") {
       return jsonResponse({ ...runtimeStatus(), operations: await service.getOperations() });
     }

@@ -2,6 +2,7 @@
 /** Exercises an explicitly local staging database. Never calls the live wiki. */
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 
 const origin = new URL(process.argv[2] ?? 'http://127.0.0.1:8876');
 if (!['http:', 'https:'].includes(origin.protocol) || !['127.0.0.1', 'localhost', '[::1]'].includes(origin.hostname) || origin.username || origin.password || origin.pathname !== '/' || origin.search || origin.hash) throw new Error('Only a loopback staging origin is allowed.');
@@ -39,6 +40,17 @@ assert.equal(dossier.record.id, recordId);
 assert.equal(dossier.record.entityId, 'ew_a3d1e72a720be01b2e5834cb');
 assert.equal('actor' in dossier.webRelease, false);
 assert.equal('reason' in dossier.webRelease, false);
+const artifactPath = `/api/releases/${dossier.webRelease.id}/artifact`;
+assert.equal((await get(artifactPath)).status, 403, 'Release exports require operator authentication.');
+const artifactResponse = await get(artifactPath, { Cookie: cookie });
+assert.equal(artifactResponse.status, 200);
+assert.equal(artifactResponse.headers.get('cache-control'), 'no-store');
+const artifact = await artifactResponse.json();
+assert.equal(artifact.format, 'entitywiki.public-release/1');
+assert.equal(createHash('sha256').update(artifact.projectionCanonical).digest('hex'), dossier.webRelease.digest);
+assert.deepEqual(JSON.parse(artifact.projectionCanonical), { record: dossier.record, jsonld: dossier.jsonld, graph: dossier.graph });
+assert.equal('actor' in artifact.release, false);
+assert.equal('reason' in artifact.release, false);
 const schemaResponse = await get('/api/public/records/maxplaces-marketing/schema.jsonld');
 const schema = await schemaResponse.json();
 assert.deepEqual(schema, dossier.jsonld);
@@ -56,4 +68,4 @@ assert.ok(html.includes('https://entitywiki.org/MAXPlaces_Marketing'));
 assert.ok(html.includes('application/ld+json'));
 assert.equal((await post('/publications/publish', {}, cookie)).status, 404);
 assert.equal((await post('/api/publications/publish', { planId: 'intentionally_not_a_live_plan' }, cookie)).status, 409);
-console.log(JSON.stringify({ ok: true, origin: origin.origin, recordId, preservedRevision: 2, stableEntityIds: dossier.record.entities.length, ontologyMappings: 6, googlePlaceMatches: 2, unresolvedPostalConflicts: 1, liveWikiWriting: 'disabled', anonymousAdminAccess: 'denied', stagingNoindex: true }));
+console.log(JSON.stringify({ ok: true, origin: origin.origin, recordId, preservedRevision: 2, stableEntityIds: dossier.record.entities.length, ontologyMappings: 6, googlePlaceMatches: 2, unresolvedPostalConflicts: 1, releaseArtifact: 'captured_and_verified', anonymousArtifactExport: 'denied', liveWikiWriting: 'disabled', anonymousAdminAccess: 'denied', stagingNoindex: true }));

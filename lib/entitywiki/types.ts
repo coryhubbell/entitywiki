@@ -43,6 +43,9 @@ export interface CompanyRecord {
   wiki: { pageId: number; title: string; startingRevision: number };
 }
 export interface WebRelease {id:string;entityId:string;recordId:string;sequence:number;previousReleaseId:string|null;actor:string;reason:string;digest:string;releasedAt:string}
+/** Canonical UTF-8 JSON of only the sanitized public record, JSON-LD and graph. */
+export interface WebReleaseArtifactInput {format:"entitywiki.public-release/1";recordDigest:string;digest:string;body:string}
+export interface WebReleaseArtifact extends WebReleaseArtifactInput {releaseId:string;capturedAt:string}
 export interface Graph { nodes: { id: string; label: string; type: Entity["kind"]; sourceIds: string[] }[]; edges: { id: string; source: string; target: string; label: string; type: string; claimIds: string[] }[] }
 export interface SavedGeneration {
   generationId: string; sourceUrl: string | null; createdAt: string; revision: number; rootId: string;
@@ -65,6 +68,6 @@ export interface PublicationPlan {
 export interface GenerationOperation { requestId: string; generationId: string | null; state: "queued" | "running" | "completed" | "failed" | "interrupted"; resultAvailable?: boolean; error?: { code: string; message: string; status: number } }
 export interface PilotMappingSupplement {
   version: string; sourceManifestSha256: string;
-  google: {branchLocality:string;placeId:string;mapsUrl:string;primaryCategoryId:null;state:"verified";sourceUrl:string;excerpt:string;checkedAt:string;reason:string;proposedCategories?:{label:string;rationale:string}[]}[];
-  ontology: {offeringName:string;wikipediaTitle:string;uri:string;relation:"offering_type";sourceUrl:string;excerpt:string;checkedAt:string;reason:string;state:"accepted";authorityUrl:string;authoritySha256:string;firstPartySha256:string;authorityClassDeclared:boolean}[];
+  google: {branchId:string;branchAddressKey:string;branchLocality:string;placeId:string;mapsUrl:string;primaryCategoryId:null;state:"verified";sourceUrl:string;excerpt:string;checkedAt:string;reason:string;proposedCategories?:{label:string;rationale:string}[]}[];
+  ontology: {subjectId:string;offeringName:string;wikipediaTitle:string;uri:string;relation:"offering_type";sourceUrl:string;excerpt:string;checkedAt:string;reason:string;state:"accepted";authorityUrl:string;authoritySha256:string;firstPartySha256:string;authorityClassDeclared:boolean}[];
 }

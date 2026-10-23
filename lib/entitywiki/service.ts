@@ -11,6 +11,7 @@ import { assertOfficialUrl, canonical, object, sha256 } from "./safety.ts";
 import type { CollectedPage, CompanyRecord, PilotMappingSupplement, PublicationPlan, SavedGeneration, WebRelease, WikiPage } from "./types.ts";
 import { branchSourceKey, entityUri, PILOT_DOCUMENT_PATH, publisherKey } from "./identity.ts";
 import { validateAcceptedRecord } from "./validation.ts";
+import { createReleaseArtifact, validateReleaseArtifact } from "./release-artifacts.ts";
 export interface PilotConfig {schemaBrains?:{apiKey?:string;baseUrl?:string};wiki:MediaWikiConfig;wikiPublicationEnabled?:boolean;fetch?:typeof fetch;mappingSupplement?:PilotMappingSupplement;collectedPages?:CollectedPage[];publicOrigin?:string}
 export interface ImportOptions {supplementFirstParty?:boolean;acquisition?:string}
 function generationPayload(payload:unknown):SavedGeneration {
@@ -67,8 +68,17 @@ export function createPilotService(db:PilotDatabase,config:PilotConfig){
   async function getReleasedRevision(recordId:string){const release=await repository.releaseForRecord(recordId);if(!release)return null;const record=await repository.record(recordId);if(!record)return null;await assertReleaseDigest(record,release);const envelope=await profileEnvelope(record);return {...envelope,webRelease:{id:release.id,entityId:release.entityId,recordId:release.recordId,sequence:release.sequence,previousReleaseId:release.previousReleaseId,digest:release.digest,releasedAt:release.releasedAt}};}
   async function releaseRecord(recordId:string,input:{actor:string;expectedPreviousReleaseId?:string|null;reason?:string}){
     const record=await repository.record(recordId);if(!record)throw new Error("Accepted revision not found.");validateAcceptedRecord(record);
-    const digest=await publicProjectionDigest(record);
-    const result=await repository.releaseRecord(record,digest,input);return {...result,recordId:record.id,profile:await getReleasedProfile(record.slug)};
+    const artifact=await createReleaseArtifact(record);
+    const result=await repository.releaseRecord(record,artifact.digest,{...input,artifact});return {...result,recordId:record.id,profile:await getReleasedProfile(record.slug)};
+  }
+  async function exportReleaseArtifact(releaseId:string){
+    const release=await repository.webRelease(releaseId);if(!release)return null;
+    const artifact=await repository.releaseArtifact(releaseId);if(!artifact)throw new Error("This historical release stored only a digest; exact release bytes were not captured. Review and create a new explicit release to preserve current bytes.");
+    const record=await repository.record(release.recordId);if(!record)throw new Error("The archived release's accepted revision is unavailable.");
+    if(artifact.releaseId!==release.id||artifact.capturedAt!==release.releasedAt)throw new Error("The archived public release artifact has an invalid release binding.");
+    await validateReleaseArtifact(artifact,record,release);
+    // Operator-only export intentionally excludes raw accepted records and actor/reason metadata.
+    return {format:artifact.format,release:{id:release.id,entityId:release.entityId,recordId:release.recordId,sequence:release.sequence,previousReleaseId:release.previousReleaseId,digest:release.digest,releasedAt:release.releasedAt},acceptedRecordDigest:artifact.recordDigest,capturedAt:artifact.capturedAt,projectionCanonical:artifact.body};
   }
   async function registerRestoredIdentities(record:CompanyRecord){
     for(const entity of record.entities){const branch=record.locations.find(b=>b.id===entity.id);const offering=record.services.find(o=>o.id===entity.id);let sourceKeys:string[];
@@ -77,7 +87,7 @@ export function createPilotService(db:PilotDatabase,config:PilotConfig){
       else if(offering)sourceKeys=offering.url?[`offering-url:${publisherKey(offering.url)}`]:[`offering-label:${offering.name.toLowerCase()}`];
       else sourceKeys=[`${entity.kind}-label:${entity.name.toLowerCase()}`];
       sourceKeys.push(`legacy-id:${entity.id}`);
-      const id=await repository.assignIdentity({kind:entity.kind,parentId:entity.parentId,sourceKeys,labels:[entity.name],preferredId:entity.id,reason:"Restore the existing accepted pilot entity and preserve its original opaque identifier."});if(id!==entity.id)throw new Error("A restored source key is already assigned to a different stable entity.");
+      const id=await repository.assignIdentity({kind:entity.kind,parentId:entity.parentId,sourceKeys,labels:[entity.name],preferredId:entity.id,adoptUnaliasedPreferred:true,reason:"Restore the existing accepted pilot entity and preserve its original opaque identifier."});if(id!==entity.id)throw new Error("A restored source key is already assigned to a different stable entity.");
     }
   }
   async function restoreAcceptedRecord(payload:unknown,input:{source:string;expectedRecordDigest?:string}){
@@ -130,5 +140,5 @@ export function createPilotService(db:PilotDatabase,config:PilotConfig){
       return await confirmReadback(plan,readback,"service_bot");
     }finally{await repository.release(plan.pageId,leaseOwner);}
   }
-  return {importSavedGenerationPayload,importGeneration,startGeneration,pollGeneration,getProfile,getReleasedProfile,getAdminProfile,getRecordRevision,getReleasedRevision,releaseRecord,restoreAcceptedRecord,resolveEntity,previewPublication,publishPublication,recordExternalPublication,previewRollbackPublished,getOperations:async()=>({runs:await repository.runs(),publications:await repository.publicationList()}),checkSchemaBrainsConnection:async()=>schemaBrains().capabilities()};
+  return {importSavedGenerationPayload,importGeneration,startGeneration,pollGeneration,getProfile,getReleasedProfile,getAdminProfile,getRecordRevision,getReleasedRevision,releaseRecord,exportReleaseArtifact,restoreAcceptedRecord,resolveEntity,previewPublication,publishPublication,recordExternalPublication,previewRollbackPublished,getOperations:async()=>({runs:await repository.runs(),publications:await repository.publicationList()}),checkSchemaBrainsConnection:async()=>schemaBrains().capabilities()};
 }
