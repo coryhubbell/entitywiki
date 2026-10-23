@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix gr: <http://purl.org/goodrelations/v1#>.
+@prefix xml: <http://www.w3.org/XML/1998/namespace>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pto: <http://www.productontology.org/id/>.
+@prefix schema: <http://schema.org/>.
+
+
+# OWL DL work-arounds (instead of imports)
+dc:contributor a owl:AnnotationProperty.
+dc:creator a owl:AnnotationProperty.
+dc:rights a owl:AnnotationProperty.
+dc:subject a owl:AnnotationProperty.
+dc:title a owl:AnnotationProperty.
+dcterms:license a owl:AnnotationProperty.
+wdrs:describedby a owl:AnnotationProperty.
+foaf:Document a owl:Class.
+foaf:homepage a owl:AnnotationProperty.
+foaf:page a owl:AnnotationProperty.
+foaf:primaryTopic a owl:AnnotationProperty.
+schema:Product a owl:Class.
+
+
+#OWL 1 DL compatibility of the OWL2 deprecated property
+owl:deprecated a owl:AnnotationProperty.
+
+<http://www.productontology.org/#> 	a owl:Ontology;
+	dc:title "PTO: The Product Types Ontology for Semantic Web-based E-Commerce"@en;
+	rdfs:comment """The Product Types Ontology: Good identifiers for product types based on Wikipedia
+
+This service provides GoodRelations-compatible class definitions for any type of product or service that has an entry in the English Wikipedia.
+
+Vocabulary:    http://www.productontology.org/#
+Namespace:     http://www.productontology.org/
+
+The Product Types Ontology is designed to be used in combination with GoodRelations, a standard vocabulary for the commercial aspects of offers.
+
+See http://purl.org/goodrelations/ for more information."""@en;
+	rdfs:label "The Product Types Ontology for Semantic Web-based E-Commerce"@en;
+	dc:contributor "The class abstracts and translations of labels are taken from Wikipedia, the free encyclopedia."@en;
+	dc:creator "Martin Hepp"@en;
+	dc:rights "The class definition texts are taken from Wikipedia, the free encyclopedia under a Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license, see http://creativecommons.org/licenses/by-sa/3.0/. Accordingly, all ontology class definitions provided in here are available under the very same license."@en;
+	dc:subject "E-Commerce, E-Business, GoodRelations, Ontology, Wikipedia, DBPedia"@en;
+	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/>;
+	rdfs:seeAlso <http://purl.org/goodrelations/v1>;
+	owl:imports <http://purl.org/goodrelations/v1>;
+	owl:versionInfo "2026-10-23T16:26:50.197552".
+
+<http://www.productontology.org/> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/#>.
+
+<http://www.productontology.org/doc/Search_engine_marketing.rdf> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Search_engine_marketing>.
+<http://www.productontology.org/doc/Search_engine_marketing.ttl> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Search_engine_marketing>.
+<http://www.productontology.org/doc/Search_engine_marketing> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Search_engine_marketing>.
+	
+<http://www.productontology.org/id/Search_engine_marketing> a owl:Class;
+	rdfs:subClassOf gr:ProductOrService, schema:Product;
+	rdfs:label "Search engine marketing"@en;
+	rdfs:comment """Search engine marketing (SEM) is a form of Internet marketing that involves the promotion of websites by increasing their visibility in search engine results pages (SERPs) primarily through paid advertising. SEM may incorporate search engine optimization (SEO), which adjusts or rewrites website content and site architecture to achieve a higher ranking in search engine results pages, enhance pay-per-click (PPC) listings, and increase the call to action (CTA) on the website. 
+
+(Source: Wikipedia, the free encyclopedia, see http://en.wikipedia.org/wiki/Search_engine_marketing)"""@en;
+	rdfs:isDefinedBy <http://www.productontology.org/#>;
+	rdfs:label "التسويق عبر محركات البحث"@ar; 
+	rdfs:label "Пошукавы маркетынг"@be; 
+	rdfs:label "Маркетинг в търсачки"@bg; 
+	rdfs:label "Search engine marketing"@cs; 
+	rdfs:label "Suchmaschinenmarketing"@de; 
+	rdfs:label "Mercadotecnia en motores de búsqueda"@es; 
+	rdfs:label "بازاریابی موتورهای جستجو"@fa; 
+	rdfs:label "Search engine marketing"@fr; 
+	rdfs:label "שיווק במנועי חיפוש"@he; 
+	rdfs:label "सर्च इंजन मार्केटिंग"@hi; 
+
+	rdfs:seeAlso <http://www.productontology.org/>,
+		<http://dbpedia.org/resource/Search_engine_marketing>,
+		<http://www.productontology.org/doc/Search_engine_marketing>;
+
+	wdrs:describedby <http://www.productontology.org/doc/Search_engine_marketing.rdf>, <http://www.productontology.org/doc/Search_engine_marketing.ttl>;
+	foaf:homepage <http://www.productontology.org/doc/Search_engine_marketing.html>;
+	foaf:page <http://en.wikipedia.org/wiki/Search_engine_marketing>.
+	

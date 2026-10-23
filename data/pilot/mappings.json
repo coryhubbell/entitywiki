@@ -1,0 +1,148 @@
+{
+  "version": "maxplaces-evidence-mappings/1.1.0",
+  "google": [
+    {
+      "branchLocality": "Farmingdale",
+      "placeId": "ChIJPS16WdEq6IkRUOAlFZwh45Y",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MAXPlaces%20Marketing&query_place_id=ChIJPS16WdEq6IkRUOAlFZwh45Y",
+      "primaryCategoryId": null,
+      "state": "verified",
+      "sourceUrl": "https://www.maxplaces.com/contact/",
+      "excerpt": "Company-issued branch contact details were compared transiently against the official Places API; only the permitted durable Place ID is retained.",
+      "checkedAt": "2026-10-23T16:27:20.533106+00:00",
+      "reason": "Unique Places result matched the company-issued branch street address, telephone, company name, and maxplaces.com domain. Company facts remain sourced to MAXPlaces, not copied from Google. Selected GBP categories remain unobserved; Places primaryType is a separate vocabulary.",
+      "categoryStatus": "needs_authorization",
+      "proposedCategories": [
+        {
+          "designation": "recommended_category",
+          "label": "Internet marketing service",
+          "categoryId": null,
+          "rationale": "Company-issued service pages describe SEO, paid search, and digital marketing; official category identifier and selected listing categories require authorized Business Profile API lookup."
+        }
+      ],
+      "branchId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "branchAddressKey": "address:farmingdale:399conklinstreetsuite305:ny:us"
+    },
+    {
+      "branchLocality": "New York",
+      "placeId": "ChIJQ0NGoBZZwokRkcPfab5d5rk",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MAXPlaces%20Marketing&query_place_id=ChIJQ0NGoBZZwokRkcPfab5d5rk",
+      "primaryCategoryId": null,
+      "state": "verified",
+      "sourceUrl": "https://www.maxplaces.com/contact/",
+      "excerpt": "Company-issued branch contact details were compared transiently against the official Places API; only the permitted durable Place ID is retained.",
+      "checkedAt": "2026-10-23T16:27:46.820509+00:00",
+      "reason": "Unique Places result matched the company-issued branch street address, telephone, company name, and maxplaces.com domain. Company facts remain sourced to MAXPlaces, not copied from Google. Selected GBP categories remain unobserved; Places primaryType is a separate vocabulary.",
+      "categoryStatus": "needs_authorization",
+      "proposedCategories": [
+        {
+          "designation": "recommended_category",
+          "label": "Internet marketing service",
+          "categoryId": null,
+          "rationale": "Company-issued service pages describe SEO, paid search, and digital marketing; official category identifier and selected listing categories require authorized Business Profile API lookup."
+        }
+      ],
+      "branchId": "ew_24eba72d5ca5022be40625d4",
+      "branchAddressKey": "address:new york:127west30thstreet9thfloor989:ny:us"
+    }
+  ],
+  "ontology": [
+    {
+      "offeringName": "Technical SEO & AI Crawl Readiness",
+      "wikipediaTitle": "Search_engine_optimization",
+      "uri": "http://www.productontology.org/id/Search_engine_optimization",
+      "relation": "offering_type",
+      "sourceUrl": "https://www.maxplaces.com/services/search-engine-optimization/",
+      "excerpt": "Original pilot assessment: The company service definition explicitly describes optimizing website architecture, code, speed, crawling, indexing, and structured data. SEO is a supported broad class for this specific service, not an identity for the company.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "reason": "The company service definition explicitly describes optimizing website architecture, code, speed, crawling, indexing, and structured data. SEO is a supported broad class for this specific service, not an identity for the company. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "state": "accepted",
+      "authorityUrl": "http://www.productontology.org/doc/Search_engine_optimization.ttl",
+      "authoritySha256": "9a71a927b9f15481b163ff4153e92617e1a179722a907c12c4f3b9b71016b9ed",
+      "firstPartySha256": "43429501ca976c48f8e8e7445f0f8739310cbdab9da4ea5de3b1423cf175ce19",
+      "authorityClassDeclared": true,
+      "subjectId": "ew_9cfe75adba31c0b56335c9d7"
+    },
+    {
+      "offeringName": "AI Visibility Accelerator",
+      "wikipediaTitle": "Digital_marketing",
+      "uri": "http://www.productontology.org/id/Digital_marketing",
+      "relation": "offering_type",
+      "sourceUrl": "https://www.maxplaces.com/ai-info/",
+      "excerpt": "Original pilot assessment: The company-issued definition identifies AI Visibility Accelerator as a recurring retainer combining SEO, AEO, GEO, content, and authority work. Digital marketing is a supported broad class for that specific marketing service bundle, without typing the legal organization as a product.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "reason": "The company-issued definition identifies AI Visibility Accelerator as a recurring retainer combining SEO, AEO, GEO, content, and authority work. Digital marketing is a supported broad class for that specific marketing service bundle, without typing the legal organization as a product. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "state": "accepted",
+      "authorityUrl": "http://www.productontology.org/doc/Digital_marketing.ttl",
+      "authoritySha256": "7d484343a150ab8ba397f199e8b086a8920901a7991f63bfdef37796e2c6c733",
+      "firstPartySha256": "fd91a54e843e868b932a4dc028117fdbd00b2f59ceff8eeb8f48c4bc1f4c0cfc",
+      "authorityClassDeclared": true,
+      "subjectId": "ew_1f783f269365fb640ca7ff17"
+    },
+    {
+      "offeringName": "Paid Search & PPC",
+      "wikipediaTitle": "Search_engine_marketing",
+      "uri": "http://www.productontology.org/id/Search_engine_marketing",
+      "relation": "offering_type",
+      "sourceUrl": "https://www.maxplaces.com/services/search-engine-marketing/",
+      "excerpt": "Original pilot assessment: The company offers paid search campaign management. Search engine marketing is the corresponding broader service class. No claim that the company is identical to the concept.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "reason": "The company offers paid search campaign management. Search engine marketing is the corresponding broader service class. No claim that the company is identical to the concept. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "state": "accepted",
+      "authorityUrl": "http://www.productontology.org/doc/Search_engine_marketing.ttl",
+      "authoritySha256": "f16cd7f24947c81faa8908c4aeb1accf4fe59c2029826137b20c0c954bff6f16",
+      "firstPartySha256": "bff0aeb86332d553458d4344aa328691c33ec40d6274cd0f1031487a21ec46cf",
+      "authorityClassDeclared": true,
+      "subjectId": "ew_4c81d5c84b3bfb7743de0312"
+    },
+    {
+      "offeringName": "Social & Brand Signals",
+      "wikipediaTitle": "Social_media_marketing",
+      "uri": "http://www.productontology.org/id/Social_media_marketing",
+      "relation": "offering_type",
+      "sourceUrl": "https://www.maxplaces.com/services/social-media-marketing/",
+      "excerpt": "Original pilot assessment: The service page describes social media marketing and brand signal work. The class is accepted for the social marketing offering only, without extending it to every brand authority service.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "reason": "The service page describes social media marketing and brand signal work. The class is accepted for the social marketing offering only, without extending it to every brand authority service. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "state": "accepted",
+      "authorityUrl": "http://www.productontology.org/doc/Social_media_marketing.ttl",
+      "authoritySha256": "002e7ed07b77feb13f75a16c1c34ad40ec53993ce8faad8957129e404d68f7a2",
+      "firstPartySha256": "06dd82e95871f027d2975252c3a15014cada7485d0edbce4337a5c54303393ce",
+      "authorityClassDeclared": true,
+      "subjectId": "ew_d2c7759fa798b79db0f2332f"
+    },
+    {
+      "offeringName": "Reputation & Trust Signals",
+      "wikipediaTitle": "Reputation_management",
+      "uri": "http://www.productontology.org/id/Reputation_management",
+      "relation": "offering_type",
+      "sourceUrl": "https://www.maxplaces.com/services/reputation-management/",
+      "excerpt": "Original pilot assessment: The service page explicitly offers reputation monitoring and management. The broad class applies to this offering; Google reviews or ratings were not imported.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "reason": "The service page explicitly offers reputation monitoring and management. The broad class applies to this offering; Google reviews or ratings were not imported. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "state": "accepted",
+      "authorityUrl": "http://www.productontology.org/doc/Reputation_management.ttl",
+      "authoritySha256": "46a36d70f3e294b33f3ff22fed552bcc966968e87e24fa9102bfb1ffccf9d6a9",
+      "firstPartySha256": "caf6ff3835e98a1ab946bcb52b463d38c4bc62b19d71cbcda207ea310f687dce",
+      "authorityClassDeclared": true,
+      "subjectId": "ew_4754098b43771f8de0c914a7"
+    },
+    {
+      "offeringName": "Local & Geo-Targeted SEO",
+      "wikipediaTitle": "Local_search_engine_optimisation",
+      "uri": "http://www.productontology.org/id/Local_search_engine_optimisation",
+      "relation": "offering_type",
+      "sourceUrl": "https://www.maxplaces.com/services/local-search-marketing/",
+      "excerpt": "Original pilot assessment: The service definition explicitly concerns geographically relevant search, map results, Google Business Profiles, local citations, and location entities. The British-spelled canonical Wikipedia title is retained unchanged.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "reason": "The service definition explicitly concerns geographically relevant search, map results, Google Business Profiles, local citations, and location entities. The British-spelled canonical Wikipedia title is retained unchanged. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "state": "accepted",
+      "authorityUrl": "http://www.productontology.org/doc/Local_search_engine_optimisation.ttl",
+      "authoritySha256": "8aada27cae888a307f78674d6763a312f1bf92fa2aee61b6045dd56906b951c5",
+      "firstPartySha256": "d23aef02b220dbed5f2614f9ab712cccbccea520ee69357f9ba7e5eb01fe671d",
+      "authorityClassDeclared": true,
+      "subjectId": "ew_121597c8da51c521c363a84c"
+    }
+  ],
+  "sourceManifestSha256": "29c9e89160f10d7324e6f439259218a4501fadf45b76bcad16c01284151fb545"
+}

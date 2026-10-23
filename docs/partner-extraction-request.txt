@@ -1,0 +1,38 @@
+Please prepare a complete recovery and verification handoff for the ENTIRE entitywiki.org MediaWiki installation on its ORIGINAL A2/Hosting.com hosting account. This covers every client and namespace, including history, accounts, permissions, extensions and files. MAXPlaces is only one validation example. The new Cloudways app is the destination, not the source to export.
+
+Act as a MediaWiki recovery engineer. Perform read-only discovery and exports. Keep the live website, DNS, URLs, configuration, accounts, permissions and scheduled jobs unchanged. Do not run an installer, updater, repair, rebuild, password reset, queue runner, upgrade or migration on production. Do not create accounts, rotate secrets, or enable maintenance/read-only mode. If a consistent export requires a lock or live change, report that dependency before doing it.
+
+Deliver the following numbered packs. Use UTC timestamps and document the exact scope of each.
+
+1. COMPLETE DATABASE RECOVERY
+Export the complete application database(s), with every MediaWiki and extension/custom table, schema, indexes and data. Include application-owned triggers, routines and events where applicable. Preserve original numeric IDs, table prefixes, namespaces, all live/archived/deleted/restricted revision and slot/content/text associations, actors/comments, accounts/password hashes, groups/preferences/permissions, logs, links, redirects, categories, file metadata and extension records. Identify shared authentication databases, wiki farms, shared tables and external content stores; include their authorized backing data or explicitly report what is missing. Do not export the hosting server's unrelated clients or MySQL system users/grants.
+
+Use an appropriate consistent dump/snapshot for the actual table engines without interrupting production. Record engine types, consistency method, dump start/end and snapshot boundary. Coordinate filesystem acquisition with that boundary and document changes/deltas or consistency gaps. A MediaWiki XML/API export alone is NOT a full recovery backup. Keep the original SQL bytes unchanged; compression is fine.
+
+2. COMPLETE FILESYSTEM AND CONFIGURATION
+Copy the full application tree and all referenced configuration/includes, LocalSettings.php, .htaccess/rewrite/access rules, extensions, skins, vendor/Composer dependencies and lock files, custom code, logos/assets, and the complete uploads tree including original, historical, deleted/private and unregistered files. Include dependencies outside the web root, symlink targets, storage paths and applicable file ownership/permission metadata. Inventory cron/timer commands, mail/webhook integrations, cache/session/search/queue services, external storage and any CDN/object-storage dependencies. Do not execute copied jobs or change integrations. Preserve original configuration privately; it may contain credentials.
+
+3. ENVIRONMENT AND DATABASE VERIFICATION
+Provide MediaWiki version and installed/active extension and skin versions; web PHP and CLI PHP versions, enabled modules and relevant limits; database family/version, schema/prefix, SQL modes, character sets/collations and table engines; web server/rewrite configuration; source application/document/storage roots; approximate disk/database sizes. Include the full actual table inventory and accurate row counts, plus read-only comparisons/fingerprints for page/revision/archive/slot/content/text associations, accounts/groups/restrictions, logs, links/templates/categories/redirects, current/old/deleted files and custom tables. Keep all results private. Note ExternalStore pointers and their backing-data status. The SELECT-only helper in coryhubbell/entitywiki PR #1, scripts/restore-counts.mjs, is an optional diagnostic; confirm it matches the actual source schema and supply the complete table inventory. It does not replace SQL/files preservation or extension-specific checks.
+
+4. URL AND BEHAVIOR REFERENCE
+Capture the actual article/script/upload paths, namespace names/aliases, redirects and rewrite rules, sitemaps/robots settings, canonical tags and representative HTTP status/redirect behavior. Preserve title-query, curid/page-ID, oldid/permanent revision, history/diff, discussion, category/template, file and special/API/REST routes. If already available, include privately held access-log URL inventories, old sitemaps and Search Console URL/export reports to find inbound URLs absent from the public API capture. Record anchors and historical/moved URLs where discoverable. Preserve access restrictions; do not expose private records or grant new access to obtain reports. Never replace an unavailable URL with a homepage mapping.
+
+5. MANIFEST, RESTORE NOTES AND GAPS
+Supply SHA-256 checksums and byte sizes for every delivered file/archive; a file inventory and compression/archive validation results; source host/application/domain identity; acquisition methods and timestamps; a concise restoration README; and explicit missing, inaccessible, inconsistent or unverified items. Record original account/protection behavior for later isolated testing without resetting passwords or sending mail. Mark each pack complete/partial/unavailable. Do not claim a full installation backup if any required database, storage or configuration dependency is missing.
+
+Suggested layout:
+entitywiki-source-YYYYMMDDTHHMMSSZ/
+  00-README-restoration.txt
+  01-database/
+  02-files-and-config/
+  03-environment-and-verification/
+  04-url-behavior-reference/
+  05-gaps-and-dependencies.txt
+  manifest.json
+  SHA256SUMS
+
+PRIVATE HANDOFF
+These packs contain account data, password hashes, configuration secrets and possibly private/deleted records. Encrypt the recovery packs and use an agreed owner-controlled private transfer location. Share the decryption secret through a separate secure channel. Never paste secrets or raw SQL into chat/email, commit them to GitHub, place them in a public web directory, or include unrelated client hosting data. In the ordinary handoff message, provide only pack names, private locations, checksums, counts, timestamps and gaps.
+
+The goal is to let us verify an isolated restoration of every client, history, permission boundary, dependency and original URL before replacing any live frontend. No live-site or DNS cutover is authorized by this extraction request.
