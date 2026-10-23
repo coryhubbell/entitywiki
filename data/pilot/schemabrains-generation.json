@@ -1,0 +1,1415 @@
+{
+  "generationId": "73c3d264-7732-46bc-a55f-0c6a975f923b",
+  "sourceUrl": "https://www.maxplaces.com/",
+  "createdAt": "2026-10-23T16:29:08.707Z",
+  "revision": 1,
+  "rootId": "https://www.maxplaces.com/#organization",
+  "receiptStatus": "browser-export-no-receipt",
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "@id": "https://www.maxplaces.com/#hours-mon-tue-wed-thu-fri",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "ContactPoint",
+        "@id": "https://www.maxplaces.com/#contact-customer-service",
+        "contactType": "customer service",
+        "telephone": "8556296584",
+        "email": "hello@maxplaces.com",
+        "availableLanguage": "en",
+        "url": "https://www.maxplaces.com/contact/",
+        "name": "Contact"
+      },
+      {
+        "@type": "GeoCircle",
+        "@id": "https://www.maxplaces.com/#service-area-circle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7128,
+          "longitude": -74.006
+        },
+        "geoRadius": "50 km"
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://www.maxplaces.com/#organization",
+        "name": "MAXPlaces Marketing",
+        "url": "https://www.maxplaces.com",
+        "description": "MAXPlaces Marketing unifies GEO, AEO, and SEO under one framework — engineering mid-market and enterprise brands to be discovered, cited, and trusted across Google AI Overviews, ChatGPT, and Perplexity. Long Island, NYC, nationwide.",
+        "telephone": [
+          "8556296584",
+          "6317095005",
+          "2126511879"
+        ],
+        "email": "hello@maxplaces.com",
+        "slogan": "Digital Marketing Maximized.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "399 Conklin St, Suite 305",
+          "addressLocality": "Farmingdale",
+          "addressRegion": "NY",
+          "postalCode": "11735",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.733236,
+          "longitude": -73.445197
+        },
+        "openingHoursSpecification": [
+          {
+            "@id": "https://www.maxplaces.com/#hours-mon-tue-wed-thu-fri"
+          }
+        ],
+        "contactPoint": [
+          {
+            "@id": "https://www.maxplaces.com/#contact-customer-service"
+          }
+        ],
+        "sameAs": [
+          "https://www.facebook.com/maxplacesmktg",
+          "https://www.linkedin.com/company/maxplaces-marketing-llc",
+          "https://x.com/MAXPlaces",
+          "https://www.instagram.com/maxplaces",
+          "https://www.youtube.com/@Maxplaces"
+        ],
+        "knowsAbout": [
+          {
+            "@id": "https://www.maxplaces.com/#glossary"
+          },
+          "https://www.google.com/search?q=AI%20Overviews&kgmid=/g/11x5rnx50d",
+          "https://en.wikipedia.org/wiki/AI_Overviews",
+          "https://www.wikidata.org/wiki/Q131861047",
+          "https://dbpedia.org/resource/AI_Overviews",
+          "http://www.productontology.org/id/AI_Overviews",
+          "AI Overviews",
+          "https://www.google.com/search?q=Answer%20Engine%20Optimization&kgmid=/g/11md5185sw",
+          "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+          "https://www.wikidata.org/wiki/Q134083964",
+          "https://dbpedia.org/resource/Generative_engine_optimization",
+          "http://www.productontology.org/id/Generative_engine_optimization",
+          "Answer Engine Optimization",
+          {
+            "@id": "https://www.maxplaces.com/#generic-definedterm-digital-marketing"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-overviews"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-google-ai-overviews"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-answer-engine-optimization"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-generative-engine-optimization"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-summary"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-overview"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-generative-engine-optimization-geo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-answer-engine-optimization-aeo"
+          }
+        ],
+        "areaServed": [
+          {
+            "@id": "https://www.maxplaces.com/#service-area-circle"
+          },
+          {
+            "@type": "GeoShape",
+            "polygon": "40.7128,-73.41172928352235 40.88517992448878,-73.45696544827547 41.03131656810205,-73.58578714651806 41.128961951581665,-73.77858244246427 41.163250450450455,-74.006 41.128961951581665,-74.23341755753573 41.03131656810205,-74.42621285348194 40.88517992448878,-74.55503455172453 40.7128,-74.60027071647765 40.54042007551122,-74.55503455172453 40.394283431897954,-74.42621285348194 40.29663804841834,-74.23341755753573 40.26234954954955,-74.006 40.29663804841834,-73.77858244246427 40.394283431897954,-73.58578714651806 40.54042007551122,-73.45696544827547 40.7128,-73.41172928352235"
+          },
+          {
+            "@type": "Place",
+            "name": "Farmingdale",
+            "sameAs": "https://en.wikipedia.org/wiki/Farmingdale,_New_York"
+          },
+          {
+            "@type": "Country",
+            "name": "United States",
+            "sameAs": "https://en.wikipedia.org/wiki/United_States"
+          },
+          {
+            "@type": "City",
+            "name": "Long Island, New York"
+          },
+          {
+            "@type": "City",
+            "name": "New York City",
+            "sameAs": "https://en.wikipedia.org/wiki/New_York_City"
+          }
+        ],
+        "knowsLanguage": "en",
+        "foundingDate": "2014",
+        "potentialAction": {
+          "@type": "CommunicateAction",
+          "name": "Contact MAXPlaces Marketing",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "mailto:hello@maxplaces.com"
+          }
+        },
+        "logo": {
+          "@id": "https://www.maxplaces.com/#logo"
+        },
+        "image": {
+          "@id": "https://www.maxplaces.com/#primaryimage"
+        },
+        "makesOffer": [
+          {
+            "@id": "https://www.maxplaces.com/#offer-ai-readiness-audit"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-technical-seo-ai-crawl-readiness"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-ecommerce-seo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-google-penalty-recovery"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-authority-building-digital-pr"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-generative-engine-optimization-geo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-answer-engine-optimization-aeo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-local-geo-targeted-seo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-reputation-trust-signals"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-social-brand-signals"
+          }
+        ],
+        "hasOfferCatalog": {
+          "@id": "https://www.maxplaces.com/#service-catalog"
+        }
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.maxplaces.com/#logo",
+        "url": "https://www.maxplaces.com/favicon.svg",
+        "contentUrl": "https://www.maxplaces.com/favicon.svg",
+        "caption": "MAXPlaces Marketing"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://www.maxplaces.com/#primaryimage",
+        "url": "https://cms.maxplaces.com/wp-content/uploads/2026/07/maxplaces-marketing-og-option-5-binary-code-brand-red-blue-rain-1.png",
+        "contentUrl": "https://cms.maxplaces.com/wp-content/uploads/2026/07/maxplaces-marketing-og-option-5-binary-code-brand-red-blue-rain-1.png",
+        "width": 1200,
+        "height": 630,
+        "caption": "Home",
+        "representativeOfPage": true
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.maxplaces.com/#webpage",
+        "name": "MAXPlaces Marketing | GEO, AEO & SEO Agency for AI Search",
+        "url": "https://www.maxplaces.com/",
+        "isPartOf": {
+          "@id": "https://www.maxplaces.com/#website"
+        },
+        "mainEntity": {
+          "@id": "https://www.maxplaces.com/#faq"
+        },
+        "about": [
+          {
+            "@id": "https://www.maxplaces.com/#organization"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#glossary"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#service-ai-readiness-audit"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#service-technical-seo-ai-crawl-readiness"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#service-ecommerce-seo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#service-google-penalty-recovery"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#service-authority-building-digital-pr"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#service-generative-engine-optimization-geo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#service-answer-engine-optimization-aeo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#service-local-geo-targeted-seo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#service-reputation-trust-signals"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#service-social-brand-signals"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#generic-definedterm-digital-marketing"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-overviews"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-google-ai-overviews"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-answer-engine-optimization"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-generative-engine-optimization"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-summary"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-overview"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-generative-engine-optimization-geo"
+          }
+        ],
+        "description": "MAXPlaces Marketing unifies GEO, AEO, and SEO under one framework — engineering mid-market and enterprise brands to be discovered, cited, and trusted across Google AI Overviews, ChatGPT, and Perplexity. Long Island, NYC, nationwide.",
+        "headline": "Your customers are asking AI. Make sure you're the answer.",
+        "alternativeHeadline": "Search just changed under your feet.",
+        "primaryImageOfPage": {
+          "@id": "https://www.maxplaces.com/#primaryimage"
+        },
+        "breadcrumb": {
+          "@id": "https://www.maxplaces.com/#breadcrumb"
+        },
+        "inLanguage": "en",
+        "datePublished": "2026-02-19T12:00:00-05:00",
+        "dateModified": "2026-02-27T12:06:01-05:00",
+        "mentions": {
+          "@id": "https://www.maxplaces.com/#term-answer-engine-optimization-aeo"
+        },
+        "hasPart": [
+          {
+            "@id": "https://www.maxplaces.com/#article-1"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#article-2"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#faq"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.maxplaces.com/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "MAXPlaces Marketing",
+            "item": "https://www.maxplaces.com"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.maxplaces.com/#article-1",
+        "headline": "MAXPlaces Marketing’s Brian Winum Shares Enterprise SEO Strategies on E-Coffee with Experts Podcast",
+        "name": "MAXPlaces Marketing’s Brian Winum Shares Enterprise SEO Strategies on E-Coffee with Experts Podcast",
+        "mainEntityOfPage": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        },
+        "isPartOf": {
+          "@id": "https://www.maxplaces.com/#website"
+        },
+        "publisher": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "description": "PressClone coverage of Brian Winum’s enterprise SEO, AI optimization, entity relationship, LLMs.txt, and authority-building strategies shared on the E-Coffee with Experts podcast.",
+        "datePublished": "2026-02-19T12:00:00-05:00",
+        "dateModified": "2026-02-27T12:06:01-05:00",
+        "inLanguage": "en-US",
+        "about": [
+          {
+            "@id": "https://www.maxplaces.com/#service-ai-readiness-audit"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#organization"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#generic-definedterm-digital-marketing"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-overviews"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-google-ai-overviews"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-answer-engine-optimization"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-generative-engine-optimization"
+          }
+        ],
+        "mentions": [
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-summary"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-overview"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-generative-engine-optimization-geo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-answer-engine-optimization-aeo"
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://www.maxplaces.com/#article-2",
+        "headline": "MAXBURST CEO, Andrew Ruditser, Shares Insights on Staying Ahead of AI Curve",
+        "name": "MAXBURST CEO, Andrew Ruditser, Shares Insights on Staying Ahead of AI Curve",
+        "mainEntityOfPage": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        },
+        "isPartOf": {
+          "@id": "https://www.maxplaces.com/#website"
+        },
+        "publisher": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "description": "PressClone coverage of Andrew Ruditser’s AI-ready web development, semantic HTML, structured data, information architecture, and Intelligent Experience Optimization insights.",
+        "datePublished": "2025-03-21T12:00:00-04:00",
+        "dateModified": "2025-03-26T12:26:27-04:00",
+        "inLanguage": "en-US",
+        "about": [
+          {
+            "@id": "https://www.maxplaces.com/#service-ai-readiness-audit"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#organization"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#generic-definedterm-digital-marketing"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-overviews"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-google-ai-overviews"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-answer-engine-optimization"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-generative-engine-optimization"
+          }
+        ],
+        "mentions": [
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-summary"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-overview"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-generative-engine-optimization-geo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-answer-engine-optimization-aeo"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.maxplaces.com/#website",
+        "name": "MAXPlaces Marketing",
+        "url": "https://www.maxplaces.com",
+        "publisher": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "keywords": [
+          "High-trust",
+          "Knowledge-panel",
+          "Future-forward",
+          "Answer-engine",
+          "Check My Domain Free",
+          "Mid-market",
+          "Geo-targeted",
+          "Multi-location",
+          "Industry-report",
+          "Purpose-built",
+          "Search-intent",
+          "Topic-cluster",
+          "Machine-readability",
+          "High-value",
+          "Machine-readable",
+          "Roi-focused",
+          "Referring-domain",
+          "Celebrity-founded",
+          "AI",
+          "Search",
+          "MAXPlaces Marketing",
+          "ChatGPT",
+          "brands",
+          "framework",
+          "enterprise",
+          "AI Overviews",
+          "brand",
+          "data",
+          "Visibility",
+          "answer",
+          "Answer Engine Optimization",
+          "Readiness",
+          "expansion",
+          "The S.T.A.R.",
+          "ChatGPT & Perplexity",
+          "recommendations",
+          "AI Search MAXPlaces Marketing",
+          "AI Readiness Audit Search Optimization Technical SEO",
+          "SEO eCommerce SEO",
+          "Services Overview Generative Engine Optimization",
+          "AI Visibility Report GEO",
+          "Google AI Overviews",
+          "Generative Engine Optimization",
+          "AI summary",
+          "AI Overview",
+          "Generative Engine Optimization (GEO)",
+          "Answer Engine Optimization (AEO)"
+        ],
+        "description": "MAXPlaces Marketing unifies GEO, AEO, and SEO under one framework — engineering mid-market and enterprise brands to be discovered, cited, and trusted across Google AI Overviews, ChatGPT, and Perplexity. Long Island, NYC, nationwide.",
+        "inLanguage": "en",
+        "hasPart": [
+          {
+            "@id": "https://www.maxplaces.com/llms.txt#document"
+          },
+          {
+            "@id": "https://www.maxplaces.com/llms-full.txt#document"
+          },
+          {
+            "@id": "https://www.maxplaces.com/llms-index.json#catalog"
+          }
+        ]
+      },
+      {
+        "@type": "DigitalDocument",
+        "@id": "https://www.maxplaces.com/llms.txt#document",
+        "name": "MAXPlaces Marketing llms.txt",
+        "url": "https://www.maxplaces.com/llms.txt",
+        "encodingFormat": "text/vnd.llms-amplifier.manifest+markdown",
+        "inLanguage": "en",
+        "isPartOf": {
+          "@id": "https://www.maxplaces.com/#website"
+        }
+      },
+      {
+        "@type": "DigitalDocument",
+        "@id": "https://www.maxplaces.com/llms-full.txt#document",
+        "name": "MAXPlaces Marketing llms-full.txt",
+        "url": "https://www.maxplaces.com/llms-full.txt",
+        "encodingFormat": "text/vnd.llms-amplifier.full+markdown",
+        "inLanguage": "en",
+        "isPartOf": {
+          "@id": "https://www.maxplaces.com/#website"
+        }
+      },
+      {
+        "@type": "DataCatalog",
+        "@id": "https://www.maxplaces.com/llms-index.json#catalog",
+        "name": "MAXPlaces Marketing llms-index.json",
+        "url": "https://www.maxplaces.com/llms-index.json",
+        "encodingFormat": "application/vnd.llms-amplifier.index+json",
+        "inLanguage": "en",
+        "isPartOf": {
+          "@id": "https://www.maxplaces.com/#website"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.maxplaces.com/#generic-definedterm-digital-marketing",
+        "name": "Digital marketing",
+        "description": "Marketing conducted through digital technologies, channels, platforms, and measurable online experiences.",
+        "termCode": "DIGITAL-MARKETING",
+        "inDefinedTermSet": {
+          "@id": "https://www.maxplaces.com/#glossary"
+        },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q1323528",
+          "https://en.wikipedia.org/wiki/Digital_marketing"
+        ],
+        "subjectOf": [
+          {
+            "@type": "WebPage"
+          },
+          {
+            "@type": "WebPage"
+          },
+          {
+            "@type": "WebPage"
+          },
+          {
+            "@type": "WebPage"
+          },
+          {
+            "@type": "WebPage"
+          },
+          {
+            "@type": "WebPage"
+          },
+          {
+            "@type": "WebPage"
+          },
+          {
+            "@type": "WebPage"
+          }
+        ]
+      },
+      {
+        "@type": "Place",
+        "@id": "https://www.maxplaces.com/#generic-place-maxplaces-marketing-long-island-headquarters",
+        "name": "MAXPlaces Marketing — Long Island Headquarters",
+        "url": "https://www.maxplaces.com/contact/#offices",
+        "telephone": "+1-631-709-5005",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "399 Conklin St, Suite 305",
+          "addressLocality": "Farmingdale",
+          "addressRegion": "NY",
+          "postalCode": "11735",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.733236,
+          "longitude": -73.445197
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        "hasMap": "https://www.google.com/maps/dir/?api=1&destination=399%20Conklin%20St%2C%20Suite%20305%2C%20Farmingdale%2C%20NY%2011735",
+        "mainEntityOfPage": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        }
+      },
+      {
+        "@type": "ServiceChannel",
+        "@id": "https://www.maxplaces.com/#generic-servicechannel-maxplaces-nationwide-remote-service-channel",
+        "name": "MAXPlaces nationwide remote service channel",
+        "serviceUrl": "https://www.maxplaces.com/contact/",
+        "servicePhone": {
+          "@type": "ContactPoint"
+        },
+        "availableLanguage": "English",
+        "mainEntityOfPage": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.maxplaces.com/#generic-person-brian-winum",
+        "name": "Brian Winum",
+        "url": "https://www.maxplaces.com/author/brian-winum/",
+        "jobTitle": "Digital Marketing Director",
+        "description": "20+ years turning search visibility into measurable growth — now helping brands become the answer AI engines recommend.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.maxplaces.com/assets/press/brian-winum-press-headshot.png",
+          "caption": "Brian Winum"
+        },
+        "worksFor": [
+          {
+            "@type": "Organization"
+          },
+          {
+            "@type": "Organization"
+          }
+        ],
+        "email": "bwinum@maxplaces.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/brianwinum/",
+          "https://x.com/brianwinum",
+          "https://www.threads.com/@brianwinum",
+          "https://www.facebook.com/bwinum/",
+          "https://www.instagram.com/brianwinum/",
+          "https://www.tiktok.com/@brian.winum",
+          "https://medium.com/@bw_18469",
+          "https://www.imdb.com/name/nm13111153/",
+          "https://www.forbes.com/councils/forbesbusinesscouncil/people/brianwinum/",
+          "https://www.huffpost.com/author/bwinum-981",
+          "https://brianwinum.com/",
+          "https://www.amazon.com/author/brianwinum",
+          "https://entitywiki.org/Brian_Winum",
+          "https://www.goodreads.com/author/show/55506465.Brian_Winum",
+          "https://www.ted.com/profiles/49439753",
+          "https://www.buzzfeed.com/brianwinum",
+          "https://www.openpr.com/news/archive/264383/Brian-Winum.html",
+          "https://featured.com/p/brian-winum",
+          "https://github.com/brianwinum"
+        ],
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "Google Knowledge Graph ID",
+            "value": "/g/11f0zrkjrc"
+          }
+        ],
+        "subjectOf": [
+          {
+            "@type": "Article"
+          }
+        ],
+        "knowsAbout": [
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          "Entity SEO",
+          "AI search visibility",
+          {
+            "@type": "DefinedTerm"
+          }
+        ],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Scranton"
+        },
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Google Analytics 4 Certified",
+            "credentialCategory": "certification"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Google Ads Search Certified",
+            "credentialCategory": "certification"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Semrush Technical SEO Certified",
+            "credentialCategory": "certification"
+          }
+        ]
+      },
+      {
+        "@type": "DefinedTermSet",
+        "@id": "https://www.maxplaces.com/#glossary",
+        "name": "Your customers are asking AI. Make sure you're the answer. Glossary",
+        "description": "Glossary of your customers are asking ai. make sure you're the answer. terms and definitions referenced on MAXPlaces Marketing.",
+        "hasDefinedTerm": [
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-overviews"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-google-ai-overviews"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-answer-engine-optimization"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-generative-engine-optimization"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-summary"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-ai-overview"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-generative-engine-optimization-geo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#term-answer-engine-optimization-aeo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#generic-definedterm-digital-marketing"
+          }
+        ]
+      },
+      {
+        "@type": "DefinedTermSet",
+        "@id": "https://www.maxplaces.com/#generic-definedtermset-maxplaces-areas-of-expertise",
+        "name": "MAXPlaces areas of expertise",
+        "description": "Established disciplines and technologies that describe the expertise applied across MAXPlaces services.",
+        "url": "https://www.maxplaces.com/services/",
+        "creator": {
+          "@type": "Organization"
+        },
+        "publisher": {
+          "@type": "Organization"
+        },
+        "hasDefinedTerm": [
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          },
+          {
+            "@type": "DefinedTerm"
+          }
+        ],
+        "mainEntityOfPage": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.maxplaces.com/#term-ai-overviews",
+        "name": "AI Overviews",
+        "description": "AI Overviews is a generative artificial intelligence (AI) feature integrated into Google Search that displays AI-generated responses at the top of search results. It uses the Gemini 3 family of large language models developed by Google DeepMind.",
+        "termCode": "AI_OVERVIEWS",
+        "inDefinedTermSet": {
+          "@id": "https://www.maxplaces.com/#glossary"
+        },
+        "sameAs": [
+          "https://www.google.com/search?q=AI%20Overviews&kgmid=/g/11x5rnx50d",
+          "https://en.wikipedia.org/wiki/AI_Overviews",
+          "https://www.wikidata.org/wiki/Q131861047",
+          "https://dbpedia.org/resource/AI_Overviews",
+          "http://www.productontology.org/id/AI_Overviews"
+        ],
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "googleKnowledgeGraph",
+          "value": "/g/11x5rnx50d",
+          "url": "https://www.google.com/search?q=AI%20Overviews&kgmid=/g/11x5rnx50d"
+        },
+        "subjectOf": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.maxplaces.com/#term-google-ai-overviews",
+        "name": "Google AI Overviews",
+        "description": "AI Overviews is a generative artificial intelligence (AI) feature integrated into Google Search that displays AI-generated responses at the top of search results. It uses the Gemini 3 family of large language models developed by Google DeepMind.",
+        "termCode": "GOOGLE_AI_OVERVIEWS",
+        "inDefinedTermSet": {
+          "@id": "https://www.maxplaces.com/#glossary"
+        },
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/AI_Overviews",
+          "https://www.wikidata.org/wiki/Q131861047",
+          "https://dbpedia.org/resource/AI_Overviews",
+          "http://www.productontology.org/id/AI_Overviews"
+        ],
+        "subjectOf": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.maxplaces.com/#term-answer-engine-optimization",
+        "name": "Answer Engine Optimization",
+        "description": "Generative engine optimization (GEO), also known as answer engine optimization (AEO) and artificial intelligence optimization (AIO), is the practice of improving visibility in responses generated by generative artificial intelligence (AI) systems. The practice influences the way large language models (LLMs) retrieve, summarize, and present information in response to user queries.",
+        "termCode": "ANSWER_ENGINE_OPTIMIZATION",
+        "inDefinedTermSet": {
+          "@id": "https://www.maxplaces.com/#glossary"
+        },
+        "sameAs": [
+          "https://www.google.com/search?q=Answer%20Engine%20Optimization&kgmid=/g/11md5185sw",
+          "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+          "https://www.wikidata.org/wiki/Q134083964",
+          "https://dbpedia.org/resource/Generative_engine_optimization",
+          "http://www.productontology.org/id/Generative_engine_optimization"
+        ],
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "googleKnowledgeGraph",
+          "value": "/g/11md5185sw",
+          "url": "https://www.google.com/search?q=Answer%20Engine%20Optimization&kgmid=/g/11md5185sw"
+        },
+        "subjectOf": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.maxplaces.com/#term-generative-engine-optimization",
+        "name": "Generative Engine Optimization",
+        "description": "Generative engine optimization (GEO), also known as answer engine optimization (AEO) and artificial intelligence optimization (AIO), is the practice of improving visibility in responses generated by generative artificial intelligence (AI) systems. The practice influences the way large language models (LLMs) retrieve, summarize, and present information in response to user queries.",
+        "termCode": "GENERATIVE_ENGINE_OPTIMIZATION",
+        "inDefinedTermSet": {
+          "@id": "https://www.maxplaces.com/#glossary"
+        },
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+          "https://www.wikidata.org/wiki/Q134083964",
+          "https://dbpedia.org/resource/Generative_engine_optimization",
+          "http://www.productontology.org/id/Generative_engine_optimization"
+        ],
+        "subjectOf": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.maxplaces.com/#term-ai-summary",
+        "name": "AI summary",
+        "description": "AI Overviews is a generative artificial intelligence (AI) feature integrated into Google Search that displays AI-generated responses at the top of search results. It uses the Gemini 3 family of large language models developed by Google DeepMind.",
+        "termCode": "AI_SUMMARY",
+        "inDefinedTermSet": {
+          "@id": "https://www.maxplaces.com/#glossary"
+        },
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/AI_Overviews",
+          "https://www.wikidata.org/wiki/Q131861047",
+          "https://dbpedia.org/resource/AI_Overviews",
+          "http://www.productontology.org/id/AI_Overviews"
+        ],
+        "subjectOf": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.maxplaces.com/#term-ai-overview",
+        "name": "AI Overview",
+        "description": "AI Overviews is a generative artificial intelligence (AI) feature integrated into Google Search that displays AI-generated responses at the top of search results. It uses the Gemini 3 family of large language models developed by Google DeepMind.",
+        "termCode": "AI_OVERVIEW",
+        "inDefinedTermSet": {
+          "@id": "https://www.maxplaces.com/#glossary"
+        },
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/AI_Overviews",
+          "https://www.wikidata.org/wiki/Q131861047",
+          "https://dbpedia.org/resource/AI_Overviews",
+          "http://www.productontology.org/id/AI_Overviews"
+        ],
+        "subjectOf": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.maxplaces.com/#term-generative-engine-optimization-geo",
+        "name": "Generative Engine Optimization (GEO)",
+        "description": "Generative engine optimization (GEO), also known as answer engine optimization (AEO) and artificial intelligence optimization (AIO), is the practice of improving visibility in responses generated by generative artificial intelligence (AI) systems. The practice influences the way large language models (LLMs) retrieve, summarize, and present information in response to user queries.",
+        "termCode": "GENERATIVE_ENGINE_OPTIMIZATION_GEO",
+        "inDefinedTermSet": {
+          "@id": "https://www.maxplaces.com/#glossary"
+        },
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+          "https://www.wikidata.org/wiki/Q134083964",
+          "https://dbpedia.org/resource/Generative_engine_optimization",
+          "http://www.productontology.org/id/Generative_engine_optimization"
+        ],
+        "subjectOf": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.maxplaces.com/#term-answer-engine-optimization-aeo",
+        "name": "Answer Engine Optimization (AEO)",
+        "description": "Generative engine optimization (GEO), also known as answer engine optimization (AEO) and artificial intelligence optimization (AIO), is the practice of improving visibility in responses generated by generative artificial intelligence (AI) systems. The practice influences the way large language models (LLMs) retrieve, summarize, and present information in response to user queries.",
+        "termCode": "ANSWER_ENGINE_OPTIMIZATION_AEO",
+        "inDefinedTermSet": {
+          "@id": "https://www.maxplaces.com/#glossary"
+        },
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+          "https://www.wikidata.org/wiki/Q134083964",
+          "https://dbpedia.org/resource/Generative_engine_optimization",
+          "http://www.productontology.org/id/Generative_engine_optimization"
+        ],
+        "subjectOf": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.maxplaces.com/#service-ai-readiness-audit",
+        "name": "AI Readiness Audit",
+        "url": "https://www.maxplaces.com/services/ai-readiness-audit/",
+        "provider": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "offers": {
+          "@id": "https://www.maxplaces.com/#offer-ai-readiness-audit"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.maxplaces.com/#service-technical-seo-ai-crawl-readiness",
+        "name": "Technical SEO & AI Crawl Readiness",
+        "url": "https://www.maxplaces.com/services/search-engine-optimization/",
+        "provider": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "offers": {
+          "@id": "https://www.maxplaces.com/#offer-technical-seo-ai-crawl-readiness"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.maxplaces.com/#service-ecommerce-seo",
+        "name": "eCommerce SEO",
+        "url": "https://www.maxplaces.com/services/ecommerce-seo/",
+        "provider": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "offers": {
+          "@id": "https://www.maxplaces.com/#offer-ecommerce-seo"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.maxplaces.com/#service-google-penalty-recovery",
+        "name": "Google Penalty Recovery",
+        "url": "https://www.maxplaces.com/services/google-penalty-recovery/",
+        "provider": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "offers": {
+          "@id": "https://www.maxplaces.com/#offer-google-penalty-recovery"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.maxplaces.com/#service-authority-building-digital-pr",
+        "name": "Authority Building & Digital PR",
+        "url": "https://www.maxplaces.com/services/link-building/",
+        "provider": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "offers": {
+          "@id": "https://www.maxplaces.com/#offer-authority-building-digital-pr"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.maxplaces.com/#service-generative-engine-optimization-geo",
+        "name": "Generative Engine Optimization (GEO)",
+        "url": "https://www.maxplaces.com/services/generative-engine-optimization/",
+        "provider": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "offers": {
+          "@id": "https://www.maxplaces.com/#offer-generative-engine-optimization-geo"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.maxplaces.com/#service-answer-engine-optimization-aeo",
+        "name": "Answer Engine Optimization (AEO)",
+        "url": "https://www.maxplaces.com/services/answer-engine-optimization/",
+        "provider": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "offers": {
+          "@id": "https://www.maxplaces.com/#offer-answer-engine-optimization-aeo"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.maxplaces.com/#service-local-geo-targeted-seo",
+        "name": "Local & Geo-Targeted SEO",
+        "url": "https://www.maxplaces.com/services/local-search-marketing/",
+        "provider": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "offers": {
+          "@id": "https://www.maxplaces.com/#offer-local-geo-targeted-seo"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.maxplaces.com/#service-reputation-trust-signals",
+        "name": "Reputation & Trust Signals",
+        "url": "https://www.maxplaces.com/services/reputation-management/",
+        "provider": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "offers": {
+          "@id": "https://www.maxplaces.com/#offer-reputation-trust-signals"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.maxplaces.com/#service-social-brand-signals",
+        "name": "Social & Brand Signals",
+        "url": "https://www.maxplaces.com/services/social-media-marketing/",
+        "provider": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "offers": {
+          "@id": "https://www.maxplaces.com/#offer-social-brand-signals"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.maxplaces.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is the domain check really free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes — no signup, no card. Enter your domain and see your AI visibility status in seconds."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is this different from regular SEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO gets you ranked on Google. We also optimize for answer engines — AI Overviews, ChatGPT, and Perplexity — which decide what to cite based on structured data, entities, and authority, not just rankings."
+            },
+            "about": {
+              "@id": "https://www.maxplaces.com/#term-ai-overviews"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Common Crawl, and why does it matter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It's the open-web dataset that trains today's leading AI models. If your site isn't well represented in it, AI engines may never learn your brand exists."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "We rank well on Google — aren’t we fine?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not necessarily. Fewer than 10% of the pages AI cites rank in Google's top 10 for the same query. Traditional rankings and AI visibility are different games."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can’t I just block AI crawlers to protect my content?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "That's a strategic decision with real trade-offs — blocking can also remove you from the answers your buyers rely on. We help you weigh it deliberately."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is MAXPlaces affiliated with Common Crawl?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. We're an independent agency that uses public Common Crawl data (and other signals) to assess and improve your AI visibility."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens on a strategy call?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We review where you stand across search and AI engines, then map the S.T.A.R.℠ priorities that would move your visibility fastest. No obligation."
+            }
+          }
+        ],
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": [
+            ".faq-answer-0",
+            ".faq-answer-1",
+            ".faq-answer-2",
+            ".faq-answer-3",
+            ".faq-answer-4",
+            ".faq-answer-5",
+            ".faq-answer-6"
+          ]
+        },
+        "mainEntityOfPage": {
+          "@id": "https://www.maxplaces.com/#webpage"
+        },
+        "about": {
+          "@id": "https://www.maxplaces.com/#service-ai-readiness-audit"
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://www.maxplaces.com/#offer-ai-readiness-audit",
+        "name": "AI Readiness Audit",
+        "itemOffered": {
+          "@id": "https://www.maxplaces.com/#service-ai-readiness-audit"
+        },
+        "offeredBy": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "url": "https://www.maxplaces.com/services/ai-readiness-audit/",
+        "areaServed": {
+          "@id": "https://www.maxplaces.com/#service-area-circle"
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://www.maxplaces.com/#offer-technical-seo-ai-crawl-readiness",
+        "name": "Technical SEO & AI Crawl Readiness",
+        "itemOffered": {
+          "@id": "https://www.maxplaces.com/#service-technical-seo-ai-crawl-readiness"
+        },
+        "offeredBy": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "url": "https://www.maxplaces.com/services/search-engine-optimization/",
+        "areaServed": {
+          "@id": "https://www.maxplaces.com/#service-area-circle"
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://www.maxplaces.com/#offer-ecommerce-seo",
+        "name": "eCommerce SEO",
+        "itemOffered": {
+          "@id": "https://www.maxplaces.com/#service-ecommerce-seo"
+        },
+        "offeredBy": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "url": "https://www.maxplaces.com/services/ecommerce-seo/",
+        "areaServed": {
+          "@id": "https://www.maxplaces.com/#service-area-circle"
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://www.maxplaces.com/#offer-google-penalty-recovery",
+        "name": "Google Penalty Recovery",
+        "itemOffered": {
+          "@id": "https://www.maxplaces.com/#service-google-penalty-recovery"
+        },
+        "offeredBy": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "url": "https://www.maxplaces.com/services/google-penalty-recovery/",
+        "areaServed": {
+          "@id": "https://www.maxplaces.com/#service-area-circle"
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://www.maxplaces.com/#offer-authority-building-digital-pr",
+        "name": "Authority Building & Digital PR",
+        "itemOffered": {
+          "@id": "https://www.maxplaces.com/#service-authority-building-digital-pr"
+        },
+        "offeredBy": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "url": "https://www.maxplaces.com/services/link-building/",
+        "areaServed": {
+          "@id": "https://www.maxplaces.com/#service-area-circle"
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://www.maxplaces.com/#offer-generative-engine-optimization-geo",
+        "name": "Generative Engine Optimization (GEO)",
+        "itemOffered": {
+          "@id": "https://www.maxplaces.com/#service-generative-engine-optimization-geo"
+        },
+        "offeredBy": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "url": "https://www.maxplaces.com/services/generative-engine-optimization/",
+        "areaServed": {
+          "@id": "https://www.maxplaces.com/#service-area-circle"
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://www.maxplaces.com/#offer-answer-engine-optimization-aeo",
+        "name": "Answer Engine Optimization (AEO)",
+        "itemOffered": {
+          "@id": "https://www.maxplaces.com/#service-answer-engine-optimization-aeo"
+        },
+        "offeredBy": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "url": "https://www.maxplaces.com/services/answer-engine-optimization/",
+        "areaServed": {
+          "@id": "https://www.maxplaces.com/#service-area-circle"
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://www.maxplaces.com/#offer-local-geo-targeted-seo",
+        "name": "Local & Geo-Targeted SEO",
+        "itemOffered": {
+          "@id": "https://www.maxplaces.com/#service-local-geo-targeted-seo"
+        },
+        "offeredBy": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "url": "https://www.maxplaces.com/services/local-search-marketing/",
+        "areaServed": {
+          "@id": "https://www.maxplaces.com/#service-area-circle"
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://www.maxplaces.com/#offer-reputation-trust-signals",
+        "name": "Reputation & Trust Signals",
+        "itemOffered": {
+          "@id": "https://www.maxplaces.com/#service-reputation-trust-signals"
+        },
+        "offeredBy": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "url": "https://www.maxplaces.com/services/reputation-management/",
+        "areaServed": {
+          "@id": "https://www.maxplaces.com/#service-area-circle"
+        }
+      },
+      {
+        "@type": "Offer",
+        "@id": "https://www.maxplaces.com/#offer-social-brand-signals",
+        "name": "Social & Brand Signals",
+        "itemOffered": {
+          "@id": "https://www.maxplaces.com/#service-social-brand-signals"
+        },
+        "offeredBy": {
+          "@id": "https://www.maxplaces.com/#organization"
+        },
+        "url": "https://www.maxplaces.com/services/social-media-marketing/",
+        "areaServed": {
+          "@id": "https://www.maxplaces.com/#service-area-circle"
+        }
+      },
+      {
+        "@type": "OfferCatalog",
+        "@id": "https://www.maxplaces.com/#service-catalog",
+        "name": "MAXPlaces Marketing services",
+        "itemListElement": [
+          {
+            "@id": "https://www.maxplaces.com/#offer-ai-readiness-audit"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-technical-seo-ai-crawl-readiness"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-ecommerce-seo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-google-penalty-recovery"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-authority-building-digital-pr"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-generative-engine-optimization-geo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-answer-engine-optimization-aeo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-local-geo-targeted-seo"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-reputation-trust-signals"
+          },
+          {
+            "@id": "https://www.maxplaces.com/#offer-social-brand-signals"
+          }
+        ],
+        "numberOfItems": 10,
+        "itemListOrder": "https://schema.org/ItemListUnordered"
+      }
+    ]
+  },
+  "receiptSha256": null,
+  "integrity": {
+    "receiptVerified": null,
+    "sidecarsVerified": null,
+    "glossaryHTMLVerified": null
+  },
+  "acquisition": "authenticated_browser_export",
+  "limitations": [
+    "Export copied from authenticated generation result; API receipt not retrieved.",
+    "Source UI quality score 59/100 and Fail; raw schema requires controlled claim selection."
+  ]
+}

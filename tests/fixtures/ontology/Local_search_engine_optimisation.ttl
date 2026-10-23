@@ -1,0 +1,89 @@
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix gr: <http://purl.org/goodrelations/v1#>.
+@prefix xml: <http://www.w3.org/XML/1998/namespace>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pto: <http://www.productontology.org/id/>.
+@prefix schema: <http://schema.org/>.
+
+
+# OWL DL work-arounds (instead of imports)
+dc:contributor a owl:AnnotationProperty.
+dc:creator a owl:AnnotationProperty.
+dc:rights a owl:AnnotationProperty.
+dc:subject a owl:AnnotationProperty.
+dc:title a owl:AnnotationProperty.
+dcterms:license a owl:AnnotationProperty.
+wdrs:describedby a owl:AnnotationProperty.
+foaf:Document a owl:Class.
+foaf:homepage a owl:AnnotationProperty.
+foaf:page a owl:AnnotationProperty.
+foaf:primaryTopic a owl:AnnotationProperty.
+schema:Product a owl:Class.
+
+
+#OWL 1 DL compatibility of the OWL2 deprecated property
+owl:deprecated a owl:AnnotationProperty.
+
+<http://www.productontology.org/#> 	a owl:Ontology;
+	dc:title "PTO: The Product Types Ontology for Semantic Web-based E-Commerce"@en;
+	rdfs:comment """The Product Types Ontology: Good identifiers for product types based on Wikipedia
+
+This service provides GoodRelations-compatible class definitions for any type of product or service that has an entry in the English Wikipedia.
+
+Vocabulary:    http://www.productontology.org/#
+Namespace:     http://www.productontology.org/
+
+The Product Types Ontology is designed to be used in combination with GoodRelations, a standard vocabulary for the commercial aspects of offers.
+
+See http://purl.org/goodrelations/ for more information."""@en;
+	rdfs:label "The Product Types Ontology for Semantic Web-based E-Commerce"@en;
+	dc:contributor "The class abstracts and translations of labels are taken from Wikipedia, the free encyclopedia."@en;
+	dc:creator "Martin Hepp"@en;
+	dc:rights "The class definition texts are taken from Wikipedia, the free encyclopedia under a Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license, see http://creativecommons.org/licenses/by-sa/3.0/. Accordingly, all ontology class definitions provided in here are available under the very same license."@en;
+	dc:subject "E-Commerce, E-Business, GoodRelations, Ontology, Wikipedia, DBPedia"@en;
+	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/>;
+	rdfs:seeAlso <http://purl.org/goodrelations/v1>;
+	owl:imports <http://purl.org/goodrelations/v1>;
+	owl:versionInfo "2026-10-23T16:26:50.401814".
+
+<http://www.productontology.org/> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/#>.
+
+<http://www.productontology.org/doc/Local_search_engine_optimisation.rdf> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Local_search_engine_optimisation>.
+<http://www.productontology.org/doc/Local_search_engine_optimisation.ttl> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Local_search_engine_optimisation>.
+<http://www.productontology.org/doc/Local_search_engine_optimisation> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Local_search_engine_optimisation>.
+	
+<http://www.productontology.org/id/Local_search_engine_optimisation> a owl:Class;
+	rdfs:subClassOf gr:ProductOrService, schema:Product;
+	rdfs:label "Local search engine optimisation"@en;
+	rdfs:comment """Local search engine optimization (local SEO) is similar to (national) SEO in that it is also a process affecting the visibility of a website or a web page in a web search engine&#39;s unpaid results (known as its SERP, search engine results page) often referred to as &quot;natural&quot;, &quot;organic&quot;, or &quot;earned&quot; results. In general, the higher ranked on the search results page and more frequently a site appears in the search results list, the more visitors it will receive from the search engine&#39;s users; these visitors can then be converted into customers. Local SEO, however, differs in that it is focused on optimizing a business&#39;s online presence so that its web pages will be displayed by search engines when users enter local searches for its products or services. Ranking for local search involves a similar process to general SEO but includes some specific elements to rank a business for local search.
+For example, local SEO is all about &#39;optimizing&#39; your online presence to attract more business from relevant local searches. The majority of these searches take place on Google, Yahoo, Bing, Yandex, Baidu and other search engines but for better optimization in your local area you should also use sites like Yelp, Angie&#39;s List, LinkedIn, Local business directories, social media channels and others. 
+
+(Source: Wikipedia, the free encyclopedia, see http://en.wikipedia.org/wiki/Local_search_engine_optimisation)"""@en;
+	rdfs:isDefinedBy <http://www.productontology.org/#>;
+	rdfs:label "Локална оптимизация за търсачки"@bg; 
+	rdfs:label "Lokale Suchmaschinenoptimierung"@de; 
+	rdfs:label "लोकल सर्च इंजिन ऑप्टिमायझेशन"@mr; 
+	rdfs:label "Lokale zoekmachineoptimalisatie"@nl; 
+	rdfs:label "Yerel arama motoru optimizasyonu"@tr; 
+	rdfs:label "Локальна пошукова оптимізація"@uk; 
+	rdfs:label "Tối ưu hóa công cụ tìm kiếm cục bộ"@vi; 
+
+	rdfs:seeAlso <http://www.productontology.org/>,
+		<http://dbpedia.org/resource/Local_search_engine_optimisation>,
+		<http://www.productontology.org/doc/Local_search_engine_optimisation>;
+
+	wdrs:describedby <http://www.productontology.org/doc/Local_search_engine_optimisation.rdf>, <http://www.productontology.org/doc/Local_search_engine_optimisation.ttl>;
+	foaf:homepage <http://www.productontology.org/doc/Local_search_engine_optimisation.html>;
+	foaf:page <http://en.wikipedia.org/wiki/Local_search_engine_optimisation>.
+	

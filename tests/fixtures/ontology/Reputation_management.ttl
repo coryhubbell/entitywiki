@@ -1,0 +1,93 @@
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix gr: <http://purl.org/goodrelations/v1#>.
+@prefix xml: <http://www.w3.org/XML/1998/namespace>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pto: <http://www.productontology.org/id/>.
+@prefix schema: <http://schema.org/>.
+
+
+# OWL DL work-arounds (instead of imports)
+dc:contributor a owl:AnnotationProperty.
+dc:creator a owl:AnnotationProperty.
+dc:rights a owl:AnnotationProperty.
+dc:subject a owl:AnnotationProperty.
+dc:title a owl:AnnotationProperty.
+dcterms:license a owl:AnnotationProperty.
+wdrs:describedby a owl:AnnotationProperty.
+foaf:Document a owl:Class.
+foaf:homepage a owl:AnnotationProperty.
+foaf:page a owl:AnnotationProperty.
+foaf:primaryTopic a owl:AnnotationProperty.
+schema:Product a owl:Class.
+
+
+#OWL 1 DL compatibility of the OWL2 deprecated property
+owl:deprecated a owl:AnnotationProperty.
+
+<http://www.productontology.org/#> 	a owl:Ontology;
+	dc:title "PTO: The Product Types Ontology for Semantic Web-based E-Commerce"@en;
+	rdfs:comment """The Product Types Ontology: Good identifiers for product types based on Wikipedia
+
+This service provides GoodRelations-compatible class definitions for any type of product or service that has an entry in the English Wikipedia.
+
+Vocabulary:    http://www.productontology.org/#
+Namespace:     http://www.productontology.org/
+
+The Product Types Ontology is designed to be used in combination with GoodRelations, a standard vocabulary for the commercial aspects of offers.
+
+See http://purl.org/goodrelations/ for more information."""@en;
+	rdfs:label "The Product Types Ontology for Semantic Web-based E-Commerce"@en;
+	dc:contributor "The class abstracts and translations of labels are taken from Wikipedia, the free encyclopedia."@en;
+	dc:creator "Martin Hepp"@en;
+	dc:rights "The class definition texts are taken from Wikipedia, the free encyclopedia under a Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license, see http://creativecommons.org/licenses/by-sa/3.0/. Accordingly, all ontology class definitions provided in here are available under the very same license."@en;
+	dc:subject "E-Commerce, E-Business, GoodRelations, Ontology, Wikipedia, DBPedia"@en;
+	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/>;
+	rdfs:seeAlso <http://purl.org/goodrelations/v1>;
+	owl:imports <http://purl.org/goodrelations/v1>;
+	owl:versionInfo "2026-10-23T16:26:50.275584".
+
+<http://www.productontology.org/> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/#>.
+
+<http://www.productontology.org/doc/Reputation_management.rdf> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Reputation_management>.
+<http://www.productontology.org/doc/Reputation_management.ttl> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Reputation_management>.
+<http://www.productontology.org/doc/Reputation_management> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Reputation_management>.
+	
+<http://www.productontology.org/id/Reputation_management> a owl:Class;
+	rdfs:subClassOf gr:ProductOrService, schema:Product;
+	rdfs:label "Reputation management"@en;
+	rdfs:comment """Reputation management is the deliberate influence, control, enhancement, or concealment of an individual&#39;s or group&#39;s reputation. It is a marketing technique used to modify a person&#39;s or a company&#39;s reputation in a positive way. Online reputation management (ORM) involves overseeing and influencing the search engine results related to products and services.
+The ethical gray areas of online reputation management include the removal of mug shots from websites, the use of astroturfing in customer review sites, the censorship of complaints, and the use of search engine optimization tactics to influence results. In other cases, the ethical lines are clear; some reputation management companies are closely connected to websites that publish unverified and libelous statements about people. These unethical companies often impose exorbitant fees, amounting to thousands of dollars, to remove these posts – temporarily – from their websites.
+Online reputation management, or ORM, focuses on the management of product and service search results within the digital space. A variety of electronic markets and online communities, such as eBay, Amazon, and Alibaba, have ORM systems built in, and using effective control nodes can minimize the threat and protect systems from possible misuses and abuses by malicious nodes in decentralized overlay networks. Big Data has the potential to be employed in overseeing and enhancing the reputation of organizations. 
+
+(Source: Wikipedia, the free encyclopedia, see http://en.wikipedia.org/wiki/Reputation_management)"""@en;
+	rdfs:isDefinedBy <http://www.productontology.org/#>;
+	rdfs:label "إدارة السمعة"@ar; 
+	rdfs:label "Управление на репутацията"@bg; 
+	rdfs:label "Gestió de la reputació"@ca; 
+	rdfs:label "Reputation management"@da; 
+	rdfs:label "Reputación en línea"@es; 
+	rdfs:label "ניהול מוניטין"@he; 
+	rdfs:label "Pengelolaan reputasi"@id; 
+	rdfs:label "Reputazione (economia)"@it; 
+	rdfs:label "Zarządzanie reputacją"@pl; 
+	rdfs:label "Управление репутацией"@ru; 
+
+	rdfs:seeAlso <http://www.productontology.org/>,
+		<http://dbpedia.org/resource/Reputation_management>,
+		<http://www.productontology.org/doc/Reputation_management>;
+
+	wdrs:describedby <http://www.productontology.org/doc/Reputation_management.rdf>, <http://www.productontology.org/doc/Reputation_management.ttl>;
+	foaf:homepage <http://www.productontology.org/doc/Reputation_management.html>;
+	foaf:page <http://en.wikipedia.org/wiki/Reputation_management>.
+	

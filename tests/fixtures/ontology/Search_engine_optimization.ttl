@@ -1,0 +1,92 @@
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix gr: <http://purl.org/goodrelations/v1#>.
+@prefix xml: <http://www.w3.org/XML/1998/namespace>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pto: <http://www.productontology.org/id/>.
+@prefix schema: <http://schema.org/>.
+
+
+# OWL DL work-arounds (instead of imports)
+dc:contributor a owl:AnnotationProperty.
+dc:creator a owl:AnnotationProperty.
+dc:rights a owl:AnnotationProperty.
+dc:subject a owl:AnnotationProperty.
+dc:title a owl:AnnotationProperty.
+dcterms:license a owl:AnnotationProperty.
+wdrs:describedby a owl:AnnotationProperty.
+foaf:Document a owl:Class.
+foaf:homepage a owl:AnnotationProperty.
+foaf:page a owl:AnnotationProperty.
+foaf:primaryTopic a owl:AnnotationProperty.
+schema:Product a owl:Class.
+
+
+#OWL 1 DL compatibility of the OWL2 deprecated property
+owl:deprecated a owl:AnnotationProperty.
+
+<http://www.productontology.org/#> 	a owl:Ontology;
+	dc:title "PTO: The Product Types Ontology for Semantic Web-based E-Commerce"@en;
+	rdfs:comment """The Product Types Ontology: Good identifiers for product types based on Wikipedia
+
+This service provides GoodRelations-compatible class definitions for any type of product or service that has an entry in the English Wikipedia.
+
+Vocabulary:    http://www.productontology.org/#
+Namespace:     http://www.productontology.org/
+
+The Product Types Ontology is designed to be used in combination with GoodRelations, a standard vocabulary for the commercial aspects of offers.
+
+See http://purl.org/goodrelations/ for more information."""@en;
+	rdfs:label "The Product Types Ontology for Semantic Web-based E-Commerce"@en;
+	dc:contributor "The class abstracts and translations of labels are taken from Wikipedia, the free encyclopedia."@en;
+	dc:creator "Martin Hepp"@en;
+	dc:rights "The class definition texts are taken from Wikipedia, the free encyclopedia under a Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license, see http://creativecommons.org/licenses/by-sa/3.0/. Accordingly, all ontology class definitions provided in here are available under the very same license."@en;
+	dc:subject "E-Commerce, E-Business, GoodRelations, Ontology, Wikipedia, DBPedia"@en;
+	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/>;
+	rdfs:seeAlso <http://purl.org/goodrelations/v1>;
+	owl:imports <http://purl.org/goodrelations/v1>;
+	owl:versionInfo "2026-10-22T04:23:06.478917".
+
+<http://www.productontology.org/> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/#>.
+
+<http://www.productontology.org/doc/Search_engine_optimization.rdf> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Search_engine_optimization>.
+<http://www.productontology.org/doc/Search_engine_optimization.ttl> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Search_engine_optimization>.
+<http://www.productontology.org/doc/Search_engine_optimization> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Search_engine_optimization>.
+	
+<http://www.productontology.org/id/Search_engine_optimization> a owl:Class;
+	rdfs:subClassOf gr:ProductOrService, schema:Product;
+	rdfs:label "Search engine optimization"@en;
+	rdfs:comment """Search engine optimization (SEO) is the practice of improving the visibility and overall performance of websites and web pages in search engine results pages (SERPs). It focuses on increasing the quantity and quality of traffic from unpaid (organic) search results rather than paid advertising. SEO applies to multiple search formats, including web, image, video, news, academic, and vertical search engines, as well as AI-assisted search interfaces.
+SEO is commonly used as part of a broader digital marketing strategy and involves optimizing technical infrastructure, content relevance, and authority signals to improve rankings for user queries. The objective of SEO is to attract users who are actively searching for information, products, or services, thereby improving brand visibility, user engagement, and conversions. 
+
+(Source: Wikipedia, the free encyclopedia, see http://en.wikipedia.org/wiki/Search_engine_optimization)"""@en;
+	rdfs:isDefinedBy <http://www.productontology.org/#>;
+	rdfs:label "تحسين محركات البحث"@ar; 
+	rdfs:label "SEO"@az; 
+	rdfs:label "سئو"@azb; 
+	rdfs:label "Эҙләүҙе оптималлаштырыу"@ba; 
+	rdfs:label "Suachmaschinoptimiarung"@bar; 
+	rdfs:label "Пошукавая аптымізацыя"@be; 
+	rdfs:label "Пошукавая аптымізацыя"@be-tarask; 
+	rdfs:label "Оптимизация за търсачки"@bg; 
+	rdfs:label "सर्च इंजन ऑप्टिमाइजेशन"@bh; 
+	rdfs:label "Suchmaschinenoptimierung"@gsw; 
+
+	rdfs:seeAlso <http://www.productontology.org/>,
+		<http://dbpedia.org/resource/Search_engine_optimization>,
+		<http://www.productontology.org/doc/Search_engine_optimization>;
+
+	wdrs:describedby <http://www.productontology.org/doc/Search_engine_optimization.rdf>, <http://www.productontology.org/doc/Search_engine_optimization.ttl>;
+	foaf:homepage <http://www.productontology.org/doc/Search_engine_optimization.html>;
+	foaf:page <http://en.wikipedia.org/wiki/Search_engine_optimization>.
+	

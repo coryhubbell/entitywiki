@@ -1,0 +1,94 @@
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix gr: <http://purl.org/goodrelations/v1#>.
+@prefix xml: <http://www.w3.org/XML/1998/namespace>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pto: <http://www.productontology.org/id/>.
+@prefix schema: <http://schema.org/>.
+
+
+# OWL DL work-arounds (instead of imports)
+dc:contributor a owl:AnnotationProperty.
+dc:creator a owl:AnnotationProperty.
+dc:rights a owl:AnnotationProperty.
+dc:subject a owl:AnnotationProperty.
+dc:title a owl:AnnotationProperty.
+dcterms:license a owl:AnnotationProperty.
+wdrs:describedby a owl:AnnotationProperty.
+foaf:Document a owl:Class.
+foaf:homepage a owl:AnnotationProperty.
+foaf:page a owl:AnnotationProperty.
+foaf:primaryTopic a owl:AnnotationProperty.
+schema:Product a owl:Class.
+
+
+#OWL 1 DL compatibility of the OWL2 deprecated property
+owl:deprecated a owl:AnnotationProperty.
+
+<http://www.productontology.org/#> 	a owl:Ontology;
+	dc:title "PTO: The Product Types Ontology for Semantic Web-based E-Commerce"@en;
+	rdfs:comment """The Product Types Ontology: Good identifiers for product types based on Wikipedia
+
+This service provides GoodRelations-compatible class definitions for any type of product or service that has an entry in the English Wikipedia.
+
+Vocabulary:    http://www.productontology.org/#
+Namespace:     http://www.productontology.org/
+
+The Product Types Ontology is designed to be used in combination with GoodRelations, a standard vocabulary for the commercial aspects of offers.
+
+See http://purl.org/goodrelations/ for more information."""@en;
+	rdfs:label "The Product Types Ontology for Semantic Web-based E-Commerce"@en;
+	dc:contributor "The class abstracts and translations of labels are taken from Wikipedia, the free encyclopedia."@en;
+	dc:creator "Martin Hepp"@en;
+	dc:rights "The class definition texts are taken from Wikipedia, the free encyclopedia under a Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) license, see http://creativecommons.org/licenses/by-sa/3.0/. Accordingly, all ontology class definitions provided in here are available under the very same license."@en;
+	dc:subject "E-Commerce, E-Business, GoodRelations, Ontology, Wikipedia, DBPedia"@en;
+	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/>;
+	rdfs:seeAlso <http://purl.org/goodrelations/v1>;
+	owl:imports <http://purl.org/goodrelations/v1>;
+	owl:versionInfo "2026-10-21T20:27:49.583567".
+
+<http://www.productontology.org/> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/#>.
+
+<http://www.productontology.org/doc/Digital_marketing.rdf> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Digital_marketing>.
+<http://www.productontology.org/doc/Digital_marketing.ttl> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Digital_marketing>.
+<http://www.productontology.org/doc/Digital_marketing> a foaf:Document;
+	foaf:primaryTopic <http://www.productontology.org/id/Digital_marketing>.
+	
+<http://www.productontology.org/id/Digital_marketing> a owl:Class;
+	rdfs:subClassOf gr:ProductOrService, schema:Product;
+	rdfs:label "Digital marketing"@en;
+	rdfs:comment """Digital marketing is a component of marketing that uses digital technologies such as desktop computers, mobile phones, and other digital media platforms to promote products and services.
+It has significantly changed how brands and businesses use technology for marketing since the 1990s and 2000s. As digital platforms became increasingly incorporated into marketing plans and everyday life, and as people increasingly used digital devices instead of visiting physical shops, digital marketing campaigns became increasingly common, employing combinations of methods. These methods include search engine optimization (SEO), search engine marketing (SEM), content marketing, influencer marketing, content automation, campaign marketing, data-driven marketing, e-commerce marketing, social media marketing, social media optimization, e-mail direct marketing, display advertising, e-books, optical disks and games.
+ 
+Digital marketing also extends to non-Internet channels that provide digital media, such as television, mobile phones (SMS and MMS), callbacks, and on-hold mobile ringtones. This extension to non-Internet channels differentiates digital marketing from online marketing. 
+
+(Source: Wikipedia, the free encyclopedia, see http://en.wikipedia.org/wiki/Digital_marketing)"""@en;
+	rdfs:isDefinedBy <http://www.productontology.org/#>;
+	rdfs:label "تسويق إلكتروني"@ar; 
+	rdfs:label "Rəqəmsal marketinq"@az; 
+	rdfs:label "Дигитален маркетинг"@bg; 
+	rdfs:label "ডিজিটাল বিপণন"@bn; 
+	rdfs:label "Digitální marketing"@cs; 
+	rdfs:label "Digitalmarketing"@de; 
+	rdfs:label "Ψηφιακό μάρκετινγκ"@el; 
+	rdfs:label "Mercadeo digital"@es; 
+	rdfs:label "Marketin digital"@eu; 
+	rdfs:label "بازاریابی اینترنتی"@fa; 
+
+	rdfs:seeAlso <http://www.productontology.org/>,
+		<http://dbpedia.org/resource/Digital_marketing>,
+		<http://www.productontology.org/doc/Digital_marketing>;
+
+	wdrs:describedby <http://www.productontology.org/doc/Digital_marketing.rdf>, <http://www.productontology.org/doc/Digital_marketing.ttl>;
+	foaf:homepage <http://www.productontology.org/doc/Digital_marketing.html>;
+	foaf:page <http://en.wikipedia.org/wiki/Digital_marketing>.
+	

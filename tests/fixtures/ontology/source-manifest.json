@@ -1,0 +1,131 @@
+{
+  "collectedAt": "2026-10-23T16:26:48.970413+00:00",
+  "entries": [
+    {
+      "id": "Search_engine_optimization",
+      "url": "http://www.productontology.org/doc/Search_engine_optimization.ttl",
+      "collectedAt": "2026-10-23T16:26:48.970413+00:00",
+      "issuer": "Product Ontology",
+      "collector": "EntityWiki bounded HTTP adapter",
+      "allowedDestinations": [
+        "entitywiki",
+        "new-site",
+        "jsonld"
+      ],
+      "rights": "identifier links only; source description not republished",
+      "status": 200,
+      "finalUrl": "http://www.productontology.org/doc/Search_engine_optimization.ttl",
+      "contentType": "text/turtle; charset=utf-8",
+      "sha256": "9a71a927b9f15481b163ff4153e92617e1a179722a907c12c4f3b9b71016b9ed",
+      "bytes": 5599,
+      "bodyPath": "Search_engine_optimization.ttl",
+      "expectedClassUri": "http://www.productontology.org/id/Search_engine_optimization",
+      "classDeclared": true
+    },
+    {
+      "id": "Digital_marketing",
+      "url": "http://www.productontology.org/doc/Digital_marketing.ttl",
+      "collectedAt": "2026-10-23T16:26:48.970413+00:00",
+      "issuer": "Product Ontology",
+      "collector": "EntityWiki bounded HTTP adapter",
+      "allowedDestinations": [
+        "entitywiki",
+        "new-site",
+        "jsonld"
+      ],
+      "rights": "identifier links only; source description not republished",
+      "status": 200,
+      "finalUrl": "http://www.productontology.org/doc/Digital_marketing.ttl",
+      "contentType": "text/turtle; charset=utf-8",
+      "sha256": "7d484343a150ab8ba397f199e8b086a8920901a7991f63bfdef37796e2c6c733",
+      "bytes": 5747,
+      "bodyPath": "Digital_marketing.ttl",
+      "expectedClassUri": "http://www.productontology.org/id/Digital_marketing",
+      "classDeclared": true
+    },
+    {
+      "id": "Search_engine_marketing",
+      "url": "http://www.productontology.org/doc/Search_engine_marketing.ttl",
+      "collectedAt": "2026-10-23T16:26:48.970413+00:00",
+      "issuer": "Product Ontology",
+      "collector": "EntityWiki bounded HTTP adapter",
+      "allowedDestinations": [
+        "entitywiki",
+        "new-site",
+        "jsonld"
+      ],
+      "rights": "identifier links only; source description not republished",
+      "status": 200,
+      "finalUrl": "http://www.productontology.org/doc/Search_engine_marketing.ttl",
+      "contentType": "text/turtle; charset=utf-8",
+      "sha256": "f16cd7f24947c81faa8908c4aeb1accf4fe59c2029826137b20c0c954bff6f16",
+      "bytes": 5231,
+      "bodyPath": "Search_engine_marketing.ttl",
+      "expectedClassUri": "http://www.productontology.org/id/Search_engine_marketing",
+      "classDeclared": true
+    },
+    {
+      "id": "Social_media_marketing",
+      "url": "http://www.productontology.org/doc/Social_media_marketing.ttl",
+      "collectedAt": "2026-10-23T16:26:48.970413+00:00",
+      "issuer": "Product Ontology",
+      "collector": "EntityWiki bounded HTTP adapter",
+      "allowedDestinations": [
+        "entitywiki",
+        "new-site",
+        "jsonld"
+      ],
+      "rights": "identifier links only; source description not republished",
+      "status": 200,
+      "finalUrl": "http://www.productontology.org/doc/Social_media_marketing.ttl",
+      "contentType": "text/turtle; charset=utf-8",
+      "sha256": "002e7ed07b77feb13f75a16c1c34ad40ec53993ce8faad8957129e404d68f7a2",
+      "bytes": 5962,
+      "bodyPath": "Social_media_marketing.ttl",
+      "expectedClassUri": "http://www.productontology.org/id/Social_media_marketing",
+      "classDeclared": true
+    },
+    {
+      "id": "Reputation_management",
+      "url": "http://www.productontology.org/doc/Reputation_management.ttl",
+      "collectedAt": "2026-10-23T16:26:48.970413+00:00",
+      "issuer": "Product Ontology",
+      "collector": "EntityWiki bounded HTTP adapter",
+      "allowedDestinations": [
+        "entitywiki",
+        "new-site",
+        "jsonld"
+      ],
+      "rights": "identifier links only; source description not republished",
+      "status": 200,
+      "finalUrl": "http://www.productontology.org/doc/Reputation_management.ttl",
+      "contentType": "text/turtle; charset=utf-8",
+      "sha256": "46a36d70f3e294b33f3ff22fed552bcc966968e87e24fa9102bfb1ffccf9d6a9",
+      "bytes": 6109,
+      "bodyPath": "Reputation_management.ttl",
+      "expectedClassUri": "http://www.productontology.org/id/Reputation_management",
+      "classDeclared": true
+    },
+    {
+      "id": "Local_search_engine_optimisation",
+      "url": "http://www.productontology.org/doc/Local_search_engine_optimisation.ttl",
+      "collectedAt": "2026-10-23T16:26:48.970413+00:00",
+      "issuer": "Product Ontology",
+      "collector": "EntityWiki bounded HTTP adapter",
+      "allowedDestinations": [
+        "entitywiki",
+        "new-site",
+        "jsonld"
+      ],
+      "rights": "identifier links only; source description not republished",
+      "status": 200,
+      "finalUrl": "http://www.productontology.org/doc/Local_search_engine_optimisation.ttl",
+      "contentType": "text/turtle; charset=utf-8",
+      "sha256": "8aada27cae888a307f78674d6763a312f1bf92fa2aee61b6045dd56906b951c5",
+      "bytes": 6157,
+      "bodyPath": "Local_search_engine_optimisation.ttl",
+      "expectedClassUri": "http://www.productontology.org/id/Local_search_engine_optimisation",
+      "classDeclared": true
+    }
+  ]
+}

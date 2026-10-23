@@ -1,0 +1,192 @@
+{
+  "mappingVersion": "entitywiki-ontology-v1",
+  "policy": "Explicit service-level class membership, backed by a first-party offering definition and exact PTO owl:Class declaration. A reachable URL alone never accepts a mapping.",
+  "mappings": [
+    {
+      "id": "maxplaces-pto-technical-seo",
+      "subjectId": "maxplaces-service-technical-seo",
+      "subjectKind": "service",
+      "subjectLabel": "Technical SEO & AI Crawl Readiness",
+      "relation": "additionalType",
+      "targetClassUri": "http://www.productontology.org/id/Search_engine_optimization",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Search_engine_optimization",
+      "displayUrl": "http://www.productontology.org/doc/Search_engine_optimization",
+      "dbpediaResourceUri": "https://dbpedia.org/resource/Search_engine_optimization",
+      "dbpediaDisplayUrl": "https://dbpedia.org/page/Search_engine_optimization",
+      "dbpediaDecision": "candidate_topic_reference_not_exported_as_additionalType",
+      "semanticDecision": "accepted",
+      "evidenceIds": [
+        "seo",
+        "Search_engine_optimization"
+      ],
+      "rationale": "The company service definition explicitly describes optimizing website architecture, code, speed, crawling, indexing, and structured data. SEO is a supported broad class for this specific service, not an identity for the company.",
+      "reviewedBy": "EntityWiki pilot semantic review (AI-assisted; source comparison)",
+      "reviewedAt": "2026-10-23T16:26:48.970413+00:00",
+      "availability": {
+        "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+        "requestedUrl": "http://www.productontology.org/doc/Search_engine_optimization.ttl",
+        "finalUrl": "http://www.productontology.org/doc/Search_engine_optimization.ttl",
+        "httpStatus": 200,
+        "status": "class_declared",
+        "canonicalClassUri": "http://www.productontology.org/id/Search_engine_optimization",
+        "sha256": "9a71a927b9f15481b163ff4153e92617e1a179722a907c12c4f3b9b71016b9ed"
+      },
+      "licenseHandling": "Only identifiers and original assessment text exported. PTO/Wikipedia definition text not republished."
+    },
+    {
+      "id": "maxplaces-pto-digital-marketing",
+      "subjectId": "maxplaces-service-ai-visibility-accelerator",
+      "subjectKind": "service",
+      "subjectLabel": "AI Visibility Accelerator",
+      "relation": "additionalType",
+      "targetClassUri": "http://www.productontology.org/id/Digital_marketing",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Digital_marketing",
+      "displayUrl": "http://www.productontology.org/doc/Digital_marketing",
+      "dbpediaResourceUri": "https://dbpedia.org/resource/Digital_marketing",
+      "dbpediaDisplayUrl": "https://dbpedia.org/page/Digital_marketing",
+      "dbpediaDecision": "candidate_topic_reference_not_exported_as_additionalType",
+      "semanticDecision": "accepted",
+      "evidenceIds": [
+        "ai-info",
+        "Digital_marketing"
+      ],
+      "rationale": "The company-issued definition identifies AI Visibility Accelerator as a recurring retainer combining SEO, AEO, GEO, content, and authority work. Digital marketing is a supported broad class for that specific marketing service bundle, without typing the legal organization as a product.",
+      "reviewedBy": "EntityWiki pilot semantic review (AI-assisted; source comparison)",
+      "reviewedAt": "2026-10-23T16:26:48.970413+00:00",
+      "availability": {
+        "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+        "requestedUrl": "http://www.productontology.org/doc/Digital_marketing.ttl",
+        "finalUrl": "http://www.productontology.org/doc/Digital_marketing.ttl",
+        "httpStatus": 200,
+        "status": "class_declared",
+        "canonicalClassUri": "http://www.productontology.org/id/Digital_marketing",
+        "sha256": "7d484343a150ab8ba397f199e8b086a8920901a7991f63bfdef37796e2c6c733"
+      },
+      "licenseHandling": "Only identifiers and original assessment text exported. PTO/Wikipedia definition text not republished."
+    },
+    {
+      "id": "maxplaces-pto-paid-search",
+      "subjectId": "maxplaces-service-paid-search",
+      "subjectKind": "service",
+      "subjectLabel": "Paid Search & PPC",
+      "relation": "additionalType",
+      "targetClassUri": "http://www.productontology.org/id/Search_engine_marketing",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Search_engine_marketing",
+      "displayUrl": "http://www.productontology.org/doc/Search_engine_marketing",
+      "dbpediaResourceUri": "https://dbpedia.org/resource/Search_engine_marketing",
+      "dbpediaDisplayUrl": "https://dbpedia.org/page/Search_engine_marketing",
+      "dbpediaDecision": "candidate_topic_reference_not_exported_as_additionalType",
+      "semanticDecision": "accepted",
+      "evidenceIds": [
+        "search-marketing",
+        "Search_engine_marketing"
+      ],
+      "rationale": "The company offers paid search campaign management. Search engine marketing is the corresponding broader service class. No claim that the company is identical to the concept.",
+      "reviewedBy": "EntityWiki pilot semantic review (AI-assisted; source comparison)",
+      "reviewedAt": "2026-10-23T16:26:48.970413+00:00",
+      "availability": {
+        "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+        "requestedUrl": "http://www.productontology.org/doc/Search_engine_marketing.ttl",
+        "finalUrl": "http://www.productontology.org/doc/Search_engine_marketing.ttl",
+        "httpStatus": 200,
+        "status": "class_declared",
+        "canonicalClassUri": "http://www.productontology.org/id/Search_engine_marketing",
+        "sha256": "f16cd7f24947c81faa8908c4aeb1accf4fe59c2029826137b20c0c954bff6f16"
+      },
+      "licenseHandling": "Only identifiers and original assessment text exported. PTO/Wikipedia definition text not republished."
+    },
+    {
+      "id": "maxplaces-pto-social-brand",
+      "subjectId": "maxplaces-service-social-brand",
+      "subjectKind": "service",
+      "subjectLabel": "Social & Brand Signals",
+      "relation": "additionalType",
+      "targetClassUri": "http://www.productontology.org/id/Social_media_marketing",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Social_media_marketing",
+      "displayUrl": "http://www.productontology.org/doc/Social_media_marketing",
+      "dbpediaResourceUri": "https://dbpedia.org/resource/Social_media_marketing",
+      "dbpediaDisplayUrl": "https://dbpedia.org/page/Social_media_marketing",
+      "dbpediaDecision": "candidate_topic_reference_not_exported_as_additionalType",
+      "semanticDecision": "accepted",
+      "evidenceIds": [
+        "social-media",
+        "Social_media_marketing"
+      ],
+      "rationale": "The service page describes social media marketing and brand signal work. The class is accepted for the social marketing offering only, without extending it to every brand authority service.",
+      "reviewedBy": "EntityWiki pilot semantic review (AI-assisted; source comparison)",
+      "reviewedAt": "2026-10-23T16:26:48.970413+00:00",
+      "availability": {
+        "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+        "requestedUrl": "http://www.productontology.org/doc/Social_media_marketing.ttl",
+        "finalUrl": "http://www.productontology.org/doc/Social_media_marketing.ttl",
+        "httpStatus": 200,
+        "status": "class_declared",
+        "canonicalClassUri": "http://www.productontology.org/id/Social_media_marketing",
+        "sha256": "002e7ed07b77feb13f75a16c1c34ad40ec53993ce8faad8957129e404d68f7a2"
+      },
+      "licenseHandling": "Only identifiers and original assessment text exported. PTO/Wikipedia definition text not republished."
+    },
+    {
+      "id": "maxplaces-pto-reputation",
+      "subjectId": "maxplaces-service-reputation",
+      "subjectKind": "service",
+      "subjectLabel": "Reputation & Trust Signals",
+      "relation": "additionalType",
+      "targetClassUri": "http://www.productontology.org/id/Reputation_management",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Reputation_management",
+      "displayUrl": "http://www.productontology.org/doc/Reputation_management",
+      "dbpediaResourceUri": "https://dbpedia.org/resource/Reputation_management",
+      "dbpediaDisplayUrl": "https://dbpedia.org/page/Reputation_management",
+      "dbpediaDecision": "candidate_topic_reference_not_exported_as_additionalType",
+      "semanticDecision": "accepted",
+      "evidenceIds": [
+        "reputation",
+        "Reputation_management"
+      ],
+      "rationale": "The service page explicitly offers reputation monitoring and management. The broad class applies to this offering; Google reviews or ratings were not imported.",
+      "reviewedBy": "EntityWiki pilot semantic review (AI-assisted; source comparison)",
+      "reviewedAt": "2026-10-23T16:26:48.970413+00:00",
+      "availability": {
+        "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+        "requestedUrl": "http://www.productontology.org/doc/Reputation_management.ttl",
+        "finalUrl": "http://www.productontology.org/doc/Reputation_management.ttl",
+        "httpStatus": 200,
+        "status": "class_declared",
+        "canonicalClassUri": "http://www.productontology.org/id/Reputation_management",
+        "sha256": "46a36d70f3e294b33f3ff22fed552bcc966968e87e24fa9102bfb1ffccf9d6a9"
+      },
+      "licenseHandling": "Only identifiers and original assessment text exported. PTO/Wikipedia definition text not republished."
+    },
+    {
+      "id": "maxplaces-pto-local-seo",
+      "subjectId": "maxplaces-service-local-seo",
+      "subjectKind": "service",
+      "subjectLabel": "Local & Geo-Targeted SEO",
+      "relation": "additionalType",
+      "targetClassUri": "http://www.productontology.org/id/Local_search_engine_optimisation",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Local_search_engine_optimisation",
+      "displayUrl": "http://www.productontology.org/doc/Local_search_engine_optimisation",
+      "dbpediaResourceUri": "https://dbpedia.org/resource/Local_search_engine_optimisation",
+      "dbpediaDisplayUrl": "https://dbpedia.org/page/Local_search_engine_optimisation",
+      "dbpediaDecision": "candidate_topic_reference_not_exported_as_additionalType",
+      "semanticDecision": "accepted",
+      "evidenceIds": [
+        "local-search",
+        "Local_search_engine_optimisation"
+      ],
+      "rationale": "The service definition explicitly concerns geographically relevant search, map results, Google Business Profiles, local citations, and location entities. The British-spelled canonical Wikipedia title is retained unchanged.",
+      "reviewedBy": "EntityWiki pilot semantic review (AI-assisted; source comparison)",
+      "reviewedAt": "2026-10-23T16:26:48.970413+00:00",
+      "availability": {
+        "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+        "requestedUrl": "http://www.productontology.org/doc/Local_search_engine_optimisation.ttl",
+        "finalUrl": "http://www.productontology.org/doc/Local_search_engine_optimisation.ttl",
+        "httpStatus": 200,
+        "status": "class_declared",
+        "canonicalClassUri": "http://www.productontology.org/id/Local_search_engine_optimisation",
+        "sha256": "8aada27cae888a307f78674d6763a312f1bf92fa2aee61b6045dd56906b951c5"
+      },
+      "licenseHandling": "Only identifiers and original assessment text exported. PTO/Wikipedia definition text not republished."
+    }
+  ]
+}

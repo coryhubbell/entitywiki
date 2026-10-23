@@ -1,0 +1,5154 @@
+{
+  "contractVersion": "entitywiki.company/1",
+  "id": "rev_1457a83ebaa25934ec7241c23ee2b226",
+  "entityId": "ew_a3d1e72a720be01b2e5834cb",
+  "slug": "maxplaces-marketing",
+  "revision": 2,
+  "createdAt": "2026-10-23T16:55:19.409Z",
+  "acceptedAt": "2026-10-23T16:55:19.409Z",
+  "status": "accepted",
+  "org": {
+    "id": "ew_a3d1e72a720be01b2e5834cb",
+    "name": "MAXPlaces Marketing, LLC",
+    "legalName": "MAXPlaces Marketing, LLC",
+    "url": "https://www.maxplaces.com/",
+    "description": "MAXPlaces Marketing is a full-service, AI-forward digital marketing agency that helps businesses earn visibility in both traditional search results and AI-generated answers."
+  },
+  "sections": {
+    "overview": {
+      "key": "overview",
+      "title": "Overview",
+      "status": "sourced",
+      "reason": "Attributed source claims are recorded; factual verification is separate.",
+      "content": "The company describes itself as follows: MAXPlaces Marketing is a full-service, AI-forward digital marketing agency that helps businesses earn visibility in both traditional search results and AI-generated answers.",
+      "claimIds": [
+        "cl_965389f2ff33b8e203b5534f",
+        "cl_c8239bda5a044f9f3bee54ef",
+        "cl_4cbb6f20ca5569a4df6aa8c0",
+        "cl_6723b0d865fa7c5788f33225",
+        "cl_19077d27cdefd4d159f1b871"
+      ]
+    },
+    "company_identity": {
+      "key": "company_identity",
+      "title": "Company identity",
+      "status": "sourced",
+      "reason": "Attributed source claims are recorded; factual verification is separate.",
+      "content": "MAXPlaces Marketing, LLC\nMAXPlaces Marketing, LLC\nhttps://www.maxplaces.com/",
+      "claimIds": [
+        "cl_805e265ee1b6bf5a4d922925",
+        "cl_6be6117278f0ad6f6e486635",
+        "cl_9fde8cf25f2292b77c75123c",
+        "cl_f1b771f3a7368f4645be29b5",
+        "cl_40ff607599ce3272038fbb85",
+        "cl_db71774f57c7c5c3aa125f98",
+        "cl_eb4904f14978cb3cb4f7bb38",
+        "cl_c3e6a7af98e585c09de94a93",
+        "cl_659bb6f8ddd52900115eb2b6",
+        "cl_a959911920447ec4c73ff338",
+        "cl_d0ed3d5939e072194beb3d42",
+        "cl_98430f71c923f561cd337e8e",
+        "cl_153e5dc8e75aa3febc09a62f",
+        "cl_3b4b5541a75333ae6cf8d444",
+        "cl_8acfce6a9b36ad93140ab87f",
+        "cl_8849aa67427ac42950880246",
+        "cl_ea19ad00af151aa79c552d95",
+        "cl_d02355f8de2f8bdbe14b5e24",
+        "cl_f4d6429311d00f155e1dcf01",
+        "cl_7525adf7794fdfc1a121bda3",
+        "cl_4849eac5c4eff43e15248320",
+        "cl_7e6ef4da43ff5c769dbd1c6a",
+        "cl_4afb6f4306993f28b91a6711",
+        "cl_2dadf366c4b2f4035fb6fca1",
+        "cl_fbd92b1b6d9e2241788aa83b",
+        "cl_ca88889ea6ed56152de451a7",
+        "cl_f2216e6ca548ce1e2a0b8287"
+      ]
+    },
+    "history": {
+      "key": "history",
+      "title": "History",
+      "status": "needs_research",
+      "reason": "A publisher-declared founding date does not constitute a researched company history.",
+      "content": "foundingDate: 2014",
+      "claimIds": [
+        "cl_175ee5b9f7e62abbf0eb5601",
+        "cl_5096a787eb37cdca0949f392",
+        "cl_fc2591d324ede31b3b2b3c69"
+      ],
+      "nextAction": "Collect dated company-history or registry evidence."
+    },
+    "team": {
+      "key": "team",
+      "title": "Team",
+      "status": "sourced",
+      "reason": "Attributed source claims are recorded; factual verification is separate.",
+      "content": "name: Brian Winum\njobTitle: Digital Marketing Director\nname: Andrew Ruditser\njobTitle: Lead Technology Coordinator",
+      "claimIds": [
+        "cl_d781303009d21b5581774431",
+        "cl_bfe307a9358181d770b1988c",
+        "cl_e25a5867c40f205d1f02a681",
+        "cl_10e34d3d4e242e5b04cbc809"
+      ]
+    },
+    "services": {
+      "key": "services",
+      "title": "Services",
+      "status": "sourced",
+      "reason": "Attributed source claims are recorded; factual verification is separate.",
+      "content": "AI Readiness Audit\nAI Visibility Launchpad\nAI Visibility Accelerator\nPPC Ignition\nGenerative Engine Optimization (GEO)\nAnswer Engine Optimization (AEO)\nTechnical SEO & AI Crawl Readiness\nLocal & Geo-Targeted SEO\neCommerce SEO\nGoogle Penalty Recovery\nAuthority Building & Digital PR\nReputation & Trust Signals\nSocial & Brand Signals\nPaid Search & PPC\nConversion Rate Optimization\nVideo Marketing\nMAXPlaces Discovery Call",
+      "claimIds": [
+        "cl_8d3eb96ebe6d7a183403f59f",
+        "cl_b1e83d1ee112cd4a166f6121",
+        "cl_18735d0d3d76f1f1450ce628",
+        "cl_b96d9edc558140a16da4c819",
+        "cl_31be795671efaae9f9677b66",
+        "cl_482c4fde040e97d882c412f3",
+        "cl_f94d0329242bdd2005a8e709",
+        "cl_de9b55b83b4372ac1896d1b8",
+        "cl_33352f1cbb6353a556eddbdd",
+        "cl_2beef2345bf9c380284996d7",
+        "cl_0c4d2b50f7fc9c08e3a8c736",
+        "cl_37cb066ee78d43facb3d453d",
+        "cl_56104df0cf0601f46156747a",
+        "cl_0f6d670c3d308f48825fe762",
+        "cl_488f45b12dd81539b8699f5c",
+        "cl_9c967d3e0a7a368f2624a1ba",
+        "cl_a82424bf4cb0fc6c0bff2c4f",
+        "cl_054077f7340587301697bcae",
+        "cl_f2b894e3816ab918e8cfde33",
+        "cl_5a2d6947bf16e4eaf633d49b",
+        "cl_1d70cfb2441a37ca0b302e60",
+        "cl_ca15b67fd35f07c831437754",
+        "cl_395ecc6b26e549d7e543dab1",
+        "cl_3eb275e33f0af6bc50d85eb5",
+        "cl_bd3f962f035e55fbda251152",
+        "cl_ce1dbf6148d71126545b8509",
+        "cl_ed27a68360e63137bd0adfe4",
+        "cl_4e87059f38bc711509f81c92",
+        "cl_ac95b716e98fbcf1ff4b8bc7",
+        "cl_bdd3e922d3a19c3ec2c78c8d",
+        "cl_bff4736ada24750c3126b713",
+        "cl_eb49a74cef1f717e4b572b82",
+        "cl_58b9c864469cc32b606d2299",
+        "cl_b6c4e655f2c480c078f9d857",
+        "cl_d59945df37d32b98e254c5ab",
+        "cl_8f8a2dfaec3a327689637b8a",
+        "cl_bebed165d6f00dc7cd6b0f04",
+        "cl_a46cd77a76a1d0777a3fda02"
+      ]
+    },
+    "products": {
+      "key": "products",
+      "title": "Products and offers",
+      "status": "sourced",
+      "reason": "Attributed source claims are recorded; factual verification is separate.",
+      "content": "LLMS Amplifier™",
+      "claimIds": [
+        "cl_cb5fd4fd2afce9bf739be638"
+      ]
+    },
+    "framework": {
+      "key": "framework",
+      "title": "Framework and methodology",
+      "status": "sourced",
+      "reason": "Attributed source claims are recorded; factual verification is separate.",
+      "content": "framework: S.T.A.R. Framework\nframeworkDescription: The proprietary MAXPlaces methodology connecting Strategic Planning, Technical SEO, Authority Building, and Results Measurement into one AI search visibility system.\nframework: S.T.A.R. Framework℠\nframeworkDescription: MAXPlaces Marketing's proprietary methodology — Strategic Planning, Technical SEO, Authority Building, and Results Measurement — that organizes every engagement as one connected, measured loop rather than a set of disconnected tactics.",
+      "claimIds": [
+        "cl_1e73226d4529d76c1034217c",
+        "cl_c3f2d2a9c3ad7f0de104832b",
+        "cl_124184f63d509a9bd951f5e3",
+        "cl_b2ae32f632c0ceab4daecf7a",
+        "cl_9b0ead937226148c69464098",
+        "cl_ceb7a698a795e07feb7ef2e2"
+      ]
+    },
+    "locations": {
+      "key": "locations",
+      "title": "Locations",
+      "status": "conflicted",
+      "reason": "Conflicting values are retained and withheld individually.",
+      "content": "MAXPlaces — Farmingdale: 399 Conklin Street, Suite 305, Farmingdale, NY, 11735, US\nMAXPlaces — New York: 127 West 30th Street, 9th Floor #989, New York, NY, US. Postal code withheld pending resolution.",
+      "claimIds": [
+        "cl_4d3b14b49b6bd57169fbf46f",
+        "cl_18af91b0e246984c91d32a90",
+        "cl_5773c1686702388ad821432d",
+        "cl_ea8d4ec5a085b97901eb68cc",
+        "cl_77a31d81dca77ab9273ed141",
+        "cl_92d2b7a30eb2d9c1f95e4ef3",
+        "cl_bdf6d9f5a6efe5b427b199e5",
+        "cl_258ad656d16112f16ae0319a",
+        "cl_ae595939c5048e1cf12ffe39",
+        "cl_dc796b2692fce30454ee8152",
+        "cl_30e14372f024bbcd8844b851",
+        "cl_2eea15618783ab9e0d56ee84",
+        "cl_6109fc2dbdbec1a9b4a174f1",
+        "cl_ed638c0fbd5a13bc7e202ab7",
+        "cl_5a280e69f44437b55013a0c7",
+        "cl_cfcbcc1022ba2c721fdb91e5",
+        "cl_0f62cf68ee395c9c5bf1112e",
+        "cl_c4e7a4738154962ee371acff",
+        "cl_2b6bdd992ff4d282a1cf7a0e",
+        "cl_63f7b29630c06cd371bd90a3",
+        "cl_57991801888caecda1ec6f56",
+        "cl_b8670127c598cf72259dd3d7",
+        "cl_fac9fd1b4c233dcc7a81b022",
+        "cl_aac327e145e8ad3c66b6935a",
+        "cl_73bf9f647f6edfa4f1fe66b2",
+        "cl_65e3265f042b298a1493605b",
+        "cl_a3168e7f1dfe5f436cbbdd94",
+        "cl_527ac53f90b6a2a0de0ca4f2",
+        "cl_23e676cf05d0f6276e06d116",
+        "cl_af44e9a6f188ae6c17879315",
+        "cl_f52f763eb324d80d2deb3fea",
+        "cl_ca6fcceb3f745dff3ebc8315",
+        "cl_267a60c357ebac26c89aa265",
+        "cl_6ac47c9b447551d52823cafd",
+        "cl_55405c250eaf0e284beeae20",
+        "cl_8ec4f00ff652c5ee7167cc1a"
+      ],
+      "nextAction": "Collect a permitted authoritative or company-owned source for the missing claim."
+    },
+    "service_areas": {
+      "key": "service_areas",
+      "title": "Service areas",
+      "status": "sourced",
+      "reason": "Attributed source claims are recorded; factual verification is separate.",
+      "content": "areaServed: United States\nareaServed: Long Island, New York\nareaServed: New York City",
+      "claimIds": [
+        "cl_b4643e79db7f9a301b2441ac",
+        "cl_fa8d8e8a3f64c5948a8517f3",
+        "cl_c1f67b0a21e1ec057fc57a2c",
+        "cl_6a5aae872a77ebeee7514529",
+        "cl_c0af9c58de3e60385b8c4e3b",
+        "cl_4fdde21911d6db68d2ad7cc5",
+        "cl_00219bba60db6495da25b79f",
+        "cl_eab953be5f29e5f2a5ceb904",
+        "cl_ddca6709aefee510b255848c",
+        "cl_3fae3f20bf684062643a2194",
+        "cl_0c19b1ab15a4deb3d6b21543"
+      ]
+    },
+    "google_business_profile": {
+      "key": "google_business_profile",
+      "title": "Google Business Profile mapping",
+      "status": "sourced",
+      "reason": "Branch Place IDs are independently matched. Selected GBP categories remain unobserved and proposals remain separate.",
+      "content": "googlePlaceId: ChIJPS16WdEq6IkRUOAlFZwh45Y\ngooglePlaceId: ChIJQ0NGoBZZwokRkcPfab5d5rk",
+      "claimIds": [
+        "cl_80152697b08c16a363876c26",
+        "cl_14b0147110790b527c989aa8"
+      ],
+      "nextAction": "Read authorized GBP locations/categories and match name, domain, phone and address per branch."
+    },
+    "external_links": {
+      "key": "external_links",
+      "title": "External links",
+      "status": "needs_research",
+      "reason": "Publisher-nominated profiles are retained as candidates and are excluded from company sameAs until identity matching.",
+      "content": "27 publisher-nominated external profiles await independent destination matching.",
+      "claimIds": [
+        "cl_02471376e793ec151d3b2865",
+        "cl_8e27b14eacf6677af695746d",
+        "cl_1f786f48bac35aceb0b41046",
+        "cl_f709fca1633a7433c36b7f72",
+        "cl_1dd83dff98e5c9ecd6718b2a",
+        "cl_05c437d34047ba0c835b1dfd",
+        "cl_56224226d28868fed680234f",
+        "cl_30a21631416a7be60126e19b",
+        "cl_b5a38c2933242933583ca262",
+        "cl_6c003fcf3035e9b1508f33b9",
+        "cl_dd5b1cf7ed1ee8ca08c24b01",
+        "cl_da3f99c7220a4789c09663cc",
+        "cl_67ae1ff6e373b62103f61da2",
+        "cl_18163cf4bd8c33fab293f908",
+        "cl_37b78a83180455ea10abb9c3",
+        "cl_dbe765b6f319bd929fdd9702",
+        "cl_01873d9790ffdc161b44d43e",
+        "cl_ed1d77f1e97bdef2ba17adb2",
+        "cl_2e6abf7c93a7a3d6e9c9eb1f",
+        "cl_594b29183d22723aedb3d19e",
+        "cl_7df6612e0ca82d58f16c8b54",
+        "cl_677c62a2bff662095feab0d7",
+        "cl_d4ed975173bb19f914b59243",
+        "cl_5dc360173843e9b26bd5488b",
+        "cl_e6f207b997b2481496747ccd",
+        "cl_fefeb0173424a34c1d473258",
+        "cl_51b8a0757e881293308c3e09",
+        "cl_f52e34bb2170a57e45f64c17",
+        "cl_736062a397226e2667115be7",
+        "cl_1feef57fb1f6292fbaeb89b9",
+        "cl_01c0b6637fe884fe77f3e1c7",
+        "cl_d0929c729b93f672293ab938",
+        "cl_c18f18caa92b55c9c180eb81",
+        "cl_c8ac4aa9ab5bc39eab7d66e4",
+        "cl_db677a79ec746cef6abef446",
+        "cl_28afa3601010d9423aa2bb33",
+        "cl_68f211ab29a782adbd6044ac",
+        "cl_14452556a1327219c86c5aec",
+        "cl_f3942bbf860a12c4370c7f4a",
+        "cl_668f13108d1a0cf4014dd3c8",
+        "cl_eb45e2c4d10be7f07bebba61",
+        "cl_4fe91b75a53f24833bef0dac",
+        "cl_03d3480de81e7d41646f01d0",
+        "cl_030f13e5094967f5c7b82440",
+        "cl_00783135b52de1eb3fcab16d",
+        "cl_c82dc0ae9df086adb8ed6d06",
+        "cl_5e14621c6a8ae6137d03699b",
+        "cl_4523c01a310aa30b3ca3892d",
+        "cl_cf74f7e83fbfdcc037c9f418",
+        "cl_544e52b50f238fe536cd89ab",
+        "cl_72178ad711de7ef8262c4f9d",
+        "cl_9b52e4252e995f1b69635c66",
+        "cl_70a998af6c22d938bf79a99f",
+        "cl_eef4949152425dc95a67c9e4",
+        "cl_44df5aaa52b9168c6bf7cd06",
+        "cl_bc1b37bc642d28a617aeb527",
+        "cl_43f38e9a3423d95789d1677d",
+        "cl_96a4f617d9b93742caf21268",
+        "cl_1441629e929871fca32faa48",
+        "cl_7a269b76a4b86f3230dcba15",
+        "cl_dcd453f52ab7100c918e7a45",
+        "cl_f88de6b879792d340d19bc3f",
+        "cl_6a70b3841c2d5810870ccc78",
+        "cl_1c8b4527a470098d20db4a66",
+        "cl_a4b0ca57bcd7b3586dd6a000",
+        "cl_407d1490942c3aea7ac32bf2",
+        "cl_2d65bfaf8f245ac9ca4d16e2",
+        "cl_c65a5e3c97ccaa0711371815",
+        "cl_525dab675017d79cebf4f373",
+        "cl_c44aad7205032751d2e24d8d",
+        "cl_efd492d0b6becb95fcfecebf",
+        "cl_2cc100a6464babd5e3c16df2",
+        "cl_2bb412e500f77c41311fc668",
+        "cl_fb86c77b3ad8dc38771b0732",
+        "cl_4a75441139095b46ea3db906",
+        "cl_88f217694d028e4da0243aed",
+        "cl_512b8d9dc64500d5f6b9e3a0",
+        "cl_41de6983ff6b890f25b9bc0f",
+        "cl_be12a818c3625a2d148d569f",
+        "cl_16684f5a7efec9ae91cce1ff",
+        "cl_d5b699b73d92a9cbd69fdfe7",
+        "cl_8d4382170594fdf387f9459d",
+        "cl_31698de2ca164c87542a318d",
+        "cl_ab0b91d0629041522e214078",
+        "cl_2957ca0f7f5bcb7b15c6cbc2",
+        "cl_149226e22182770c16fa71cd",
+        "cl_2e39a50637b41881dfacabd4",
+        "cl_fec63edb502bfd08ba12a4ab",
+        "cl_661727f3c07faf8e4d7011b9",
+        "cl_45cff677a9d90ca806b842c4",
+        "cl_f6183fb1af68d1c5b03be723",
+        "cl_b66b610f620b037f1ebb03c1",
+        "cl_1f45e5bf8bf58693e200d41a",
+        "cl_e3f54d37bf8a827274c7fb04",
+        "cl_88f2e470333d25d9accb1abb",
+        "cl_dd947f79e6e4adea5936a8b6",
+        "cl_f2944ca2248fd6cc5027054f",
+        "cl_9a80576e89892a446ca83ab5",
+        "cl_07d9d39db5a33a946044f538",
+        "cl_bddfa7a77c478806cc832819",
+        "cl_81f80b713250458d1983d215",
+        "cl_2b64e206d45bf310d4cc0570",
+        "cl_8733beda69e90734b303bc03",
+        "cl_5817c3b7292515c326820bf8",
+        "cl_90c59c425cabdd1f18ddf03d"
+      ],
+      "nextAction": "Collect a permitted authoritative or company-owned source for the missing claim."
+    },
+    "ontology": {
+      "key": "ontology",
+      "title": "Ontology",
+      "status": "sourced",
+      "reason": "Offering-class mappings passed canonical authority and contextual-fit checks; company identity remains distinct.",
+      "content": "Search engine optimization: http://www.productontology.org/id/Search_engine_optimization (offering_type)\nDigital marketing: http://www.productontology.org/id/Digital_marketing (offering_type)\nSearch engine marketing: http://www.productontology.org/id/Search_engine_marketing (offering_type)\nSocial media marketing: http://www.productontology.org/id/Social_media_marketing (offering_type)\nReputation management: http://www.productontology.org/id/Reputation_management (offering_type)\nLocal search engine optimisation: http://www.productontology.org/id/Local_search_engine_optimisation (offering_type)",
+      "claimIds": [
+        "cl_c9bf82409ca12e58e7341de0",
+        "cl_5fe3e11586966a80e4400d41",
+        "cl_d36fc594bc07c41c82829934",
+        "cl_4e8a063bf2731cfbb40502f6",
+        "cl_b3b985d573c1435591db1e25",
+        "cl_c9f13e6b6b7b285c0c5a88f9"
+      ]
+    },
+    "gallery": {
+      "key": "gallery",
+      "title": "Gallery",
+      "status": "withheld",
+      "reason": "Source imagery has not been cleared for republication.",
+      "content": "Media remains withheld pending rights and caption review.",
+      "claimIds": [],
+      "nextAction": "Obtain publication permission for specific assets."
+    },
+    "sources": {
+      "key": "sources",
+      "title": "Sources and record history",
+      "status": "sourced",
+      "reason": "Immutable import provenance and collection limitations are recorded.",
+      "content": "Record rev_1457a83ebaa25934ec7241c23ee2b226; 20 permitted sources. SchemaBrains generation 304da57c-1e59-4c9b-ad8f-c8d331075156.",
+      "claimIds": [],
+      "nextAction": "Collect a permitted authoritative or company-owned source for the missing claim."
+    }
+  },
+  "entities": [
+    {
+      "id": "ew_a3d1e72a720be01b2e5834cb",
+      "kind": "organization",
+      "name": "MAXPlaces Marketing, LLC",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_26744bbea9b64676d136d078",
+        "src_ea388106fb50b42f781cf508",
+        "src_0f8436c326592f40ad2742f9",
+        "src_ea242062a9c73e2ad32b9bd7"
+      ]
+    },
+    {
+      "id": "ew_f7f9a92f2c65b5a0560e80b9",
+      "kind": "branch",
+      "name": "MAXPlaces — Farmingdale",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_26744bbea9b64676d136d078",
+        "src_ea388106fb50b42f781cf508",
+        "src_ea242062a9c73e2ad32b9bd7"
+      ]
+    },
+    {
+      "id": "ew_24eba72d5ca5022be40625d4",
+      "kind": "branch",
+      "name": "MAXPlaces — New York",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_26744bbea9b64676d136d078",
+        "src_ea388106fb50b42f781cf508"
+      ]
+    },
+    {
+      "id": "ew_721732b8b37ef69df9b85554",
+      "kind": "person",
+      "name": "Brian Winum",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ]
+    },
+    {
+      "id": "ew_83031a19ec0eb57ef63c1fb3",
+      "kind": "person",
+      "name": "Andrew Ruditser",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ]
+    },
+    {
+      "id": "ew_9c639342e8659a30d4369830",
+      "kind": "service",
+      "name": "AI Readiness Audit",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ]
+    },
+    {
+      "id": "ew_1dc93db2baff79baa7e43601",
+      "kind": "service",
+      "name": "AI Visibility Launchpad",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ]
+    },
+    {
+      "id": "ew_1f783f269365fb640ca7ff17",
+      "kind": "service",
+      "name": "AI Visibility Accelerator",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ]
+    },
+    {
+      "id": "ew_31bcc252fb21371cb44c59a8",
+      "kind": "service",
+      "name": "PPC Ignition",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ]
+    },
+    {
+      "id": "ew_8dd285157a58f1d045c84e25",
+      "kind": "service",
+      "name": "Generative Engine Optimization (GEO)",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ]
+    },
+    {
+      "id": "ew_66a7e29c7fbae779b3101cd5",
+      "kind": "service",
+      "name": "Answer Engine Optimization (AEO)",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ]
+    },
+    {
+      "id": "ew_9cfe75adba31c0b56335c9d7",
+      "kind": "service",
+      "name": "Technical SEO & AI Crawl Readiness",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ]
+    },
+    {
+      "id": "ew_121597c8da51c521c363a84c",
+      "kind": "service",
+      "name": "Local & Geo-Targeted SEO",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ]
+    },
+    {
+      "id": "ew_493e8ffffea39851eeed5c59",
+      "kind": "service",
+      "name": "eCommerce SEO",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ]
+    },
+    {
+      "id": "ew_178124c14877fb4102014fae",
+      "kind": "service",
+      "name": "Google Penalty Recovery",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ]
+    },
+    {
+      "id": "ew_f4698d97603e3a9d1501f609",
+      "kind": "service",
+      "name": "Authority Building & Digital PR",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ]
+    },
+    {
+      "id": "ew_4754098b43771f8de0c914a7",
+      "kind": "service",
+      "name": "Reputation & Trust Signals",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ]
+    },
+    {
+      "id": "ew_d2c7759fa798b79db0f2332f",
+      "kind": "service",
+      "name": "Social & Brand Signals",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ]
+    },
+    {
+      "id": "ew_4c81d5c84b3bfb7743de0312",
+      "kind": "service",
+      "name": "Paid Search & PPC",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ]
+    },
+    {
+      "id": "ew_67b3b738ae4dd69b035a9dc4",
+      "kind": "service",
+      "name": "Conversion Rate Optimization",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ]
+    },
+    {
+      "id": "ew_51618e80620186202a241201",
+      "kind": "service",
+      "name": "Video Marketing",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ]
+    },
+    {
+      "id": "ew_827e6dbfaf8cb064d5fc4275",
+      "kind": "service",
+      "name": "MAXPlaces Discovery Call",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ]
+    },
+    {
+      "id": "ew_21bbeaa73f19f27e54829778",
+      "kind": "product",
+      "name": "LLMS Amplifier™",
+      "parentId": "ew_a3d1e72a720be01b2e5834cb",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "cl_805e265ee1b6bf5a4d922925",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "name",
+      "value": "MAXPlaces Marketing, LLC",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/name"
+    },
+    {
+      "id": "cl_6be6117278f0ad6f6e486635",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/url"
+    },
+    {
+      "id": "cl_965389f2ff33b8e203b5534f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "description",
+      "value": "MAXPlaces Marketing is a full-service, AI-forward digital marketing agency that helps businesses earn visibility in both traditional search results and AI-generated answers.",
+      "section": "overview",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/description"
+    },
+    {
+      "id": "cl_9fde8cf25f2292b77c75123c",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "telephone",
+      "value": "855-629-6584",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/telephone"
+    },
+    {
+      "id": "cl_f1b771f3a7368f4645be29b5",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "email",
+      "value": "hello@maxplaces.com",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/email"
+    },
+    {
+      "id": "cl_40ff607599ce3272038fbb85",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "alternateName",
+      "value": "MAXPlaces",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/alternateName"
+    },
+    {
+      "id": "cl_db71774f57c7c5c3aa125f98",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "alternateName",
+      "value": "MAXPlaces Marketing",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/alternateName"
+    },
+    {
+      "id": "cl_b4643e79db7f9a301b2441ac",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "areaServed",
+      "value": "United States",
+      "section": "service_areas",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/areaServed"
+    },
+    {
+      "id": "cl_02471376e793ec151d3b2865",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.facebook.com/maxplacesmktg",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_8e27b14eacf6677af695746d",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.linkedin.com/company/maxplaces-marketing-llc/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_1f786f48bac35aceb0b41046",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://x.com/MAXPlaces",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_f709fca1633a7433c36b7f72",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.instagram.com/maxplaces/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_1dd83dff98e5c9ecd6718b2a",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.youtube.com/@Maxplaces",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_05c437d34047ba0c835b1dfd",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.bbb.org/us/ny/farmingdale/profile/digital-marketing/maxplaces-marketing-llc-0121-87153439",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_56224226d28868fed680234f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://clutch.co/profile/maxplaces-marketing",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_30a21631416a7be60126e19b",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.trustpilot.com/review/maxplaces.com",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_b5a38c2933242933583ca262",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://agencyvista.com/agency/maxplaces-marketing-llc/marketing-agency-farmingdale-new-york-us",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_6c003fcf3035e9b1508f33b9",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://podcasts.apple.com/us/podcast/maxvolume-the-future-of-search/id6823373821",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_dd5b1cf7ed1ee8ca08c24b01",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://open.spotify.com/show/3qMZFpnfdiMU2Uw7EEDvhw",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_da3f99c7220a4789c09663cc",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://music.amazon.com/podcasts/c3d6775f-6adb-4a8b-92f4-52bc77efa5c9/maxvolume-the-future-of-search",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_67ae1ff6e373b62103f61da2",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.iheart.com/podcast/1323-maxvolume-the-future-of-s-347743598",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_18163cf4bd8c33fab293f908",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://maxplacesmarketing.podbean.com/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_37b78a83180455ea10abb9c3",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://player.fm/series/3757188",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_dbe765b6f319bd929fdd9702",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.podchaser.com/podcasts/maxvolume-the-future-of-search-6645189",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_01873d9790ffdc161b44d43e",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.boomplaymusic.com/podcasts/150109",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_ed1d77f1e97bdef2ba17adb2",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.inc.com/profile/MAXPlaces-Marketing-LLC",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_2e6abf7c93a7a3d6e9c9eb1f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.mapquest.com/us/new-york/maxplaces-marketing-360170201",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_594b29183d22723aedb3d19e",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.yelp.com/biz/maxplaces-marketing-farmingdale",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_7df6612e0ca82d58f16c8b54",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://patch.com/new-york/farmingdale/directory/listing/23194/maxplaces-marketing-llc",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_677c62a2bff662095feab0d7",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://maxplacesmarketing.quora.com/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_d4ed975173bb19f914b59243",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.goodfirms.co/company/maxplaces-marketing-llc",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_5dc360173843e9b26bd5488b",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://local.yahoo.com/info-193724685-maxplaces-marketing-farmingdale/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_e6f207b997b2481496747ccd",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.crunchbase.com/organization/maxplaces-marketing-llc/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/1/sameAs"
+    },
+    {
+      "id": "cl_4d3b14b49b6bd57169fbf46f",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "streetAddress",
+      "value": "399 Conklin Street, Suite 305",
+      "section": "locations",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/location/address/streetAddress"
+    },
+    {
+      "id": "cl_18af91b0e246984c91d32a90",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressLocality",
+      "value": "Farmingdale",
+      "section": "locations",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/location/address/addressLocality"
+    },
+    {
+      "id": "cl_5773c1686702388ad821432d",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressRegion",
+      "value": "NY",
+      "section": "locations",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/location/address/addressRegion"
+    },
+    {
+      "id": "cl_ea8d4ec5a085b97901eb68cc",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "postalCode",
+      "value": "11735",
+      "section": "locations",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/location/address/postalCode"
+    },
+    {
+      "id": "cl_77a31d81dca77ab9273ed141",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressCountry",
+      "value": "US",
+      "section": "locations",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/location/address/addressCountry"
+    },
+    {
+      "id": "cl_92d2b7a30eb2d9c1f95e4ef3",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "streetAddress",
+      "value": "127 West 30th Street, 9th Floor #989",
+      "section": "locations",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/location/address/streetAddress"
+    },
+    {
+      "id": "cl_bdf6d9f5a6efe5b427b199e5",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "addressLocality",
+      "value": "New York",
+      "section": "locations",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/location/address/addressLocality"
+    },
+    {
+      "id": "cl_258ad656d16112f16ae0319a",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "addressRegion",
+      "value": "NY",
+      "section": "locations",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/location/address/addressRegion"
+    },
+    {
+      "id": "cl_ae595939c5048e1cf12ffe39",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "postalCode",
+      "value": "10017",
+      "section": "locations",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "conflicted",
+      "selected": false,
+      "reason": "Legacy 10001 versus current first-party 10017 remains unresolved; neither is selected.",
+      "locator": "/0/@graph/1/location/address/postalCode"
+    },
+    {
+      "id": "cl_dc796b2692fce30454ee8152",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "addressCountry",
+      "value": "US",
+      "section": "locations",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/location/address/addressCountry"
+    },
+    {
+      "id": "cl_d781303009d21b5581774431",
+      "subjectId": "ew_721732b8b37ef69df9b85554",
+      "predicate": "name",
+      "value": "Brian Winum",
+      "section": "team",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/employee/name"
+    },
+    {
+      "id": "cl_bfe307a9358181d770b1988c",
+      "subjectId": "ew_721732b8b37ef69df9b85554",
+      "predicate": "jobTitle",
+      "value": "Digital Marketing Director",
+      "section": "team",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/employee/jobTitle"
+    },
+    {
+      "id": "cl_e25a5867c40f205d1f02a681",
+      "subjectId": "ew_83031a19ec0eb57ef63c1fb3",
+      "predicate": "name",
+      "value": "Andrew Ruditser",
+      "section": "team",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/employee/name"
+    },
+    {
+      "id": "cl_10e34d3d4e242e5b04cbc809",
+      "subjectId": "ew_83031a19ec0eb57ef63c1fb3",
+      "predicate": "jobTitle",
+      "value": "Lead Technology Coordinator",
+      "section": "team",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/1/employee/jobTitle"
+    },
+    {
+      "id": "cl_eb4904f14978cb3cb4f7bb38",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "name",
+      "value": "MAXPlaces Marketing",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/name"
+    },
+    {
+      "id": "cl_c3e6a7af98e585c09de94a93",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "legalName",
+      "value": "MAXPlaces Marketing, LLC",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/legalName"
+    },
+    {
+      "id": "cl_659bb6f8ddd52900115eb2b6",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/url"
+    },
+    {
+      "id": "cl_c8239bda5a044f9f3bee54ef",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "description",
+      "value": "AI-forward SEO, search visibility, and digital marketing strategy for brands that need to be discovered, cited, and trusted.",
+      "section": "overview",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/description"
+    },
+    {
+      "id": "cl_a959911920447ec4c73ff338",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "telephone",
+      "value": "+1-855-629-6584",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/telephone"
+    },
+    {
+      "id": "cl_d0ed3d5939e072194beb3d42",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "email",
+      "value": "hello@maxplaces.com",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/email"
+    },
+    {
+      "id": "cl_175ee5b9f7e62abbf0eb5601",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "foundingDate",
+      "value": "2014",
+      "section": "history",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/foundingDate"
+    },
+    {
+      "id": "cl_98430f71c923f561cd337e8e",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "alternateName",
+      "value": "MAXPlaces",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/alternateName"
+    },
+    {
+      "id": "cl_153e5dc8e75aa3febc09a62f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "alternateName",
+      "value": "MAXPlaces Marketing LLC",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/alternateName"
+    },
+    {
+      "id": "cl_fa8d8e8a3f64c5948a8517f3",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "areaServed",
+      "value": "United States",
+      "section": "service_areas",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/areaServed"
+    },
+    {
+      "id": "cl_c1f67b0a21e1ec057fc57a2c",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "areaServed",
+      "value": "Long Island, New York",
+      "section": "service_areas",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/areaServed"
+    },
+    {
+      "id": "cl_6a5aae872a77ebeee7514529",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "areaServed",
+      "value": "New York City",
+      "section": "service_areas",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/areaServed"
+    },
+    {
+      "id": "cl_fefeb0173424a34c1d473258",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.facebook.com/maxplacesmktg",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_51b8a0757e881293308c3e09",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.linkedin.com/company/maxplaces-marketing-llc/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_f52e34bb2170a57e45f64c17",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://x.com/MAXPlaces",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_736062a397226e2667115be7",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.instagram.com/maxplaces/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_1feef57fb1f6292fbaeb89b9",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.youtube.com/@Maxplaces",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_01c0b6637fe884fe77f3e1c7",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.bbb.org/us/ny/farmingdale/profile/digital-marketing/maxplaces-marketing-llc-0121-87153439",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_d0929c729b93f672293ab938",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://clutch.co/profile/maxplaces-marketing",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_c18f18caa92b55c9c180eb81",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.trustpilot.com/review/maxplaces.com",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_c8ac4aa9ab5bc39eab7d66e4",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://agencyvista.com/agency/maxplaces-marketing-llc/marketing-agency-farmingdale-new-york-us",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_db677a79ec746cef6abef446",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://podcasts.apple.com/us/podcast/maxvolume-the-future-of-search/id6823373821",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_28afa3601010d9423aa2bb33",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://open.spotify.com/show/3qMZFpnfdiMU2Uw7EEDvhw",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_68f211ab29a782adbd6044ac",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://music.amazon.com/podcasts/c3d6775f-6adb-4a8b-92f4-52bc77efa5c9/maxvolume-the-future-of-search",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_14452556a1327219c86c5aec",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.iheart.com/podcast/1323-maxvolume-the-future-of-s-347743598",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_f3942bbf860a12c4370c7f4a",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://maxplacesmarketing.podbean.com/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_668f13108d1a0cf4014dd3c8",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://player.fm/series/3757188",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_eb45e2c4d10be7f07bebba61",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.podchaser.com/podcasts/maxvolume-the-future-of-search-6645189",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_4fe91b75a53f24833bef0dac",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.boomplaymusic.com/podcasts/150109",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_03d3480de81e7d41646f01d0",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.inc.com/profile/MAXPlaces-Marketing-LLC",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_030f13e5094967f5c7b82440",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.mapquest.com/us/new-york/maxplaces-marketing-360170201",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_00783135b52de1eb3fcab16d",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.yelp.com/biz/maxplaces-marketing-farmingdale",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_c82dc0ae9df086adb8ed6d06",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://patch.com/new-york/farmingdale/directory/listing/23194/maxplaces-marketing-llc",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_5e14621c6a8ae6137d03699b",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://maxplacesmarketing.quora.com/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_4523c01a310aa30b3ca3892d",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.goodfirms.co/company/maxplaces-marketing-llc",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_cf74f7e83fbfdcc037c9f418",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://local.yahoo.com/info-193724685-maxplaces-marketing-farmingdale/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_544e52b50f238fe536cd89ab",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.crunchbase.com/organization/maxplaces-marketing-llc/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_30e14372f024bbcd8844b851",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "streetAddress",
+      "value": "399 Conklin St, Suite 305",
+      "section": "locations",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained without replacing the selected branch field.",
+      "locator": "/0/@graph/0/location/address/streetAddress"
+    },
+    {
+      "id": "cl_2eea15618783ab9e0d56ee84",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressLocality",
+      "value": "Farmingdale",
+      "section": "locations",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressLocality"
+    },
+    {
+      "id": "cl_6109fc2dbdbec1a9b4a174f1",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressRegion",
+      "value": "NY",
+      "section": "locations",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressRegion"
+    },
+    {
+      "id": "cl_ed638c0fbd5a13bc7e202ab7",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "postalCode",
+      "value": "11735",
+      "section": "locations",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/postalCode"
+    },
+    {
+      "id": "cl_5a280e69f44437b55013a0c7",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressCountry",
+      "value": "US",
+      "section": "locations",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressCountry"
+    },
+    {
+      "id": "cl_cfcbcc1022ba2c721fdb91e5",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "streetAddress",
+      "value": "127 West 30th St, 9th Floor #989",
+      "section": "locations",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained without replacing the selected branch field.",
+      "locator": "/0/@graph/0/location/address/streetAddress"
+    },
+    {
+      "id": "cl_0f62cf68ee395c9c5bf1112e",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "addressLocality",
+      "value": "New York",
+      "section": "locations",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressLocality"
+    },
+    {
+      "id": "cl_c4e7a4738154962ee371acff",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "addressRegion",
+      "value": "NY",
+      "section": "locations",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressRegion"
+    },
+    {
+      "id": "cl_2b6bdd992ff4d282a1cf7a0e",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "postalCode",
+      "value": "10017",
+      "section": "locations",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "conflicted",
+      "selected": false,
+      "reason": "Legacy 10001 versus current first-party 10017 remains unresolved; neither is selected.",
+      "locator": "/0/@graph/0/location/address/postalCode"
+    },
+    {
+      "id": "cl_63f7b29630c06cd371bd90a3",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "addressCountry",
+      "value": "US",
+      "section": "locations",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressCountry"
+    },
+    {
+      "id": "cl_3b4b5541a75333ae6cf8d444",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "name",
+      "value": "MAXPlaces Marketing",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/name"
+    },
+    {
+      "id": "cl_8acfce6a9b36ad93140ab87f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "legalName",
+      "value": "MAXPlaces Marketing, LLC",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/legalName"
+    },
+    {
+      "id": "cl_8849aa67427ac42950880246",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/url"
+    },
+    {
+      "id": "cl_4cbb6f20ca5569a4df6aa8c0",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "description",
+      "value": "AI-forward SEO, search visibility, and digital marketing strategy for brands that need to be discovered, cited, and trusted.",
+      "section": "overview",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/description"
+    },
+    {
+      "id": "cl_ea19ad00af151aa79c552d95",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "telephone",
+      "value": "+1-855-629-6584",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/telephone"
+    },
+    {
+      "id": "cl_d02355f8de2f8bdbe14b5e24",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "email",
+      "value": "hello@maxplaces.com",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/email"
+    },
+    {
+      "id": "cl_5096a787eb37cdca0949f392",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "foundingDate",
+      "value": "2014",
+      "section": "history",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/@graph/0/foundingDate"
+    },
+    {
+      "id": "cl_f4d6429311d00f155e1dcf01",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "alternateName",
+      "value": "MAXPlaces",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/alternateName"
+    },
+    {
+      "id": "cl_7525adf7794fdfc1a121bda3",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "alternateName",
+      "value": "MAXPlaces Marketing LLC",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/alternateName"
+    },
+    {
+      "id": "cl_c0af9c58de3e60385b8c4e3b",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "areaServed",
+      "value": "United States",
+      "section": "service_areas",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/areaServed"
+    },
+    {
+      "id": "cl_4fdde21911d6db68d2ad7cc5",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "areaServed",
+      "value": "Long Island, New York",
+      "section": "service_areas",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/areaServed"
+    },
+    {
+      "id": "cl_00219bba60db6495da25b79f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "areaServed",
+      "value": "New York City",
+      "section": "service_areas",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/areaServed"
+    },
+    {
+      "id": "cl_72178ad711de7ef8262c4f9d",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.facebook.com/maxplacesmktg",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_9b52e4252e995f1b69635c66",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.linkedin.com/company/maxplaces-marketing-llc/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_70a998af6c22d938bf79a99f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://x.com/MAXPlaces",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_eef4949152425dc95a67c9e4",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.instagram.com/maxplaces/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_44df5aaa52b9168c6bf7cd06",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.youtube.com/@Maxplaces",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_bc1b37bc642d28a617aeb527",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.bbb.org/us/ny/farmingdale/profile/digital-marketing/maxplaces-marketing-llc-0121-87153439",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_43f38e9a3423d95789d1677d",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://clutch.co/profile/maxplaces-marketing",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_96a4f617d9b93742caf21268",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.trustpilot.com/review/maxplaces.com",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_1441629e929871fca32faa48",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://agencyvista.com/agency/maxplaces-marketing-llc/marketing-agency-farmingdale-new-york-us",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_7a269b76a4b86f3230dcba15",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://podcasts.apple.com/us/podcast/maxvolume-the-future-of-search/id6823373821",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_dcd453f52ab7100c918e7a45",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://open.spotify.com/show/3qMZFpnfdiMU2Uw7EEDvhw",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_f88de6b879792d340d19bc3f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://music.amazon.com/podcasts/c3d6775f-6adb-4a8b-92f4-52bc77efa5c9/maxvolume-the-future-of-search",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_6a70b3841c2d5810870ccc78",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.iheart.com/podcast/1323-maxvolume-the-future-of-s-347743598",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_1c8b4527a470098d20db4a66",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://maxplacesmarketing.podbean.com/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_a4b0ca57bcd7b3586dd6a000",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://player.fm/series/3757188",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_407d1490942c3aea7ac32bf2",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.podchaser.com/podcasts/maxvolume-the-future-of-search-6645189",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_2d65bfaf8f245ac9ca4d16e2",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.boomplaymusic.com/podcasts/150109",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_c65a5e3c97ccaa0711371815",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.inc.com/profile/MAXPlaces-Marketing-LLC",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_525dab675017d79cebf4f373",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.mapquest.com/us/new-york/maxplaces-marketing-360170201",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_c44aad7205032751d2e24d8d",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.yelp.com/biz/maxplaces-marketing-farmingdale",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_efd492d0b6becb95fcfecebf",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://patch.com/new-york/farmingdale/directory/listing/23194/maxplaces-marketing-llc",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_2cc100a6464babd5e3c16df2",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://maxplacesmarketing.quora.com/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_2bb412e500f77c41311fc668",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.goodfirms.co/company/maxplaces-marketing-llc",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_fb86c77b3ad8dc38771b0732",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://local.yahoo.com/info-193724685-maxplaces-marketing-farmingdale/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_4a75441139095b46ea3db906",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.crunchbase.com/organization/maxplaces-marketing-llc/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/@graph/0/sameAs"
+    },
+    {
+      "id": "cl_57991801888caecda1ec6f56",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "streetAddress",
+      "value": "399 Conklin St, Suite 305",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained without replacing the selected branch field.",
+      "locator": "/0/@graph/0/location/address/streetAddress"
+    },
+    {
+      "id": "cl_b8670127c598cf72259dd3d7",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressLocality",
+      "value": "Farmingdale",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressLocality"
+    },
+    {
+      "id": "cl_fac9fd1b4c233dcc7a81b022",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressRegion",
+      "value": "NY",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressRegion"
+    },
+    {
+      "id": "cl_aac327e145e8ad3c66b6935a",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "postalCode",
+      "value": "11735",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/postalCode"
+    },
+    {
+      "id": "cl_73bf9f647f6edfa4f1fe66b2",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressCountry",
+      "value": "US",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressCountry"
+    },
+    {
+      "id": "cl_65e3265f042b298a1493605b",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "streetAddress",
+      "value": "127 West 30th St, 9th Floor #989",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained without replacing the selected branch field.",
+      "locator": "/0/@graph/0/location/address/streetAddress"
+    },
+    {
+      "id": "cl_a3168e7f1dfe5f436cbbdd94",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "addressLocality",
+      "value": "New York",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressLocality"
+    },
+    {
+      "id": "cl_527ac53f90b6a2a0de0ca4f2",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "addressRegion",
+      "value": "NY",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressRegion"
+    },
+    {
+      "id": "cl_23e676cf05d0f6276e06d116",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "postalCode",
+      "value": "10017",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "conflicted",
+      "selected": false,
+      "reason": "Legacy 10001 versus current first-party 10017 remains unresolved; neither is selected.",
+      "locator": "/0/@graph/0/location/address/postalCode"
+    },
+    {
+      "id": "cl_af44e9a6f188ae6c17879315",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "addressCountry",
+      "value": "US",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/0/location/address/addressCountry"
+    },
+    {
+      "id": "cl_4849eac5c4eff43e15248320",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "name",
+      "value": "MAXPlaces Marketing",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/name"
+    },
+    {
+      "id": "cl_6723b0d865fa7c5788f33225",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "description",
+      "value": "A full-service, AI-forward digital marketing agency with offices in Farmingdale, NY and New York City, specializing in AI search visibility (GEO and AEO), SEO, authority building, and paid search for mid-market to enterprise clients across all industries.",
+      "section": "overview",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/description"
+    },
+    {
+      "id": "cl_7e6ef4da43ff5c769dbd1c6a",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "alternateName",
+      "value": "MAXPlaces",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/alternateName"
+    },
+    {
+      "id": "cl_4afb6f4306993f28b91a6711",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "alternateName",
+      "value": "MAXPlaces Marketing, LLC",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/alternateName"
+    },
+    {
+      "id": "cl_88f217694d028e4da0243aed",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.facebook.com/maxplacesmktg",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_512b8d9dc64500d5f6b9e3a0",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.linkedin.com/company/maxplaces-marketing-llc/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_41de6983ff6b890f25b9bc0f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://x.com/MAXPlaces",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_be12a818c3625a2d148d569f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.instagram.com/maxplaces/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_16684f5a7efec9ae91cce1ff",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.youtube.com/@Maxplaces",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_d5b699b73d92a9cbd69fdfe7",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.bbb.org/us/ny/farmingdale/profile/digital-marketing/maxplaces-marketing-llc-0121-87153439",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_8d4382170594fdf387f9459d",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://clutch.co/profile/maxplaces-marketing",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_31698de2ca164c87542a318d",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.trustpilot.com/review/maxplaces.com",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_ab0b91d0629041522e214078",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://agencyvista.com/agency/maxplaces-marketing-llc/marketing-agency-farmingdale-new-york-us",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_2957ca0f7f5bcb7b15c6cbc2",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://podcasts.apple.com/us/podcast/maxvolume-the-future-of-search/id6823373821",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_149226e22182770c16fa71cd",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://open.spotify.com/show/3qMZFpnfdiMU2Uw7EEDvhw",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_2e39a50637b41881dfacabd4",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://music.amazon.com/podcasts/c3d6775f-6adb-4a8b-92f4-52bc77efa5c9/maxvolume-the-future-of-search",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_fec63edb502bfd08ba12a4ab",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.iheart.com/podcast/1323-maxvolume-the-future-of-s-347743598",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_661727f3c07faf8e4d7011b9",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://maxplacesmarketing.podbean.com/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_45cff677a9d90ca806b842c4",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://player.fm/series/3757188",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_f6183fb1af68d1c5b03be723",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.podchaser.com/podcasts/maxvolume-the-future-of-search-6645189",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_b66b610f620b037f1ebb03c1",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.boomplaymusic.com/podcasts/150109",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_1f45e5bf8bf58693e200d41a",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.inc.com/profile/MAXPlaces-Marketing-LLC",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_e3f54d37bf8a827274c7fb04",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.mapquest.com/us/new-york/maxplaces-marketing-360170201",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_88f2e470333d25d9accb1abb",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.yelp.com/biz/maxplaces-marketing-farmingdale",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_dd947f79e6e4adea5936a8b6",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://patch.com/new-york/farmingdale/directory/listing/23194/maxplaces-marketing-llc",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_f2944ca2248fd6cc5027054f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://maxplacesmarketing.quora.com/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_9a80576e89892a446ca83ab5",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.goodfirms.co/company/maxplaces-marketing-llc",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_07d9d39db5a33a946044f538",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://local.yahoo.com/info-193724685-maxplaces-marketing-farmingdale/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_bddfa7a77c478806cc832819",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.crunchbase.com/organization/maxplaces-marketing-llc/",
+      "section": "external_links",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Publisher-nominated external profile; destination identity check pending.",
+      "locator": "/0/sameAs"
+    },
+    {
+      "id": "cl_2dadf366c4b2f4035fb6fca1",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained; the selected first-party claim is unchanged.",
+      "locator": "/0/publisher/url"
+    },
+    {
+      "id": "cl_fbd92b1b6d9e2241788aa83b",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "name",
+      "value": "MAXPlaces Marketing",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/name"
+    },
+    {
+      "id": "cl_ca88889ea6ed56152de451a7",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/url"
+    },
+    {
+      "id": "cl_19077d27cdefd4d159f1b871",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "description",
+      "value": "MAXPlaces Marketing unifies GEO, AEO, and SEO under one framework — engineering mid-market and enterprise brands to be discovered, cited, and trusted across Google AI Overviews, ChatGPT, and Perplexity. Long Island, NYC, nationwide.",
+      "section": "overview",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/description"
+    },
+    {
+      "id": "cl_f2216e6ca548ce1e2a0b8287",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "email",
+      "value": "hello@maxplaces.com",
+      "section": "company_identity",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/email"
+    },
+    {
+      "id": "cl_fc2591d324ede31b3b2b3c69",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "foundingDate",
+      "value": "2014",
+      "section": "history",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/foundingDate"
+    },
+    {
+      "id": "cl_eab953be5f29e5f2a5ceb904",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "areaServed",
+      "value": "Farmingdale",
+      "section": "service_areas",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/areaServed"
+    },
+    {
+      "id": "cl_ddca6709aefee510b255848c",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "areaServed",
+      "value": "United States",
+      "section": "service_areas",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/areaServed"
+    },
+    {
+      "id": "cl_3fae3f20bf684062643a2194",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "areaServed",
+      "value": "Long Island, New York",
+      "section": "service_areas",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/areaServed"
+    },
+    {
+      "id": "cl_0c19b1ab15a4deb3d6b21543",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "areaServed",
+      "value": "New York City",
+      "section": "service_areas",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/areaServed"
+    },
+    {
+      "id": "cl_81f80b713250458d1983d215",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.facebook.com/maxplacesmktg",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/sameAs"
+    },
+    {
+      "id": "cl_2b64e206d45bf310d4cc0570",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.linkedin.com/company/maxplaces-marketing-llc",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/sameAs"
+    },
+    {
+      "id": "cl_8733beda69e90734b303bc03",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://x.com/MAXPlaces",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/sameAs"
+    },
+    {
+      "id": "cl_5817c3b7292515c326820bf8",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.instagram.com/maxplaces",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/sameAs"
+    },
+    {
+      "id": "cl_90c59c425cabdd1f18ddf03d",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "publisherDeclaredProfile",
+      "value": "https://www.youtube.com/@Maxplaces",
+      "section": "external_links",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/sameAs"
+    },
+    {
+      "id": "cl_f52f763eb324d80d2deb3fea",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "streetAddress",
+      "value": "399 Conklin St, Suite 305",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Alternative source wording retained without replacing the selected branch field.",
+      "locator": "/@graph/2/location/address/streetAddress"
+    },
+    {
+      "id": "cl_ca6fcceb3f745dff3ebc8315",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressLocality",
+      "value": "Farmingdale",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/location/address/addressLocality"
+    },
+    {
+      "id": "cl_267a60c357ebac26c89aa265",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressRegion",
+      "value": "NY",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/location/address/addressRegion"
+    },
+    {
+      "id": "cl_6ac47c9b447551d52823cafd",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "postalCode",
+      "value": "11735",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/location/address/postalCode"
+    },
+    {
+      "id": "cl_55405c250eaf0e284beeae20",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "addressCountry",
+      "value": "US",
+      "section": "locations",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "state": "candidate",
+      "selected": false,
+      "reason": "Derived generation observation retained for comparison; first-party evidence determines selected pilot facts.",
+      "locator": "/@graph/2/location/address/addressCountry"
+    },
+    {
+      "id": "cl_8d3eb96ebe6d7a183403f59f",
+      "subjectId": "ew_9c639342e8659a30d4369830",
+      "predicate": "name",
+      "value": "AI Readiness Audit",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/0/name"
+    },
+    {
+      "id": "cl_b1e83d1ee112cd4a166f6121",
+      "subjectId": "ew_9c639342e8659a30d4369830",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/ai-readiness-audit/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/0/url"
+    },
+    {
+      "id": "cl_18735d0d3d76f1f1450ce628",
+      "subjectId": "ew_1dc93db2baff79baa7e43601",
+      "predicate": "name",
+      "value": "AI Visibility Launchpad",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/1/name"
+    },
+    {
+      "id": "cl_b96d9edc558140a16da4c819",
+      "subjectId": "ew_1f783f269365fb640ca7ff17",
+      "predicate": "name",
+      "value": "AI Visibility Accelerator",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/2/name"
+    },
+    {
+      "id": "cl_31be795671efaae9f9677b66",
+      "subjectId": "ew_31bcc252fb21371cb44c59a8",
+      "predicate": "name",
+      "value": "PPC Ignition",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/3/name"
+    },
+    {
+      "id": "cl_482c4fde040e97d882c412f3",
+      "subjectId": "ew_8dd285157a58f1d045c84e25",
+      "predicate": "name",
+      "value": "Generative Engine Optimization (GEO)",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/4/name"
+    },
+    {
+      "id": "cl_f94d0329242bdd2005a8e709",
+      "subjectId": "ew_8dd285157a58f1d045c84e25",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/generative-engine-optimization/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/4/url"
+    },
+    {
+      "id": "cl_de9b55b83b4372ac1896d1b8",
+      "subjectId": "ew_66a7e29c7fbae779b3101cd5",
+      "predicate": "name",
+      "value": "Answer Engine Optimization (AEO)",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/5/name"
+    },
+    {
+      "id": "cl_33352f1cbb6353a556eddbdd",
+      "subjectId": "ew_66a7e29c7fbae779b3101cd5",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/answer-engine-optimization/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/5/url"
+    },
+    {
+      "id": "cl_2beef2345bf9c380284996d7",
+      "subjectId": "ew_9cfe75adba31c0b56335c9d7",
+      "predicate": "name",
+      "value": "Technical SEO & AI Crawl Readiness",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/6/name"
+    },
+    {
+      "id": "cl_0c4d2b50f7fc9c08e3a8c736",
+      "subjectId": "ew_9cfe75adba31c0b56335c9d7",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/search-engine-optimization/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/6/url"
+    },
+    {
+      "id": "cl_37cb066ee78d43facb3d453d",
+      "subjectId": "ew_121597c8da51c521c363a84c",
+      "predicate": "name",
+      "value": "Local & Geo-Targeted SEO",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/7/name"
+    },
+    {
+      "id": "cl_56104df0cf0601f46156747a",
+      "subjectId": "ew_121597c8da51c521c363a84c",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/local-search-marketing/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/7/url"
+    },
+    {
+      "id": "cl_0f6d670c3d308f48825fe762",
+      "subjectId": "ew_493e8ffffea39851eeed5c59",
+      "predicate": "name",
+      "value": "eCommerce SEO",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/8/name"
+    },
+    {
+      "id": "cl_488f45b12dd81539b8699f5c",
+      "subjectId": "ew_493e8ffffea39851eeed5c59",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/ecommerce-seo/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/8/url"
+    },
+    {
+      "id": "cl_9c967d3e0a7a368f2624a1ba",
+      "subjectId": "ew_178124c14877fb4102014fae",
+      "predicate": "name",
+      "value": "Google Penalty Recovery",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/9/name"
+    },
+    {
+      "id": "cl_a82424bf4cb0fc6c0bff2c4f",
+      "subjectId": "ew_178124c14877fb4102014fae",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/google-penalty-recovery/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/9/url"
+    },
+    {
+      "id": "cl_054077f7340587301697bcae",
+      "subjectId": "ew_f4698d97603e3a9d1501f609",
+      "predicate": "name",
+      "value": "Authority Building & Digital PR",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/10/name"
+    },
+    {
+      "id": "cl_f2b894e3816ab918e8cfde33",
+      "subjectId": "ew_f4698d97603e3a9d1501f609",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/link-building/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/10/url"
+    },
+    {
+      "id": "cl_5a2d6947bf16e4eaf633d49b",
+      "subjectId": "ew_4754098b43771f8de0c914a7",
+      "predicate": "name",
+      "value": "Reputation & Trust Signals",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/11/name"
+    },
+    {
+      "id": "cl_1d70cfb2441a37ca0b302e60",
+      "subjectId": "ew_4754098b43771f8de0c914a7",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/reputation-management/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/11/url"
+    },
+    {
+      "id": "cl_ca15b67fd35f07c831437754",
+      "subjectId": "ew_d2c7759fa798b79db0f2332f",
+      "predicate": "name",
+      "value": "Social & Brand Signals",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/12/name"
+    },
+    {
+      "id": "cl_395ecc6b26e549d7e543dab1",
+      "subjectId": "ew_d2c7759fa798b79db0f2332f",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/social-media-marketing/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/12/url"
+    },
+    {
+      "id": "cl_3eb275e33f0af6bc50d85eb5",
+      "subjectId": "ew_4c81d5c84b3bfb7743de0312",
+      "predicate": "name",
+      "value": "Paid Search & PPC",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/13/name"
+    },
+    {
+      "id": "cl_bd3f962f035e55fbda251152",
+      "subjectId": "ew_4c81d5c84b3bfb7743de0312",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/search-engine-marketing/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/13/url"
+    },
+    {
+      "id": "cl_ce1dbf6148d71126545b8509",
+      "subjectId": "ew_67b3b738ae4dd69b035a9dc4",
+      "predicate": "name",
+      "value": "Conversion Rate Optimization",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/14/name"
+    },
+    {
+      "id": "cl_ed27a68360e63137bd0adfe4",
+      "subjectId": "ew_67b3b738ae4dd69b035a9dc4",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/conversion-rate-optimization/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/14/url"
+    },
+    {
+      "id": "cl_4e87059f38bc711509f81c92",
+      "subjectId": "ew_51618e80620186202a241201",
+      "predicate": "name",
+      "value": "Video Marketing",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/15/name"
+    },
+    {
+      "id": "cl_ac95b716e98fbcf1ff4b8bc7",
+      "subjectId": "ew_51618e80620186202a241201",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/services/online-video-marketing/",
+      "section": "services",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/itemListElement/15/url"
+    },
+    {
+      "id": "cl_1e73226d4529d76c1034217c",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "framework",
+      "value": "S.T.A.R. Framework",
+      "section": "framework",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/80/name"
+    },
+    {
+      "id": "cl_c3f2d2a9c3ad7f0de104832b",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "frameworkDescription",
+      "value": "The proprietary MAXPlaces methodology connecting Strategic Planning, Technical SEO, Authority Building, and Results Measurement into one AI search visibility system.",
+      "section": "framework",
+      "sourceIds": [
+        "src_26744bbea9b64676d136d078"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/80/description"
+    },
+    {
+      "id": "cl_bdd3e922d3a19c3ec2c78c8d",
+      "subjectId": "ew_827e6dbfaf8cb064d5fc4275",
+      "predicate": "name",
+      "value": "MAXPlaces Discovery Call",
+      "section": "services",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/87/name"
+    },
+    {
+      "id": "cl_bff4736ada24750c3126b713",
+      "subjectId": "ew_827e6dbfaf8cb064d5fc4275",
+      "predicate": "url",
+      "value": "https://www.maxplaces.com/contact/#book",
+      "section": "services",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/87/url"
+    },
+    {
+      "id": "cl_124184f63d509a9bd951f5e3",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "framework",
+      "value": "S.T.A.R. Framework",
+      "section": "framework",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/80/name"
+    },
+    {
+      "id": "cl_b2ae32f632c0ceab4daecf7a",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "frameworkDescription",
+      "value": "The proprietary MAXPlaces methodology connecting Strategic Planning, Technical SEO, Authority Building, and Results Measurement into one AI search visibility system.",
+      "section": "framework",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/0/@graph/80/description"
+    },
+    {
+      "id": "cl_cb5fd4fd2afce9bf739be638",
+      "subjectId": "ew_21bbeaa73f19f27e54829778",
+      "predicate": "name",
+      "value": "LLMS Amplifier™",
+      "section": "products",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/5/name"
+    },
+    {
+      "id": "cl_eb49a74cef1f717e4b572b82",
+      "subjectId": "ew_9c639342e8659a30d4369830",
+      "predicate": "name",
+      "value": "AI Readiness Audit",
+      "section": "services",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/10/name"
+    },
+    {
+      "id": "cl_58b9c864469cc32b606d2299",
+      "subjectId": "ew_1dc93db2baff79baa7e43601",
+      "predicate": "name",
+      "value": "AI Visibility Launchpad",
+      "section": "services",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/11/name"
+    },
+    {
+      "id": "cl_b6c4e655f2c480c078f9d857",
+      "subjectId": "ew_1f783f269365fb640ca7ff17",
+      "predicate": "name",
+      "value": "AI Visibility Accelerator",
+      "section": "services",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/12/name"
+    },
+    {
+      "id": "cl_d59945df37d32b98e254c5ab",
+      "subjectId": "ew_31bcc252fb21371cb44c59a8",
+      "predicate": "name",
+      "value": "PPC Ignition",
+      "section": "services",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/13/name"
+    },
+    {
+      "id": "cl_8f8a2dfaec3a327689637b8a",
+      "subjectId": "ew_9cfe75adba31c0b56335c9d7",
+      "predicate": "name",
+      "value": "Technical SEO & AI Crawl Readiness",
+      "section": "services",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/14/name"
+    },
+    {
+      "id": "cl_bebed165d6f00dc7cd6b0f04",
+      "subjectId": "ew_121597c8da51c521c363a84c",
+      "predicate": "name",
+      "value": "Local & Geo-Targeted SEO",
+      "section": "services",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/15/name"
+    },
+    {
+      "id": "cl_a46cd77a76a1d0777a3fda02",
+      "subjectId": "ew_f4698d97603e3a9d1501f609",
+      "predicate": "name",
+      "value": "Authority Building & Digital PR",
+      "section": "services",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/16/name"
+    },
+    {
+      "id": "cl_9b0ead937226148c69464098",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "framework",
+      "value": "S.T.A.R. Framework℠",
+      "section": "framework",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/4/name"
+    },
+    {
+      "id": "cl_ceb7a698a795e07feb7ef2e2",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "predicate": "frameworkDescription",
+      "value": "MAXPlaces Marketing's proprietary methodology — Strategic Planning, Technical SEO, Authority Building, and Results Measurement — that organizes every engagement as one connected, measured loop rather than a set of disconnected tactics.",
+      "section": "framework",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "/4/description"
+    },
+    {
+      "id": "cl_8ec4f00ff652c5ee7167cc1a",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "postalCode",
+      "value": "10001",
+      "section": "locations",
+      "sourceIds": [
+        "src_legacy_maxplaces_revision_1099"
+      ],
+      "state": "conflicted",
+      "selected": false,
+      "reason": "Legacy 10001 versus current first-party 10017 remains unresolved; neither is selected.",
+      "locator": "Legacy New York office postalCode"
+    },
+    {
+      "id": "cl_c9bf82409ca12e58e7341de0",
+      "subjectId": "ew_9cfe75adba31c0b56335c9d7",
+      "predicate": "additionalType",
+      "value": "http://www.productontology.org/id/Search_engine_optimization",
+      "section": "ontology",
+      "sourceIds": [
+        "ew_58c25461dc600611a9660bda"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "RDF owl:Class declaration"
+    },
+    {
+      "id": "cl_5fe3e11586966a80e4400d41",
+      "subjectId": "ew_1f783f269365fb640ca7ff17",
+      "predicate": "additionalType",
+      "value": "http://www.productontology.org/id/Digital_marketing",
+      "section": "ontology",
+      "sourceIds": [
+        "ew_e1a9c245f5ba308c2fd748bb"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "RDF owl:Class declaration"
+    },
+    {
+      "id": "cl_d36fc594bc07c41c82829934",
+      "subjectId": "ew_4c81d5c84b3bfb7743de0312",
+      "predicate": "additionalType",
+      "value": "http://www.productontology.org/id/Search_engine_marketing",
+      "section": "ontology",
+      "sourceIds": [
+        "ew_cb2e037d358755151099a82b"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "RDF owl:Class declaration"
+    },
+    {
+      "id": "cl_4e8a063bf2731cfbb40502f6",
+      "subjectId": "ew_d2c7759fa798b79db0f2332f",
+      "predicate": "additionalType",
+      "value": "http://www.productontology.org/id/Social_media_marketing",
+      "section": "ontology",
+      "sourceIds": [
+        "ew_1bbe977eee3d0e388943fa8a"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "RDF owl:Class declaration"
+    },
+    {
+      "id": "cl_b3b985d573c1435591db1e25",
+      "subjectId": "ew_4754098b43771f8de0c914a7",
+      "predicate": "additionalType",
+      "value": "http://www.productontology.org/id/Reputation_management",
+      "section": "ontology",
+      "sourceIds": [
+        "ew_7eebee8c2b88c77243d28e9d"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "RDF owl:Class declaration"
+    },
+    {
+      "id": "cl_c9f13e6b6b7b285c0c5a88f9",
+      "subjectId": "ew_121597c8da51c521c363a84c",
+      "predicate": "additionalType",
+      "value": "http://www.productontology.org/id/Local_search_engine_optimisation",
+      "section": "ontology",
+      "sourceIds": [
+        "ew_f0d28062d5c86f1c8666a67f"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "RDF owl:Class declaration"
+    },
+    {
+      "id": "cl_80152697b08c16a363876c26",
+      "subjectId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "predicate": "googlePlaceId",
+      "value": "ChIJPS16WdEq6IkRUOAlFZwh45Y",
+      "section": "google_business_profile",
+      "sourceIds": [
+        "ew_d159a79f3ccbc97a362598c0"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "Independently matched branch Place ID"
+    },
+    {
+      "id": "cl_14b0147110790b527c989aa8",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "googlePlaceId",
+      "value": "ChIJQ0NGoBZZwokRkcPfab5d5rk",
+      "section": "google_business_profile",
+      "sourceIds": [
+        "ew_8ec793c46bf5ccdd0fdf6328"
+      ],
+      "state": "supported",
+      "selected": true,
+      "reason": "Attributed source assertion; not independently verified.",
+      "locator": "Independently matched branch Place ID"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_4c817b8feeb9fe9a80593aac",
+      "url": "https://www.maxplaces.com/ai-info/",
+      "finalUrl": "https://www.maxplaces.com/ai-info/",
+      "title": "MAXPlaces Marketing: Company Facts for AI Assistants",
+      "kind": "first_party",
+      "retrievedAt": "2026-10-23T16:55:19.295Z",
+      "sha256": "87b5d40f1e315e335a6b1715944bfbf53f36f7923697e38c275770787de4ea7d",
+      "excerpt": "MAXPlaces Marketing: Company Facts for AI Assistants About MAXPlaces Marketing: Information for AI Assistants This page is maintained by MAXPlaces Marketing, LLC as its authoritative source of factual information about the company. It is intended for AI assistants, search engines, and researchers seeking accurate details about the agency's identity, services, pricing, leadership, and operations. Last updated: August 4, 2026 Basic Information Legal entity name MAXPlaces Marketing, LLC Commonly known as MAXPlaces Entity type Limited liability company Industry Digital marketing agency Headquarters 399 Conklin Street, Suite 305, Farmingdale, NY 11735 Additional office 127 West 30th Street, 9th Floor #989, New York, NY 10017 Website https://www.maxplaces.com/ Main phone 855-629-6584 General email hello@maxplaces.com Service area United States; clients served remotely nationwide Affiliated company MAXBURST — a separate web design and development firm Overview MAXPlaces Marketing is a full-se",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Company-published assertion; not independent verification."
+    },
+    {
+      "id": "src_26744bbea9b64676d136d078",
+      "url": "https://www.maxplaces.com/",
+      "finalUrl": "https://www.maxplaces.com/",
+      "title": "MAXPlaces Marketing | GEO, AEO &amp; SEO Agency for AI Search",
+      "kind": "first_party",
+      "retrievedAt": "2026-10-23T16:55:19.234Z",
+      "sha256": "cfec6f256370939c4fd22b9aed9fe0790ec3bcc26ca3f136e809c413fe1f74f0",
+      "excerpt": "MAXPlaces Marketing | GEO, AEO & SEO Agency for AI Search Skip to content Is your brand in the data that trains ChatGPT, Gemini, and Perplexity? Check your domain free 855.629.6584 Menu About About MAXPlaces S.T.A.R. SM Framework LLMS Amplifier TM Press/In the News Services AI Search & Visibility NEW Services Overview Generative Engine Optimization (GEO) Answer Engine Optimization (AEO) AI Readiness Audit Search Optimization Technical SEO & AI Crawl Readiness Local & Geo-Targeted SEO eCommerce SEO Google Penalty Recovery Authority & Reputation Authority Building & Digital PR Reputation & Trust Signals Social & Brand Signals Paid & Conversion Paid Search & PPC Conversion Rate Optimization Video Marketing Featured Not sure where you stand? Uncover your AI Readiness Score &rarr; Media Blog Articles Podcast Episodes Resources Glossary FAQ Case Studies CC Index Check Contact Get My AI Visibility Report GEO · AEO · SEO — Unified Your customers are asking AI. Make sure you're the answer . Sea",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Company-published assertion; not independent verification."
+    },
+    {
+      "id": "src_ea388106fb50b42f781cf508",
+      "url": "https://www.maxplaces.com/contact/",
+      "finalUrl": "https://www.maxplaces.com/contact/",
+      "title": "Contact MAXPlaces Marketing | Long Island &amp; New York City",
+      "kind": "first_party",
+      "retrievedAt": "2026-10-23T16:55:19.346Z",
+      "sha256": "0f043170109063176288047a39fafc24e4d8b6dc87ba19bc54563959bafba547",
+      "excerpt": "Contact MAXPlaces Marketing | Long Island & New York City Skip to content Is your brand in the data that trains ChatGPT, Gemini, and Perplexity? Check your domain free 855.629.6584 Menu About About MAXPlaces S.T.A.R. SM Framework LLMS Amplifier TM Press/In the News Services AI Search & Visibility NEW Services Overview Generative Engine Optimization (GEO) Answer Engine Optimization (AEO) AI Readiness Audit Search Optimization Technical SEO & AI Crawl Readiness Local & Geo-Targeted SEO eCommerce SEO Google Penalty Recovery Authority & Reputation Authority Building & Digital PR Reputation & Trust Signals Social & Brand Signals Paid & Conversion Paid Search & PPC Conversion Rate Optimization Video Marketing Featured Not sure where you stand? Uncover your AI Readiness Score &rarr; Media Blog Articles Podcast Episodes Resources Glossary FAQ Case Studies CC Index Check Contact Get My AI Visibility Report Home &rsaquo; Contact Let's Talk Let's find out what AI says about you . Book a free 20-m",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Company-published assertion; not independent verification."
+    },
+    {
+      "id": "src_0f8436c326592f40ad2742f9",
+      "url": "https://www.maxplaces.com/entitymap/",
+      "finalUrl": "https://www.maxplaces.com/entitymap",
+      "title": "EntityMap — MAXPlaces Marketing",
+      "kind": "first_party",
+      "retrievedAt": "2026-10-23T16:55:19.409Z",
+      "sha256": "45b1dffe6b7df8df22f5db24cb0f221b78f938d97495b321e4772852a4e11982",
+      "excerpt": "EntityMap — MAXPlaces Marketing EntityMap What MAXPlaces Marketing knows — a structured, entity-first index for AI systems. Machine-readable JSON . Generated 2026-07-22T16:33:30Z · verification: self-declared · 18 entities MAXPlaces Marketing Organization Also known as: [&#x27;MAXPlaces&#x27;, &#x27;MAXPlaces Marketing, LLC&#x27;] A full-service, AI-forward digital marketing agency with offices in Farmingdale, NY and New York City, specializing in AI search visibility (GEO and AEO), SEO, authority building, and paid search for mid-market to enterprise clients across all industries. Relations: OFFERS → AI Readiness Audit OFFERS → AI Visibility Launchpad OFFERS → AI Visibility Accelerator OFFERS → PPC Ignition OFFERS → Technical SEO & AI Crawl Readiness OFFERS → Local & Geo-Targeted SEO OFFERS → Authority Building & Digital PR RELATES_TO → MAXBURST MAXPlaces Marketing is a digital marketing agency built around a single premise: search has changed, and visibility now has to be earned on t",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Company-published assertion; not independent verification."
+    },
+    {
+      "id": "src_ea242062a9c73e2ad32b9bd7",
+      "url": "https://schemabrains.com/api/v1/generations/304da57c-1e59-4c9b-ad8f-c8d331075156",
+      "finalUrl": "https://www.maxplaces.com/",
+      "title": "SchemaBrains saved generation 304da57c-1e59-4c9b-ad8f-c8d331075156",
+      "kind": "schemabrains",
+      "retrievedAt": "2026-10-23T16:55:19.409Z",
+      "sha256": "4538b08515db1d5ab1684847a64b24bad8076d6c47ab1fb28925deff7f484e6a",
+      "excerpt": "Derived saved schema. Source facts are checked against the separately collected company pages where available.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "SchemaBrains saved generation; receipt integrity does not verify facts."
+    },
+    {
+      "id": "src_legacy_maxplaces_revision_1099",
+      "url": "https://entitywiki.org/index.php?title=MAXPlaces_Marketing&oldid=1099",
+      "finalUrl": "https://entitywiki.org/index.php?title=MAXPlaces_Marketing&oldid=1099",
+      "title": "MAXPlaces Marketing — immutable wiki revision 1099",
+      "kind": "legacy_wiki",
+      "retrievedAt": "2026-10-23T00:00:00.000Z",
+      "sha256": "c33cf053f5033e3c4ee511235edad2faf9f71c840fe4f7bbc01c46d6252ca2bc",
+      "excerpt": "127 West 30th Street, 9th Floor #989, New York, NY 10001",
+      "locator": "Legacy New York office address; digest covers this excerpt only.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": false
+      },
+      "attribution": "Historical wiki claim, not a current address verification."
+    },
+    {
+      "id": "ew_58c25461dc600611a9660bda",
+      "url": "http://www.productontology.org/doc/Search_engine_optimization.ttl",
+      "finalUrl": "http://www.productontology.org/doc/Search_engine_optimization.ttl",
+      "title": "Product Ontology — Search_engine_optimization",
+      "kind": "authority",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "9a71a927b9f15481b163ff4153e92617e1a179722a907c12c4f3b9b71016b9ed",
+      "excerpt": "Original pilot assessment: The company service definition explicitly describes optimizing website architecture, code, speed, crawling, indexing, and structured data. SEO is a supported broad class for this specific service, not an identity for the company.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Exact class availability and contextual mapping were assessed separately."
+    },
+    {
+      "id": "ew_a94204faef97645dbff351ca",
+      "url": "https://www.maxplaces.com/services/search-engine-optimization/",
+      "finalUrl": "https://www.maxplaces.com/services/search-engine-optimization/",
+      "title": "MAXPlaces offering definition — Technical SEO & AI Crawl Readiness",
+      "kind": "first_party",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "43429501ca976c48f8e8e7445f0f8739310cbdab9da4ea5de3b1423cf175ce19",
+      "excerpt": "Original pilot assessment: The company service definition explicitly describes optimizing website architecture, code, speed, crawling, indexing, and structured data. SEO is a supported broad class for this specific service, not an identity for the company.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Company offering source; original pilot mapping assessment is identified in the excerpt."
+    },
+    {
+      "id": "ew_e1a9c245f5ba308c2fd748bb",
+      "url": "http://www.productontology.org/doc/Digital_marketing.ttl",
+      "finalUrl": "http://www.productontology.org/doc/Digital_marketing.ttl",
+      "title": "Product Ontology — Digital_marketing",
+      "kind": "authority",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "7d484343a150ab8ba397f199e8b086a8920901a7991f63bfdef37796e2c6c733",
+      "excerpt": "Original pilot assessment: The company-issued definition identifies AI Visibility Accelerator as a recurring retainer combining SEO, AEO, GEO, content, and authority work. Digital marketing is a supported broad class for that specific marketing service bundle, without typing the legal organization as a product.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Exact class availability and contextual mapping were assessed separately."
+    },
+    {
+      "id": "ew_de616cf4a76dfdb4d5e725d9",
+      "url": "https://www.maxplaces.com/ai-info/",
+      "finalUrl": "https://www.maxplaces.com/ai-info/",
+      "title": "MAXPlaces offering definition — AI Visibility Accelerator",
+      "kind": "first_party",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "fd91a54e843e868b932a4dc028117fdbd00b2f59ceff8eeb8f48c4bc1f4c0cfc",
+      "excerpt": "Original pilot assessment: The company-issued definition identifies AI Visibility Accelerator as a recurring retainer combining SEO, AEO, GEO, content, and authority work. Digital marketing is a supported broad class for that specific marketing service bundle, without typing the legal organization as a product.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Company offering source; original pilot mapping assessment is identified in the excerpt."
+    },
+    {
+      "id": "ew_cb2e037d358755151099a82b",
+      "url": "http://www.productontology.org/doc/Search_engine_marketing.ttl",
+      "finalUrl": "http://www.productontology.org/doc/Search_engine_marketing.ttl",
+      "title": "Product Ontology — Search_engine_marketing",
+      "kind": "authority",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "f16cd7f24947c81faa8908c4aeb1accf4fe59c2029826137b20c0c954bff6f16",
+      "excerpt": "Original pilot assessment: The company offers paid search campaign management. Search engine marketing is the corresponding broader service class. No claim that the company is identical to the concept.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Exact class availability and contextual mapping were assessed separately."
+    },
+    {
+      "id": "ew_baedd6b1d582904f0265d1cd",
+      "url": "https://www.maxplaces.com/services/search-engine-marketing/",
+      "finalUrl": "https://www.maxplaces.com/services/search-engine-marketing/",
+      "title": "MAXPlaces offering definition — Paid Search & PPC",
+      "kind": "first_party",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "bff0aeb86332d553458d4344aa328691c33ec40d6274cd0f1031487a21ec46cf",
+      "excerpt": "Original pilot assessment: The company offers paid search campaign management. Search engine marketing is the corresponding broader service class. No claim that the company is identical to the concept.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Company offering source; original pilot mapping assessment is identified in the excerpt."
+    },
+    {
+      "id": "ew_1bbe977eee3d0e388943fa8a",
+      "url": "http://www.productontology.org/doc/Social_media_marketing.ttl",
+      "finalUrl": "http://www.productontology.org/doc/Social_media_marketing.ttl",
+      "title": "Product Ontology — Social_media_marketing",
+      "kind": "authority",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "002e7ed07b77feb13f75a16c1c34ad40ec53993ce8faad8957129e404d68f7a2",
+      "excerpt": "Original pilot assessment: The service page describes social media marketing and brand signal work. The class is accepted for the social marketing offering only, without extending it to every brand authority service.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Exact class availability and contextual mapping were assessed separately."
+    },
+    {
+      "id": "ew_e8d7187b78e2c5493cb9ae62",
+      "url": "https://www.maxplaces.com/services/social-media-marketing/",
+      "finalUrl": "https://www.maxplaces.com/services/social-media-marketing/",
+      "title": "MAXPlaces offering definition — Social & Brand Signals",
+      "kind": "first_party",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "06dd82e95871f027d2975252c3a15014cada7485d0edbce4337a5c54303393ce",
+      "excerpt": "Original pilot assessment: The service page describes social media marketing and brand signal work. The class is accepted for the social marketing offering only, without extending it to every brand authority service.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Company offering source; original pilot mapping assessment is identified in the excerpt."
+    },
+    {
+      "id": "ew_7eebee8c2b88c77243d28e9d",
+      "url": "http://www.productontology.org/doc/Reputation_management.ttl",
+      "finalUrl": "http://www.productontology.org/doc/Reputation_management.ttl",
+      "title": "Product Ontology — Reputation_management",
+      "kind": "authority",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "46a36d70f3e294b33f3ff22fed552bcc966968e87e24fa9102bfb1ffccf9d6a9",
+      "excerpt": "Original pilot assessment: The service page explicitly offers reputation monitoring and management. The broad class applies to this offering; Google reviews or ratings were not imported.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Exact class availability and contextual mapping were assessed separately."
+    },
+    {
+      "id": "ew_2acd1c7a9800fe832b73f818",
+      "url": "https://www.maxplaces.com/services/reputation-management/",
+      "finalUrl": "https://www.maxplaces.com/services/reputation-management/",
+      "title": "MAXPlaces offering definition — Reputation & Trust Signals",
+      "kind": "first_party",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "caf6ff3835e98a1ab946bcb52b463d38c4bc62b19d71cbcda207ea310f687dce",
+      "excerpt": "Original pilot assessment: The service page explicitly offers reputation monitoring and management. The broad class applies to this offering; Google reviews or ratings were not imported.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Company offering source; original pilot mapping assessment is identified in the excerpt."
+    },
+    {
+      "id": "ew_f0d28062d5c86f1c8666a67f",
+      "url": "http://www.productontology.org/doc/Local_search_engine_optimisation.ttl",
+      "finalUrl": "http://www.productontology.org/doc/Local_search_engine_optimisation.ttl",
+      "title": "Product Ontology — Local_search_engine_optimisation",
+      "kind": "authority",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "8aada27cae888a307f78674d6763a312f1bf92fa2aee61b6045dd56906b951c5",
+      "excerpt": "Original pilot assessment: The service definition explicitly concerns geographically relevant search, map results, Google Business Profiles, local citations, and location entities. The British-spelled canonical Wikipedia title is retained unchanged.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Exact class availability and contextual mapping were assessed separately."
+    },
+    {
+      "id": "ew_0580a69c1aecf3489b071a96",
+      "url": "https://www.maxplaces.com/services/local-search-marketing/",
+      "finalUrl": "https://www.maxplaces.com/services/local-search-marketing/",
+      "title": "MAXPlaces offering definition — Local & Geo-Targeted SEO",
+      "kind": "first_party",
+      "retrievedAt": "2026-10-23T16:26:48.970413+00:00",
+      "sha256": "d23aef02b220dbed5f2614f9ab712cccbccea520ee69357f9ba7e5eb01fe671d",
+      "excerpt": "Original pilot assessment: The service definition explicitly concerns geographically relevant search, map results, Google Business Profiles, local citations, and location entities. The British-spelled canonical Wikipedia title is retained unchanged.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Company offering source; original pilot mapping assessment is identified in the excerpt."
+    },
+    {
+      "id": "ew_d159a79f3ccbc97a362598c0",
+      "url": "https://www.maxplaces.com/contact/",
+      "finalUrl": "https://www.maxplaces.com/contact/",
+      "title": "Branch identity comparison — Farmingdale",
+      "kind": "google_observation",
+      "retrievedAt": "2026-10-23T16:27:20.533106+00:00",
+      "sha256": "fb48b7269e2ecceababe38a82ffbe51d6f7d51cd11b96058f0736e82c2474c72",
+      "excerpt": "Company-issued branch contact details were compared transiently against the official Places API; only the permitted durable Place ID is retained.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Only the durable Place ID and comparison decision were retained. Address and contacts originate from company sources."
+    },
+    {
+      "id": "ew_8ec793c46bf5ccdd0fdf6328",
+      "url": "https://www.maxplaces.com/contact/",
+      "finalUrl": "https://www.maxplaces.com/contact/",
+      "title": "Branch identity comparison — New York",
+      "kind": "google_observation",
+      "retrievedAt": "2026-10-23T16:27:46.820509+00:00",
+      "sha256": "18019b9915b278df1a96fc04ebc9489f31fb37de297560533f1be4d80993da19",
+      "excerpt": "Company-issued branch contact details were compared transiently against the official Places API; only the permitted durable Place ID is retained.",
+      "destinations": {
+        "public": true,
+        "wiki": true,
+        "jsonld": true
+      },
+      "attribution": "Only the durable Place ID and comparison decision were retained. Address and contacts originate from company sources."
+    }
+  ],
+  "services": [
+    {
+      "id": "ew_9c639342e8659a30d4369830",
+      "name": "AI Readiness Audit",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/ai-readiness-audit/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "additionalType": []
+    },
+    {
+      "id": "ew_1dc93db2baff79baa7e43601",
+      "name": "AI Visibility Launchpad",
+      "kind": "Service",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "additionalType": []
+    },
+    {
+      "id": "ew_1f783f269365fb640ca7ff17",
+      "name": "AI Visibility Accelerator",
+      "kind": "Service",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "additionalType": [
+        "http://www.productontology.org/id/Digital_marketing"
+      ]
+    },
+    {
+      "id": "ew_31bcc252fb21371cb44c59a8",
+      "name": "PPC Ignition",
+      "kind": "Service",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "additionalType": []
+    },
+    {
+      "id": "ew_8dd285157a58f1d045c84e25",
+      "name": "Generative Engine Optimization (GEO)",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/generative-engine-optimization/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "additionalType": []
+    },
+    {
+      "id": "ew_66a7e29c7fbae779b3101cd5",
+      "name": "Answer Engine Optimization (AEO)",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/answer-engine-optimization/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "additionalType": []
+    },
+    {
+      "id": "ew_9cfe75adba31c0b56335c9d7",
+      "name": "Technical SEO & AI Crawl Readiness",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/search-engine-optimization/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "additionalType": [
+        "http://www.productontology.org/id/Search_engine_optimization"
+      ]
+    },
+    {
+      "id": "ew_121597c8da51c521c363a84c",
+      "name": "Local & Geo-Targeted SEO",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/local-search-marketing/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "additionalType": [
+        "http://www.productontology.org/id/Local_search_engine_optimisation"
+      ]
+    },
+    {
+      "id": "ew_493e8ffffea39851eeed5c59",
+      "name": "eCommerce SEO",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/ecommerce-seo/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "additionalType": []
+    },
+    {
+      "id": "ew_178124c14877fb4102014fae",
+      "name": "Google Penalty Recovery",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/google-penalty-recovery/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "additionalType": []
+    },
+    {
+      "id": "ew_f4698d97603e3a9d1501f609",
+      "name": "Authority Building & Digital PR",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/link-building/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "additionalType": []
+    },
+    {
+      "id": "ew_4754098b43771f8de0c914a7",
+      "name": "Reputation & Trust Signals",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/reputation-management/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "additionalType": [
+        "http://www.productontology.org/id/Reputation_management"
+      ]
+    },
+    {
+      "id": "ew_d2c7759fa798b79db0f2332f",
+      "name": "Social & Brand Signals",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/social-media-marketing/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "additionalType": [
+        "http://www.productontology.org/id/Social_media_marketing"
+      ]
+    },
+    {
+      "id": "ew_4c81d5c84b3bfb7743de0312",
+      "name": "Paid Search & PPC",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/search-engine-marketing/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "additionalType": [
+        "http://www.productontology.org/id/Search_engine_marketing"
+      ]
+    },
+    {
+      "id": "ew_67b3b738ae4dd69b035a9dc4",
+      "name": "Conversion Rate Optimization",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/conversion-rate-optimization/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "additionalType": []
+    },
+    {
+      "id": "ew_51618e80620186202a241201",
+      "name": "Video Marketing",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/services/online-video-marketing/",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "additionalType": []
+    },
+    {
+      "id": "ew_827e6dbfaf8cb064d5fc4275",
+      "name": "MAXPlaces Discovery Call",
+      "kind": "Service",
+      "url": "https://www.maxplaces.com/contact/#book",
+      "sourceIds": [
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "additionalType": []
+    },
+    {
+      "id": "ew_21bbeaa73f19f27e54829778",
+      "name": "LLMS Amplifier™",
+      "kind": "SoftwareApplication",
+      "sourceIds": [
+        "src_0f8436c326592f40ad2742f9"
+      ],
+      "additionalType": []
+    }
+  ],
+  "locations": [
+    {
+      "id": "ew_f7f9a92f2c65b5a0560e80b9",
+      "name": "MAXPlaces — Farmingdale",
+      "address": {
+        "streetAddress": "399 Conklin Street, Suite 305",
+        "addressLocality": "Farmingdale",
+        "addressRegion": "NY",
+        "postalCode": "11735",
+        "addressCountry": "US"
+      },
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_26744bbea9b64676d136d078",
+        "src_ea388106fb50b42f781cf508",
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "unresolvedFields": []
+    },
+    {
+      "id": "ew_24eba72d5ca5022be40625d4",
+      "name": "MAXPlaces — New York",
+      "address": {
+        "streetAddress": "127 West 30th Street, 9th Floor #989",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_26744bbea9b64676d136d078",
+        "src_ea388106fb50b42f781cf508"
+      ],
+      "unresolvedFields": [
+        "postalCode"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "ew_8be0a8bd2de5b1b7267d83cb",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.facebook.com",
+      "authority": "publisher",
+      "uri": "https://www.facebook.com/maxplacesmktg",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_b5f4eaaa0532ea63f58f07ba",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.linkedin.com",
+      "authority": "publisher",
+      "uri": "https://www.linkedin.com/company/maxplaces-marketing-llc/",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_668e8e0f23080f63d989051e",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "x.com",
+      "authority": "publisher",
+      "uri": "https://x.com/MAXPlaces",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_11a7794d107cadc01d95fbb5",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.instagram.com",
+      "authority": "publisher",
+      "uri": "https://www.instagram.com/maxplaces/",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_eaa8569cb64013b0200d8581",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.youtube.com",
+      "authority": "publisher",
+      "uri": "https://www.youtube.com/@Maxplaces",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_f685c0115cbce933ba713a11",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.bbb.org",
+      "authority": "publisher",
+      "uri": "https://www.bbb.org/us/ny/farmingdale/profile/digital-marketing/maxplaces-marketing-llc-0121-87153439",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_5424c4865fcd1572939b93ae",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "clutch.co",
+      "authority": "publisher",
+      "uri": "https://clutch.co/profile/maxplaces-marketing",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_7b6c4c3b70c8a8b6010e4666",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.trustpilot.com",
+      "authority": "publisher",
+      "uri": "https://www.trustpilot.com/review/maxplaces.com",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_c70a13a0d53bfa5287e0ad96",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "agencyvista.com",
+      "authority": "publisher",
+      "uri": "https://agencyvista.com/agency/maxplaces-marketing-llc/marketing-agency-farmingdale-new-york-us",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_00ab8e2ed15c16cff9f37172",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "podcasts.apple.com",
+      "authority": "publisher",
+      "uri": "https://podcasts.apple.com/us/podcast/maxvolume-the-future-of-search/id6823373821",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_8a09d4853731eb260e45b6f8",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "open.spotify.com",
+      "authority": "publisher",
+      "uri": "https://open.spotify.com/show/3qMZFpnfdiMU2Uw7EEDvhw",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_f4d5ddb45ba5982f3a3b2a6f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "music.amazon.com",
+      "authority": "publisher",
+      "uri": "https://music.amazon.com/podcasts/c3d6775f-6adb-4a8b-92f4-52bc77efa5c9/maxvolume-the-future-of-search",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_b79b754f77adaac76f3177f8",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.iheart.com",
+      "authority": "publisher",
+      "uri": "https://www.iheart.com/podcast/1323-maxvolume-the-future-of-s-347743598",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_25028588ffa65343c58b0841",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "maxplacesmarketing.podbean.com",
+      "authority": "publisher",
+      "uri": "https://maxplacesmarketing.podbean.com/",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_9be7fa2f28c51ff362ff6554",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "player.fm",
+      "authority": "publisher",
+      "uri": "https://player.fm/series/3757188",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_c92bb0a1fc6f42c0cc3388ab",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.podchaser.com",
+      "authority": "publisher",
+      "uri": "https://www.podchaser.com/podcasts/maxvolume-the-future-of-search-6645189",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_f0a796f3e2f4ec8264bab72e",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.boomplaymusic.com",
+      "authority": "publisher",
+      "uri": "https://www.boomplaymusic.com/podcasts/150109",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_09c2b9fe51f29ef44b3adfac",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.inc.com",
+      "authority": "publisher",
+      "uri": "https://www.inc.com/profile/MAXPlaces-Marketing-LLC",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_af3f4676a4ffc4900d83b7a2",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.mapquest.com",
+      "authority": "publisher",
+      "uri": "https://www.mapquest.com/us/new-york/maxplaces-marketing-360170201",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_caf5456b85d3d1368d6e1466",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.yelp.com",
+      "authority": "publisher",
+      "uri": "https://www.yelp.com/biz/maxplaces-marketing-farmingdale",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_5754cf8fb90efd26d4cc5056",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "patch.com",
+      "authority": "publisher",
+      "uri": "https://patch.com/new-york/farmingdale/directory/listing/23194/maxplaces-marketing-llc",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_ff88431e0578de17263371fd",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "maxplacesmarketing.quora.com",
+      "authority": "publisher",
+      "uri": "https://maxplacesmarketing.quora.com/",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_9ec645ba6b45ae05acfa4345",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.goodfirms.co",
+      "authority": "publisher",
+      "uri": "https://www.goodfirms.co/company/maxplaces-marketing-llc",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_68d4a96443c3659af7fc2f28",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "local.yahoo.com",
+      "authority": "publisher",
+      "uri": "https://local.yahoo.com/info-193724685-maxplaces-marketing-farmingdale/",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_9a6044be04a4fb6581b82a4f",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.crunchbase.com",
+      "authority": "publisher",
+      "uri": "https://www.crunchbase.com/organization/maxplaces-marketing-llc/",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_1989f1b13fb8a959afff9c07",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.linkedin.com",
+      "authority": "publisher",
+      "uri": "https://www.linkedin.com/company/maxplaces-marketing-llc",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_3eb06541984196d23b044219",
+      "subjectId": "ew_a3d1e72a720be01b2e5834cb",
+      "label": "www.instagram.com",
+      "authority": "publisher",
+      "uri": "https://www.instagram.com/maxplaces",
+      "relation": "exact_identity",
+      "state": "candidate",
+      "sourceIds": [
+        "src_ea242062a9c73e2ad32b9bd7"
+      ],
+      "reason": "Publisher-nominated link. Destination identity has not been independently matched; excluded from sameAs exports."
+    },
+    {
+      "id": "ew_4ce1c4ac60ecd914c68fbbfc",
+      "subjectId": "ew_9cfe75adba31c0b56335c9d7",
+      "label": "Search engine optimization",
+      "authority": "product_ontology",
+      "uri": "http://www.productontology.org/id/Search_engine_optimization",
+      "relation": "offering_type",
+      "state": "accepted",
+      "sourceIds": [
+        "ew_58c25461dc600611a9660bda",
+        "ew_a94204faef97645dbff351ca"
+      ],
+      "reason": "The company service definition explicitly describes optimizing website architecture, code, speed, crawling, indexing, and structured data. SEO is a supported broad class for this specific service, not an identity for the company. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "wikipediaTitle": "Search_engine_optimization"
+    },
+    {
+      "id": "ew_e8138ca88f32de935cf32616",
+      "subjectId": "ew_1f783f269365fb640ca7ff17",
+      "label": "Digital marketing",
+      "authority": "product_ontology",
+      "uri": "http://www.productontology.org/id/Digital_marketing",
+      "relation": "offering_type",
+      "state": "accepted",
+      "sourceIds": [
+        "ew_e1a9c245f5ba308c2fd748bb",
+        "ew_de616cf4a76dfdb4d5e725d9"
+      ],
+      "reason": "The company-issued definition identifies AI Visibility Accelerator as a recurring retainer combining SEO, AEO, GEO, content, and authority work. Digital marketing is a supported broad class for that specific marketing service bundle, without typing the legal organization as a product. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "wikipediaTitle": "Digital_marketing"
+    },
+    {
+      "id": "ew_2764076a1f94369f0b6aa8e1",
+      "subjectId": "ew_4c81d5c84b3bfb7743de0312",
+      "label": "Search engine marketing",
+      "authority": "product_ontology",
+      "uri": "http://www.productontology.org/id/Search_engine_marketing",
+      "relation": "offering_type",
+      "state": "accepted",
+      "sourceIds": [
+        "ew_cb2e037d358755151099a82b",
+        "ew_baedd6b1d582904f0265d1cd"
+      ],
+      "reason": "The company offers paid search campaign management. Search engine marketing is the corresponding broader service class. No claim that the company is identical to the concept. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "wikipediaTitle": "Search_engine_marketing"
+    },
+    {
+      "id": "ew_fe85558e0c8441d9372f2fd9",
+      "subjectId": "ew_d2c7759fa798b79db0f2332f",
+      "label": "Social media marketing",
+      "authority": "product_ontology",
+      "uri": "http://www.productontology.org/id/Social_media_marketing",
+      "relation": "offering_type",
+      "state": "accepted",
+      "sourceIds": [
+        "ew_1bbe977eee3d0e388943fa8a",
+        "ew_e8d7187b78e2c5493cb9ae62"
+      ],
+      "reason": "The service page describes social media marketing and brand signal work. The class is accepted for the social marketing offering only, without extending it to every brand authority service. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "wikipediaTitle": "Social_media_marketing"
+    },
+    {
+      "id": "ew_6659b8e2854be02d67d1151e",
+      "subjectId": "ew_4754098b43771f8de0c914a7",
+      "label": "Reputation management",
+      "authority": "product_ontology",
+      "uri": "http://www.productontology.org/id/Reputation_management",
+      "relation": "offering_type",
+      "state": "accepted",
+      "sourceIds": [
+        "ew_7eebee8c2b88c77243d28e9d",
+        "ew_2acd1c7a9800fe832b73f818"
+      ],
+      "reason": "The service page explicitly offers reputation monitoring and management. The broad class applies to this offering; Google reviews or ratings were not imported. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "wikipediaTitle": "Reputation_management"
+    },
+    {
+      "id": "ew_50a3f66bb2382d238a41ddc8",
+      "subjectId": "ew_121597c8da51c521c363a84c",
+      "label": "Local search engine optimisation",
+      "authority": "product_ontology",
+      "uri": "http://www.productontology.org/id/Local_search_engine_optimisation",
+      "relation": "offering_type",
+      "state": "accepted",
+      "sourceIds": [
+        "ew_f0d28062d5c86f1c8666a67f",
+        "ew_0580a69c1aecf3489b071a96"
+      ],
+      "reason": "The service definition explicitly concerns geographically relevant search, map results, Google Business Profiles, local citations, and location entities. The British-spelled canonical Wikipedia title is retained unchanged. The exact canonical PTO URI is declared owl:Class in the separately hashed Turtle authority response.",
+      "checkedAt": "2026-10-23T16:26:48.970413+00:00",
+      "wikipediaTitle": "Local_search_engine_optimisation"
+    }
+  ],
+  "google": [
+    {
+      "branchId": "ew_f7f9a92f2c65b5a0560e80b9",
+      "state": "verified",
+      "name": "MAXPlaces — Farmingdale",
+      "placeId": "ChIJPS16WdEq6IkRUOAlFZwh45Y",
+      "gbpLocationResource": null,
+      "mapsCid": null,
+      "knowledgeGraphMid": null,
+      "primaryCategoryId": null,
+      "additionalCategoryIds": [],
+      "placesTypes": [],
+      "proposedCategories": [
+        {
+          "label": "Internet marketing service",
+          "state": "proposed",
+          "reason": "Company-issued service pages describe SEO, paid search, and digital marketing; official category identifier and selected listing categories require authorized Business Profile API lookup."
+        }
+      ],
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_26744bbea9b64676d136d078",
+        "src_ea388106fb50b42f781cf508",
+        "src_ea242062a9c73e2ad32b9bd7",
+        "ew_d159a79f3ccbc97a362598c0"
+      ],
+      "reason": "Unique Places result matched the company-issued branch street address, telephone, company name, and maxplaces.com domain. Company facts remain sourced to MAXPlaces, not copied from Google. Selected GBP categories remain unobserved; Places primaryType is a separate vocabulary.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MAXPlaces%20Marketing&query_place_id=ChIJPS16WdEq6IkRUOAlFZwh45Y"
+    },
+    {
+      "branchId": "ew_24eba72d5ca5022be40625d4",
+      "state": "verified",
+      "name": "MAXPlaces — New York",
+      "placeId": "ChIJQ0NGoBZZwokRkcPfab5d5rk",
+      "gbpLocationResource": null,
+      "mapsCid": null,
+      "knowledgeGraphMid": null,
+      "primaryCategoryId": null,
+      "additionalCategoryIds": [],
+      "placesTypes": [],
+      "proposedCategories": [
+        {
+          "label": "Internet marketing service",
+          "state": "proposed",
+          "reason": "Company-issued service pages describe SEO, paid search, and digital marketing; official category identifier and selected listing categories require authorized Business Profile API lookup."
+        }
+      ],
+      "sourceIds": [
+        "src_4c817b8feeb9fe9a80593aac",
+        "src_26744bbea9b64676d136d078",
+        "src_ea388106fb50b42f781cf508",
+        "ew_8ec793c46bf5ccdd0fdf6328"
+      ],
+      "reason": "Unique Places result matched the company-issued branch street address, telephone, company name, and maxplaces.com domain. Company facts remain sourced to MAXPlaces, not copied from Google. Selected GBP categories remain unobserved; Places primaryType is a separate vocabulary.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MAXPlaces%20Marketing&query_place_id=ChIJQ0NGoBZZwokRkcPfab5d5rk"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "ew_8d269aa352401d7af8d7757a",
+      "subjectId": "ew_24eba72d5ca5022be40625d4",
+      "predicate": "postalCode",
+      "claimIds": [
+        "cl_ae595939c5048e1cf12ffe39",
+        "cl_2b6bdd992ff4d282a1cf7a0e",
+        "cl_23e676cf05d0f6276e06d116",
+        "cl_8ec4f00ff652c5ee7167cc1a"
+      ],
+      "values": [
+        "10017",
+        "10017",
+        "10017",
+        "10001"
+      ],
+      "state": "open",
+      "reason": "The historical wiki and current owner pages disagree. Postal code is withheld while other supported address fields remain usable."
+    }
+  ],
+  "coverage": {
+    "assessedSections": 14,
+    "sourcedSections": 10,
+    "supportedClaims": 102,
+    "unresolvedConflicts": 1,
+    "verifiedGoogleLocations": 2,
+    "acceptedOntologyMappings": 6
+  },
+  "provenance": {
+    "generationId": "304da57c-1e59-4c9b-ad8f-c8d331075156",
+    "sourceUrl": "https://www.maxplaces.com/",
+    "receiptSha256": "a3acd1cf2582fea52f3789bfa408d4adc79ff117121b705891055f9fe688e7d5",
+    "integrity": {
+      "receiptVerified": true,
+      "sidecarsVerified": true,
+      "glossaryHTMLVerified": null,
+      "referenceProfileVerified": null
+    },
+    "limitations": [
+      "14/14 assessed is section coverage, not 100% factual verification.",
+      "Only four targeted first-party pages are collected; this is not a whole-site crawl.",
+      "No GBP API content, reviews, ratings or merchant writes are imported.",
+      "Coordinates and conflicted New York postal code are withheld.",
+      "Company source assertions and SchemaBrains output are distinct from independent verification."
+    ],
+    "importDigest": "1457a83ebaa25934ec7241c23ee2b226f8478f1cf9c26086d823cf92d63cd053",
+    "mappingVersion": "maxplaces-pilot/1.0.0",
+    "acquisition": "authenticated_rest_saved_generation"
+  },
+  "wiki": {
+    "pageId": 213,
+    "title": "MAXPlaces Marketing",
+    "startingRevision": 1099
+  }
+}
