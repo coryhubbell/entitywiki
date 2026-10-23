@@ -66,6 +66,6 @@ assert.equal(page.headers.get('x-robots-tag'), 'noindex, nofollow');
 const html = await page.text();
 assert.ok(html.includes('https://entitywiki.org/MAXPlaces_Marketing'));
 assert.ok(html.includes('application/ld+json'));
-assert.equal((await post('/publications/publish', {}, cookie)).status, 404);
+assert.equal((await post('/publications/publish', {}, cookie)).status, 501, 'Unknown legacy write paths must remain unavailable.');
 assert.equal((await post('/api/publications/publish', { planId: 'intentionally_not_a_live_plan' }, cookie)).status, 409);
 console.log(JSON.stringify({ ok: true, origin: origin.origin, recordId, preservedRevision: 2, stableEntityIds: dossier.record.entities.length, ontologyMappings: 6, googlePlaceMatches: 2, unresolvedPostalConflicts: 1, releaseArtifact: 'captured_and_verified', anonymousArtifactExport: 'denied', liveWikiWriting: 'disabled', anonymousAdminAccess: 'denied', stagingNoindex: true }));

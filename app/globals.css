@@ -2,6 +2,29 @@
 @import "tw-animate-css";
 @import "../vendor/shadcn-tailwind-4.13.0.css";
 
+.migration-main { max-width: 1250px; margin: auto; padding: 64px 35px; }
+.migration-main h1 { font-size: clamp(40px, 5vw, 72px); margin: 18px 0 24px; }
+.migration-intro { max-width: 750px; font-size: 17px; }
+.migration-stats { display: flex; gap: 45px; margin: 30px 0; border-block: 1px solid var(--line); padding: 25px 0; }
+.migration-stats p { margin: 0; color: var(--muted); }
+.migration-stats strong { display: block; color: var(--ink); font-size: 36px; line-height: 1.2; }
+.migration-boundary { background: var(--white); border-left: 3px solid var(--orange); padding: 20px; margin-block: 30px; }
+.migration-filter { display: flex; flex-wrap: wrap; align-items: end; gap: 15px; margin: 28px 0; }
+.migration-filter label { display: grid; gap: 6px; }
+.migration-filter input, .migration-filter select { border: 1px solid var(--line); background: var(--white); padding: 11px; max-width: 100%; }
+.migration-table-wrap { overflow-x: auto; }
+.migration-table { width: 100%; border-collapse: collapse; text-align: left; }
+.migration-table caption { text-align: left; color: var(--muted); padding: 10px 0; }
+.migration-table th, .migration-table td { padding: 15px 12px; vertical-align: top; border-bottom: 1px solid var(--line); }
+.migration-table th { font-family: var(--mono); font-size: 11px; }
+.migration-table td:first-child { min-width: 260px; }
+.migration-table small { display: block; color: var(--muted); font-size: 11px; overflow-wrap: anywhere; margin-top: 5px; }
+.migration-paging { display: flex; justify-content: space-between; margin: 25px 0; }
+.migration-empty { padding: 25px; }
+.migration-receipt { border: 1px solid var(--line); padding: 20px; margin: 25px 0; }
+.migration-receipt dd { margin: 5px 0 16px; overflow-wrap: anywhere; font-family: var(--mono); font-size: 11px; }
+@media(max-width: 600px) { .migration-main { padding: 35px 18px; } .migration-stats { gap: 24px; } .migration-stats strong { font-size: 30px; } .migration-filter { display: grid; } }
+
 :root {
   --paper: #f3f3eb;
   --white: #fbfbf6;

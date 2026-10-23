@@ -87,6 +87,7 @@ export default async function AdminWorkspace() {
         </span>
         <span className="operator-subject">{session.subject}</span>
         <a href="/MAXPlaces_Marketing">View released dossier ↗</a>
+        <a href="/admin/migration">All-client migration ↗</a>
         {localLogin && (
           <form action="/admin/auth" method="post">
             <input type="hidden" name="action" value="logout" />

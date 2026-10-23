@@ -4,6 +4,7 @@ import acceptedPilot from "../../../data/pilot/accepted-record.json";
 import acceptedManifest from "../../../data/pilot/accepted-record.manifest.json";
 import { pilotService, assertOperator, jsonBody, jsonResponse, errorResponse, runtimeStatus } from "../../../lib/pilot-runtime";
 import { lookupGbpCategories } from "../../../lib/mappings/google";
+import { handleMigrationApi } from "../../../lib/legacy/http-api";
 
 export const dynamic = "force-dynamic";
 type Context = { params: Promise<{ path: string[] }> };
@@ -12,6 +13,7 @@ export async function GET(request: Request, context: Context) {
   try {
     const { path } = await context.params;
     const route = path.join("/");
+    if (path[0] === "migration") return handleMigrationApi(request, path.slice(1));
     if (route === "health") return jsonResponse({ ok: true, contract: "entitywiki.company/1", pilot: "maxplaces-marketing", databaseConfigured: !!env.DB });
     const publicRoute = route.startsWith("public/");
     if (!publicRoute) await assertOperator(request);
@@ -46,8 +48,9 @@ export async function GET(request: Request, context: Context) {
 
 export async function POST(request: Request, context: Context) {
   try {
-    const operator = await assertOperator(request);
     const { path } = await context.params;
+    if (path[0] === "migration") return handleMigrationApi(request, path.slice(1));
+    const operator = await assertOperator(request);
     const route = path.join("/");
     const body = await jsonBody(request);
     const service = pilotService();
